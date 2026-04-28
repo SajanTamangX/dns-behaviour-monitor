@@ -1,0 +1,240 @@
+{
+  "total_queries": 41,
+  "unique_domains": 41,
+  "time_range": {
+    "min": "2026-04-24T16:17:00",
+    "max": "2026-04-24T16:17:18"
+  },
+  "volume_over_time": [
+    {
+      "bucket": "2026-04-24T16:15:00",
+      "count": 41
+    }
+  ],
+  "top_domains": [
+    {
+      "domain": "gcynyfcfyhictmpqgrff.feqsyepunpqknvurkkob.yqikjubzajblpbhlqigp.hdyjgpmmtsljxasupfkv.ufpcohjckiyvtvmdaytf.com",
+      "count": 1
+    },
+    {
+      "domain": "qfofnmbcmurgdaeamzql.ymrsqwonbzzcooolhmzz.gtvhmekiraprdnxzfmni.kpfaahyhrdggthwdotzr.com",
+      "count": 1
+    },
+    {
+      "domain": "skbpatxsqmwfzppotyrc.scbwfhymlknzhbqqzgan.nywcnjiwswqgzlqnioox.uboedlcwpaqfbqjvfhla.eqpiaotcphkbcylqmpjo.bcgsoolvcknmflbqeknu.com",
+      "count": 1
+    },
+    {
+      "domain": "omjyaiixdbxvkvkyolon.wloutwtuykxftbjruuvy.vjmsqwktxwfuhxmbugia.pbbdvlekpsxjfodmcigx.com",
+      "count": 1
+    },
+    {
+      "domain": "vizxymfxrktgzmczdhjm.trwoeukvurvvewjawjvh.ykhupdtcwlwxquslnanh.ykrzwvidimpmbykfdebj.hnaxvqcrevskbwjkovhm.lnrikjqtzdtxtyfelofu.com",
+      "count": 1
+    },
+    {
+      "domain": "xyjyxhufqktgxlybxyvn.oyxtimemfetstfjichfq.vjuoetpguszaabtlitnz.lihaddouuvyzycicoedf.com",
+      "count": 1
+    },
+    {
+      "domain": "qmllckhakakbbkeweouf.jgjzkatxwcnofugpqlqj.shqzbiogrfqjymggvkqi.kmlkrygxiwpteskynggj.gwpyciwagjpesxrmentu.com",
+      "count": 1
+    },
+    {
+      "domain": "bphuxcqphmmqqwoubouz.qwbynuwnuoeraqzpioub.jmekxcxxjbjlpofkbpqz.biugpklzrdqzvhtwvyoy.com",
+      "count": 1
+    },
+    {
+      "domain": "sspgtvzwwlufbchyrnck.tqovftinpbhnihtbvsmz.egxcynzmexygogmjisnz.yghuuxacfmjgywlzmwde.mrehimmtlqkmixuwhbqq.oxqrjxpksbgwtroynptv.huhksrbdwoakvwticvsj.com",
+      "count": 1
+    },
+    {
+      "domain": "iexuzkivqutmzimmfmtc.wzdjjnckitckbosjztrj.ihtoekrkhuiaqpwkkqze.pygcobzeokymiatijcpq.ywogvkmxvzqlqnjlwblu.com",
+      "count": 1
+    },
+    {
+      "domain": "cfvrsccljdvrwvxllehs.yqknulqtzanwsyigvamh.urjdapawskpjptvqwiyo.hsenafunggleqlsxbeak.rycrqgdlwnnubpfbfpfj.com",
+      "count": 1
+    },
+    {
+      "domain": "ajsauvaubvgpfrkeqznv.afvgilnipkjlgtbkybyr.yzfpzcawwxyyghndyrel.iiuvagrrptumzwrtsygk.cwsamtryjnkbygsqtabx.nfnjginzetmqryopplxr.mjnacrmvcpolyzuglxof.com",
+      "count": 1
+    },
+    {
+      "domain": "mfrvxrnqrzbeknuotayg.rkiynbflamagmwswfmyg.bkgljlaxhgztgujcippg.pitpcitlnamwmlwcsrmz.sjnojrsfhwlwckaefmpc.com",
+      "count": 1
+    },
+    {
+      "domain": "llgtklsefklyrthaloev.jeyllidtdjphmtptqpro.ugnoufhvrwpkmxrvbmaz.fkmsncvzdxgfyzxouney.xglcisawwaciljcbgqjj.vzvxczfnvfnieiclltns.aqqaozfiwcfrxcubjhao.com",
+      "count": 1
+    },
+    {
+      "domain": "jtjsytbqlqyueijhucmr.pimllsihoocmflsvdknw.xxlundmjwsddjnsamggm.okhjnfloqebawjxnvgdj.xfiikrxnjffdzwblvswe.neofwsbgnwcdtddpeokw.nadtheeqiiotldpjltdc.com",
+      "count": 1
+    },
+    {
+      "domain": "hefgkeuirlpjozqhqoqt.nhfjkvjtmyucmdhucriu.umjycinrmzncpdphhiyu.rdlhttlyajpymsjninde.com",
+      "count": 1
+    },
+    {
+      "domain": "xxvowchntjvuisfiawnc.luofxhvjipvawngeqbhk.amkuqobxrdqcsbszubsp.fbeqbpusudymmusbcwnj.zfugmldpyqoykxbrpbrf.iskwejfvjvboihvordyf.com",
+      "count": 1
+    },
+    {
+      "domain": "iodbklyqynfirozcblpc.djvyoulfbgnoslmapomb.nsvcgfaweauyyvqbgriu.vylbxttmlnhystmnuxzp.fkgaurjvdsythltugzow.kluihdfnrsvgqrsuprmg.vakujjtbexhgyuvryxts.com",
+      "count": 1
+    },
+    {
+      "domain": "yqtikgrovfzehawegjun.uzsxssrmaopynyeunutg.xxtogqojmqjubripelml.coymzibptazrhozhpkmt.vxsdqnsqgyveuwfytrby.setzjmlrjvgoouciyetn.ezkysrcmbphpakizaofi.com",
+      "count": 1
+    },
+    {
+      "domain": "nrgywlnkxzlwjowhwvpk.uflcpjflupzjdllbzoyn.mbwldyzqtzwjpycywthb.sjowhqjalauxhwgaywpt.ctodmpxhrmgfxwfvpjdw.aotbujuvciannymsbmai.com",
+      "count": 1
+    },
+    {
+      "domain": "bosvifysmmivdbjkzjhp.ljqmjexpumdpmvjhcwoa.upnejeetdocbmfoqukvq.robdtqhdxpzdzqbyordk.vkonrjhjwwouvabxhwbd.qhhzwocyvpouzxurjdau.pseyxctsghtkcyudpxbd.com",
+      "count": 1
+    },
+    {
+      "domain": "hpejgsgjfokfjmxfcqnb.kuklgxqvtekovylcherm.cwnpgjljnvrdhemiuyny.edxftisjnqcamnslkwmy.rqatefcdaopykutifomv.xfacislstjeijrzindmy.tmdfkihrjnycxnovcise.com",
+      "count": 1
+    },
+    {
+      "domain": "bjikffcmeksezyeyghxw.vwbsqmtqlsavieutrqkr.oawwllqvejvhxuwqsddu.qrnywhwpwjhyjtzcxlks.pfwkvlftwyqwwjfmzotp.qkpmjtmxoorzpanevmbr.twpoxsudmaxclgnzdtbg.com",
+      "count": 1
+    },
+    {
+      "domain": "woyvfzdzosgyulaancey.rbujcceuhezhdmuedddv.jzgmkduxdhwpfoiyatha.kxpufjigjglykzwzxdom.lzbhkgnaopjjujnromee.hcnyivlmfakdpdzukspi.com",
+      "count": 1
+    },
+    {
+      "domain": "jwupzsntwvvuaotqwhvx.rcbiuuequzchybjwolyj.izpynprvtcwaevxtojuh.ytwhzcgbtdnmpbijmxrl.xlckszdkqhpmxculwozk.lqjalzfzwsgizmzlvprz.com",
+      "count": 1
+    },
+    {
+      "domain": "tftemtmymidxxhwoougr.bznalvhdrdxntsmkqztu.kfmvhiemmtgrynewfsyp.bapvbxiaqqqedsxiwknb.com",
+      "count": 1
+    },
+    {
+      "domain": "udibaudqrmjpokxafigf.mshlimjkpafmwmvewsse.tfdikpiwfjiaqgnackhm.tcgvzernxaujdwmtqojo.com",
+      "count": 1
+    },
+    {
+      "domain": "zlplxnogwkggiumttjou.xjcbspbdqecfhshdgbyb.xwhmzxgqvtrgyrcnczql.hcrjhdjzetgcauygthpx.hkvmsvtmcagahyfidvdx.eeirjigtewuqfjypkuqn.wpnbipcqyewqkhlsqont.com",
+      "count": 1
+    },
+    {
+      "domain": "cfcvezfiupvwmgmckqri.lroekzrhmvexeoihjqoi.cwxiyeudvykmfzscpbws.kaovamudusfpojuwvqft.com",
+      "count": 1
+    },
+    {
+      "domain": "iqbgtioluyevyowaekdg.syvrotaznfiiyyltbpwl.otlvhihoujsiatrgpvtq.lweeylxivkqkdgqzefwm.ybxrosawqrvigikcdzwd.xoarwgeyxhgoojgdngna.com",
+      "count": 1
+    },
+    {
+      "domain": "dzziifhnqpxlaaopwwlb.rhbnfrbgruireynsgsax.wjwxtcfvlchldjkwjhjw.rjndrdypzmxqbzikjjcu.xegnbnqkoneslgtgmwsf.wpmmjidqqqmhnlwowvcy.vspszvlnxtuphdjawkfw.com",
+      "count": 1
+    },
+    {
+      "domain": "tpgtnuwsmamvssjguonl.jeusxnlrbglgcsxakhnj.tggepwqlgjrcohjojhgd.oxfvhmitrtyassriklci.cqqnutpixzcfckuzmwhn.com",
+      "count": 1
+    },
+    {
+      "domain": "pi.hole",
+      "count": 1
+    },
+    {
+      "domain": "nmlllobzbchccctfaqjr.rgydhzskpsykmvlrvurq.eopsrpbrtducvzshusxk.espwmtujjabtcttwgrep.vktdfqvgnauozupixguz.com",
+      "count": 1
+    },
+    {
+      "domain": "vigkyiucnvpcdpwnorzi.xbvsvbojsfsxwgyhgops.kzvieqtpnuvulorixsvu.phpntsbgnnmxllyutbvu.rucdstrcxlixbegyrphj.com",
+      "count": 1
+    },
+    {
+      "domain": "xmwntyffvkwevupxhgmi.edcautbcdpgokabxiabc.btzejqplwkvsjjgyjirn.phlpnmuqdqzkyypwjsbq.com",
+      "count": 1
+    },
+    {
+      "domain": "ybesurwanwsosqspmpys.axlwjxjqavhgripndsyq.tgeaibaiguunjgxjckux.rbhfyrlompkmkxizdxsa.hajjdebjerfqadnmutop.maddnlpczexmjcjqklns.com",
+      "count": 1
+    },
+    {
+      "domain": "arwxpwpsnmkyjwobwahi.jiimeeatfjmlierdwkyo.xylvualahdcqrdvsjppl.djqmijgyrtrbvzcphpje.hqldnwhpaljktuojcwzz.com",
+      "count": 1
+    },
+    {
+      "domain": "rzcrpepmkohwtrroyphd.hoovxddojsftyzwbyock.knyhzgfuzixorrzgglxd.eldpvzffibxfcrguhsxo.acvogyphbsttunqtzqqt.ozjkbnifbczipngqkbew.com",
+      "count": 1
+    },
+    {
+      "domain": "gobeqyhmjpzmtjpotmvg.teminuegtcqbadchcrak.kjjvenhjrzqubmqmpeiw.edyvjwhjijnoqzkbxovo.com",
+      "count": 1
+    },
+    {
+      "domain": "tdhuzbdcpqzgbblvffsu.uhxrgziiyvwgmjzfivsh.sijcckidmlfuxyxtozpv.fsbnnwowezfsytxozczl.stwoqcipsorzsltjtadj.mnzxwulfiwiatiamfjap.tskuipqhapshmwitsiht.com",
+      "count": 1
+    }
+  ],
+  "tld_distribution": [
+    {
+      "tld": "com",
+      "count": 40
+    },
+    {
+      "tld": "hole",
+      "count": 1
+    }
+  ],
+  "domain_length_distribution": [
+    {
+      "domain_length": 7,
+      "count": 1
+    },
+    {
+      "domain_length": 87,
+      "count": 10
+    },
+    {
+      "domain_length": 108,
+      "count": 9
+    },
+    {
+      "domain_length": 129,
+      "count": 9
+    },
+    {
+      "domain_length": 150,
+      "count": 12
+    }
+  ],
+  "label_count_distribution": [
+    {
+      "label_count": 2,
+      "count": 1
+    },
+    {
+      "label_count": 5,
+      "count": 10
+    },
+    {
+      "label_count": 6,
+      "count": 9
+    },
+    {
+      "label_count": 7,
+      "count": 9
+    },
+    {
+      "label_count": 8,
+      "count": 12
+    }
+  ],
+  "query_type_distribution": [
+    {
+      "query_type": "A",
+      "count": 41
+    }
+  ]
+}

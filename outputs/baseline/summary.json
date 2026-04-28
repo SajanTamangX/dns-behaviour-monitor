@@ -1,0 +1,208 @@
+{
+  "total_queries": 86,
+  "unique_domains": 24,
+  "time_range": {
+    "min": "2026-04-24T16:15:41",
+    "max": "2026-04-24T16:16:23"
+  },
+  "volume_over_time": [
+    {
+      "bucket": "2026-04-24T16:15:00",
+      "count": 86
+    }
+  ],
+  "top_domains": [
+    {
+      "domain": "bbc.co.uk",
+      "count": 8
+    },
+    {
+      "domain": "youtube.com",
+      "count": 7
+    },
+    {
+      "domain": "cloudflare.com",
+      "count": 7
+    },
+    {
+      "domain": "wikipedia.org",
+      "count": 7
+    },
+    {
+      "domain": "cnn.com",
+      "count": 7
+    },
+    {
+      "domain": "amazon.com",
+      "count": 6
+    },
+    {
+      "domain": "linkedin.com",
+      "count": 5
+    },
+    {
+      "domain": "reddit.com",
+      "count": 5
+    },
+    {
+      "domain": "dropbox.com",
+      "count": 4
+    },
+    {
+      "domain": "slack.com",
+      "count": 4
+    },
+    {
+      "domain": "stackoverflow.com",
+      "count": 4
+    },
+    {
+      "domain": "microsoft.com",
+      "count": 3
+    },
+    {
+      "domain": "github.com",
+      "count": 3
+    },
+    {
+      "domain": "google.com",
+      "count": 3
+    },
+    {
+      "domain": "medium.com",
+      "count": 2
+    },
+    {
+      "domain": "pi.hole",
+      "count": 2
+    },
+    {
+      "domain": "zoom.us",
+      "count": 2
+    },
+    {
+      "domain": "twitter.com",
+      "count": 1
+    },
+    {
+      "domain": "8.8.8.8.in-addr.arpa",
+      "count": 1
+    },
+    {
+      "domain": "4.4.8.8.in-addr.arpa",
+      "count": 1
+    },
+    {
+      "domain": "1.0.19.172.in-addr.arpa",
+      "count": 1
+    },
+    {
+      "domain": "1.0.0.127.in-addr.arpa",
+      "count": 1
+    },
+    {
+      "domain": "netflix.com",
+      "count": 1
+    },
+    {
+      "domain": "spotify.com",
+      "count": 1
+    }
+  ],
+  "tld_distribution": [
+    {
+      "tld": "com",
+      "count": 63
+    },
+    {
+      "tld": "uk",
+      "count": 8
+    },
+    {
+      "tld": "org",
+      "count": 7
+    },
+    {
+      "tld": "arpa",
+      "count": 4
+    },
+    {
+      "tld": "hole",
+      "count": 2
+    },
+    {
+      "tld": "us",
+      "count": 2
+    }
+  ],
+  "domain_length_distribution": [
+    {
+      "domain_length": 7,
+      "count": 11
+    },
+    {
+      "domain_length": 9,
+      "count": 12
+    },
+    {
+      "domain_length": 10,
+      "count": 19
+    },
+    {
+      "domain_length": 11,
+      "count": 14
+    },
+    {
+      "domain_length": 12,
+      "count": 5
+    },
+    {
+      "domain_length": 13,
+      "count": 10
+    },
+    {
+      "domain_length": 14,
+      "count": 7
+    },
+    {
+      "domain_length": 17,
+      "count": 4
+    },
+    {
+      "domain_length": 20,
+      "count": 2
+    },
+    {
+      "domain_length": 22,
+      "count": 1
+    },
+    {
+      "domain_length": 23,
+      "count": 1
+    }
+  ],
+  "label_count_distribution": [
+    {
+      "label_count": 2,
+      "count": 74
+    },
+    {
+      "label_count": 3,
+      "count": 8
+    },
+    {
+      "label_count": 6,
+      "count": 4
+    }
+  ],
+  "query_type_distribution": [
+    {
+      "query_type": "A",
+      "count": 82
+    },
+    {
+      "query_type": "PTR",
+      "count": 4
+    }
+  ]
+}

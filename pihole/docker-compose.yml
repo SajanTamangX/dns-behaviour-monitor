@@ -1,0 +1,16 @@
+services:
+  pihole:
+    container_name: pihole
+    image: pihole/pihole:latest
+    environment:
+      TZ: Europe/London
+      WEBPASSWORD: admin12345
+    ports:
+      - "5354:53/tcp"
+      - "5354:53/udp"
+      - "8081:80/tcp"
+    volumes:
+      - "./etc-pihole:/etc/pihole"
+      - "./etc-dnsmasq.d:/etc/dnsmasq.d"
+      - "./logs:/var/log/pihole"
+    restart: unless-stopped

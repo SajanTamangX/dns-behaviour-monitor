@@ -1,0 +1,160 @@
+{
+  "total_queries": 100,
+  "unique_domains": 19,
+  "time_range": {
+    "min": "2026-04-24T16:16:26",
+    "max": "2026-04-24T16:16:28"
+  },
+  "volume_over_time": [
+    {
+      "bucket": "2026-04-24T16:15:00",
+      "count": 100
+    }
+  ],
+  "top_domains": [
+    {
+      "domain": "bbc.co.uk",
+      "count": 8
+    },
+    {
+      "domain": "cnn.com",
+      "count": 7
+    },
+    {
+      "domain": "dropbox.com",
+      "count": 7
+    },
+    {
+      "domain": "linkedin.com",
+      "count": 7
+    },
+    {
+      "domain": "stackoverflow.com",
+      "count": 7
+    },
+    {
+      "domain": "amazon.com",
+      "count": 7
+    },
+    {
+      "domain": "youtube.com",
+      "count": 6
+    },
+    {
+      "domain": "spotify.com",
+      "count": 6
+    },
+    {
+      "domain": "zoom.us",
+      "count": 6
+    },
+    {
+      "domain": "apple.com",
+      "count": 6
+    },
+    {
+      "domain": "slack.com",
+      "count": 5
+    },
+    {
+      "domain": "cloudflare.com",
+      "count": 5
+    },
+    {
+      "domain": "netflix.com",
+      "count": 5
+    },
+    {
+      "domain": "reddit.com",
+      "count": 4
+    },
+    {
+      "domain": "microsoft.com",
+      "count": 4
+    },
+    {
+      "domain": "github.com",
+      "count": 3
+    },
+    {
+      "domain": "medium.com",
+      "count": 3
+    },
+    {
+      "domain": "google.com",
+      "count": 2
+    },
+    {
+      "domain": "wikipedia.org",
+      "count": 2
+    }
+  ],
+  "tld_distribution": [
+    {
+      "tld": "com",
+      "count": 84
+    },
+    {
+      "tld": "uk",
+      "count": 8
+    },
+    {
+      "tld": "us",
+      "count": 6
+    },
+    {
+      "tld": "org",
+      "count": 2
+    }
+  ],
+  "domain_length_distribution": [
+    {
+      "domain_length": 7,
+      "count": 13
+    },
+    {
+      "domain_length": 9,
+      "count": 19
+    },
+    {
+      "domain_length": 10,
+      "count": 19
+    },
+    {
+      "domain_length": 11,
+      "count": 24
+    },
+    {
+      "domain_length": 12,
+      "count": 7
+    },
+    {
+      "domain_length": 13,
+      "count": 6
+    },
+    {
+      "domain_length": 14,
+      "count": 5
+    },
+    {
+      "domain_length": 17,
+      "count": 7
+    }
+  ],
+  "label_count_distribution": [
+    {
+      "label_count": 2,
+      "count": 92
+    },
+    {
+      "label_count": 3,
+      "count": 8
+    }
+  ],
+  "query_type_distribution": [
+    {
+      "query_type": "A",
+      "count": 100
+    }
+  ]
+}

@@ -1,0 +1,594 @@
+Apr 24 16:17:00 dnsmasq[68]: query[A] gcynyfcfyhictmpqgrff.feqsyepunpqknvurkkob.yqikjubzajblpbhlqigp.hdyjgpmmtsljxasupfkv.ufpcohjckiyvtvmdaytf.com from 172.19.0.1
+Apr 24 16:17:00 dnsmasq[68]: forwarded gcynyfcfyhictmpqgrff.feqsyepunpqknvurkkob.yqikjubzajblpbhlqigp.hdyjgpmmtsljxasupfkv.ufpcohjckiyvtvmdaytf.com to 8.8.4.4
+Apr 24 16:17:00 dnsmasq[68]: reply gcynyfcfyhictmpqgrff.feqsyepunpqknvurkkob.yqikjubzajblpbhlqigp.hdyjgpmmtsljxasupfkv.ufpcohjckiyvtvmdaytf.com is NXDOMAIN
+Apr 24 16:17:00 dnsmasq[68]: query[A] qfofnmbcmurgdaeamzql.ymrsqwonbzzcooolhmzz.gtvhmekiraprdnxzfmni.kpfaahyhrdggthwdotzr.com from 172.19.0.1
+Apr 24 16:17:00 dnsmasq[68]: forwarded qfofnmbcmurgdaeamzql.ymrsqwonbzzcooolhmzz.gtvhmekiraprdnxzfmni.kpfaahyhrdggthwdotzr.com to 8.8.4.4
+Apr 24 16:17:00 dnsmasq[68]: reply qfofnmbcmurgdaeamzql.ymrsqwonbzzcooolhmzz.gtvhmekiraprdnxzfmni.kpfaahyhrdggthwdotzr.com is NXDOMAIN
+Apr 24 16:17:01 dnsmasq[68]: query[A] skbpatxsqmwfzppotyrc.scbwfhymlknzhbqqzgan.nywcnjiwswqgzlqnioox.uboedlcwpaqfbqjvfhla.eqpiaotcphkbcylqmpjo.bcgsoolvcknmflbqeknu.com from 172.19.0.1
+Apr 24 16:17:01 dnsmasq[68]: forwarded skbpatxsqmwfzppotyrc.scbwfhymlknzhbqqzgan.nywcnjiwswqgzlqnioox.uboedlcwpaqfbqjvfhla.eqpiaotcphkbcylqmpjo.bcgsoolvcknmflbqeknu.com to 8.8.4.4
+Apr 24 16:17:01 dnsmasq[68]: reply skbpatxsqmwfzppotyrc.scbwfhymlknzhbqqzgan.nywcnjiwswqgzlqnioox.uboedlcwpaqfbqjvfhla.eqpiaotcphkbcylqmpjo.bcgsoolvcknmflbqeknu.com is NXDOMAIN
+Apr 24 16:17:01 dnsmasq[68]: query[A] omjyaiixdbxvkvkyolon.wloutwtuykxftbjruuvy.vjmsqwktxwfuhxmbugia.pbbdvlekpsxjfodmcigx.com from 172.19.0.1
+Apr 24 16:17:01 dnsmasq[68]: forwarded omjyaiixdbxvkvkyolon.wloutwtuykxftbjruuvy.vjmsqwktxwfuhxmbugia.pbbdvlekpsxjfodmcigx.com to 8.8.4.4
+Apr 24 16:17:01 dnsmasq[68]: reply omjyaiixdbxvkvkyolon.wloutwtuykxftbjruuvy.vjmsqwktxwfuhxmbugia.pbbdvlekpsxjfodmcigx.com is NXDOMAIN
+Apr 24 16:17:02 dnsmasq[68]: query[A] vizxymfxrktgzmczdhjm.trwoeukvurvvewjawjvh.ykhupdtcwlwxquslnanh.ykrzwvidimpmbykfdebj.hnaxvqcrevskbwjkovhm.lnrikjqtzdtxtyfelofu.com from 172.19.0.1
+Apr 24 16:17:02 dnsmasq[68]: forwarded vizxymfxrktgzmczdhjm.trwoeukvurvvewjawjvh.ykhupdtcwlwxquslnanh.ykrzwvidimpmbykfdebj.hnaxvqcrevskbwjkovhm.lnrikjqtzdtxtyfelofu.com to 8.8.4.4
+Apr 24 16:17:02 dnsmasq[68]: reply vizxymfxrktgzmczdhjm.trwoeukvurvvewjawjvh.ykhupdtcwlwxquslnanh.ykrzwvidimpmbykfdebj.hnaxvqcrevskbwjkovhm.lnrikjqtzdtxtyfelofu.com is NXDOMAIN
+Apr 24 16:17:02 dnsmasq[68]: query[A] xyjyxhufqktgxlybxyvn.oyxtimemfetstfjichfq.vjuoetpguszaabtlitnz.lihaddouuvyzycicoedf.com from 172.19.0.1
+Apr 24 16:17:02 dnsmasq[68]: forwarded xyjyxhufqktgxlybxyvn.oyxtimemfetstfjichfq.vjuoetpguszaabtlitnz.lihaddouuvyzycicoedf.com to 8.8.4.4
+Apr 24 16:17:02 dnsmasq[68]: reply xyjyxhufqktgxlybxyvn.oyxtimemfetstfjichfq.vjuoetpguszaabtlitnz.lihaddouuvyzycicoedf.com is NXDOMAIN
+Apr 24 16:17:03 dnsmasq[68]: query[A] qmllckhakakbbkeweouf.jgjzkatxwcnofugpqlqj.shqzbiogrfqjymggvkqi.kmlkrygxiwpteskynggj.gwpyciwagjpesxrmentu.com from 172.19.0.1
+Apr 24 16:17:03 dnsmasq[68]: forwarded qmllckhakakbbkeweouf.jgjzkatxwcnofugpqlqj.shqzbiogrfqjymggvkqi.kmlkrygxiwpteskynggj.gwpyciwagjpesxrmentu.com to 8.8.4.4
+Apr 24 16:17:03 dnsmasq[68]: reply qmllckhakakbbkeweouf.jgjzkatxwcnofugpqlqj.shqzbiogrfqjymggvkqi.kmlkrygxiwpteskynggj.gwpyciwagjpesxrmentu.com is NXDOMAIN
+Apr 24 16:17:03 dnsmasq[68]: query[A] bphuxcqphmmqqwoubouz.qwbynuwnuoeraqzpioub.jmekxcxxjbjlpofkbpqz.biugpklzrdqzvhtwvyoy.com from 172.19.0.1
+Apr 24 16:17:03 dnsmasq[68]: forwarded bphuxcqphmmqqwoubouz.qwbynuwnuoeraqzpioub.jmekxcxxjbjlpofkbpqz.biugpklzrdqzvhtwvyoy.com to 8.8.4.4
+Apr 24 16:17:03 dnsmasq[68]: reply bphuxcqphmmqqwoubouz.qwbynuwnuoeraqzpioub.jmekxcxxjbjlpofkbpqz.biugpklzrdqzvhtwvyoy.com is NXDOMAIN
+Apr 24 16:17:03 dnsmasq[68]: query[A] sspgtvzwwlufbchyrnck.tqovftinpbhnihtbvsmz.egxcynzmexygogmjisnz.yghuuxacfmjgywlzmwde.mrehimmtlqkmixuwhbqq.oxqrjxpksbgwtroynptv.huhksrbdwoakvwticvsj.com from 172.19.0.1
+Apr 24 16:17:03 dnsmasq[68]: forwarded sspgtvzwwlufbchyrnck.tqovftinpbhnihtbvsmz.egxcynzmexygogmjisnz.yghuuxacfmjgywlzmwde.mrehimmtlqkmixuwhbqq.oxqrjxpksbgwtroynptv.huhksrbdwoakvwticvsj.com to 8.8.4.4
+Apr 24 16:17:03 dnsmasq[68]: reply sspgtvzwwlufbchyrnck.tqovftinpbhnihtbvsmz.egxcynzmexygogmjisnz.yghuuxacfmjgywlzmwde.mrehimmtlqkmixuwhbqq.oxqrjxpksbgwtroynptv.huhksrbdwoakvwticvsj.com is NXDOMAIN
+Apr 24 16:17:04 dnsmasq[68]: query[A] cfvrsccljdvrwvxllehs.yqknulqtzanwsyigvamh.urjdapawskpjptvqwiyo.hsenafunggleqlsxbeak.rycrqgdlwnnubpfbfpfj.com from 172.19.0.1
+Apr 24 16:17:04 dnsmasq[68]: forwarded cfvrsccljdvrwvxllehs.yqknulqtzanwsyigvamh.urjdapawskpjptvqwiyo.hsenafunggleqlsxbeak.rycrqgdlwnnubpfbfpfj.com to 8.8.4.4
+Apr 24 16:17:04 dnsmasq[68]: reply cfvrsccljdvrwvxllehs.yqknulqtzanwsyigvamh.urjdapawskpjptvqwiyo.hsenafunggleqlsxbeak.rycrqgdlwnnubpfbfpfj.com is NXDOMAIN
+Apr 24 16:17:04 dnsmasq[68]: query[A] iexuzkivqutmzimmfmtc.wzdjjnckitckbosjztrj.ihtoekrkhuiaqpwkkqze.pygcobzeokymiatijcpq.ywogvkmxvzqlqnjlwblu.com from 172.19.0.1
+Apr 24 16:17:04 dnsmasq[68]: forwarded iexuzkivqutmzimmfmtc.wzdjjnckitckbosjztrj.ihtoekrkhuiaqpwkkqze.pygcobzeokymiatijcpq.ywogvkmxvzqlqnjlwblu.com to 8.8.4.4
+Apr 24 16:17:04 dnsmasq[68]: reply iexuzkivqutmzimmfmtc.wzdjjnckitckbosjztrj.ihtoekrkhuiaqpwkkqze.pygcobzeokymiatijcpq.ywogvkmxvzqlqnjlwblu.com is NXDOMAIN
+Apr 24 16:17:05 dnsmasq[68]: query[A] ajsauvaubvgpfrkeqznv.afvgilnipkjlgtbkybyr.yzfpzcawwxyyghndyrel.iiuvagrrptumzwrtsygk.cwsamtryjnkbygsqtabx.nfnjginzetmqryopplxr.mjnacrmvcpolyzuglxof.com from 172.19.0.1
+Apr 24 16:17:05 dnsmasq[68]: forwarded ajsauvaubvgpfrkeqznv.afvgilnipkjlgtbkybyr.yzfpzcawwxyyghndyrel.iiuvagrrptumzwrtsygk.cwsamtryjnkbygsqtabx.nfnjginzetmqryopplxr.mjnacrmvcpolyzuglxof.com to 8.8.4.4
+Apr 24 16:17:05 dnsmasq[68]: reply ajsauvaubvgpfrkeqznv.afvgilnipkjlgtbkybyr.yzfpzcawwxyyghndyrel.iiuvagrrptumzwrtsygk.cwsamtryjnkbygsqtabx.nfnjginzetmqryopplxr.mjnacrmvcpolyzuglxof.com is NXDOMAIN
+Apr 24 16:17:05 dnsmasq[68]: query[A] mfrvxrnqrzbeknuotayg.rkiynbflamagmwswfmyg.bkgljlaxhgztgujcippg.pitpcitlnamwmlwcsrmz.sjnojrsfhwlwckaefmpc.com from 172.19.0.1
+Apr 24 16:17:05 dnsmasq[68]: forwarded mfrvxrnqrzbeknuotayg.rkiynbflamagmwswfmyg.bkgljlaxhgztgujcippg.pitpcitlnamwmlwcsrmz.sjnojrsfhwlwckaefmpc.com to 8.8.4.4
+Apr 24 16:17:05 dnsmasq[68]: reply mfrvxrnqrzbeknuotayg.rkiynbflamagmwswfmyg.bkgljlaxhgztgujcippg.pitpcitlnamwmlwcsrmz.sjnojrsfhwlwckaefmpc.com is NXDOMAIN
+Apr 24 16:17:06 dnsmasq[68]: query[A] llgtklsefklyrthaloev.jeyllidtdjphmtptqpro.ugnoufhvrwpkmxrvbmaz.fkmsncvzdxgfyzxouney.xglcisawwaciljcbgqjj.vzvxczfnvfnieiclltns.aqqaozfiwcfrxcubjhao.com from 172.19.0.1
+Apr 24 16:17:06 dnsmasq[68]: forwarded llgtklsefklyrthaloev.jeyllidtdjphmtptqpro.ugnoufhvrwpkmxrvbmaz.fkmsncvzdxgfyzxouney.xglcisawwaciljcbgqjj.vzvxczfnvfnieiclltns.aqqaozfiwcfrxcubjhao.com to 8.8.4.4
+Apr 24 16:17:06 dnsmasq[68]: reply llgtklsefklyrthaloev.jeyllidtdjphmtptqpro.ugnoufhvrwpkmxrvbmaz.fkmsncvzdxgfyzxouney.xglcisawwaciljcbgqjj.vzvxczfnvfnieiclltns.aqqaozfiwcfrxcubjhao.com is NXDOMAIN
+Apr 24 16:17:06 dnsmasq[68]: query[A] jtjsytbqlqyueijhucmr.pimllsihoocmflsvdknw.xxlundmjwsddjnsamggm.okhjnfloqebawjxnvgdj.xfiikrxnjffdzwblvswe.neofwsbgnwcdtddpeokw.nadtheeqiiotldpjltdc.com from 172.19.0.1
+Apr 24 16:17:06 dnsmasq[68]: forwarded jtjsytbqlqyueijhucmr.pimllsihoocmflsvdknw.xxlundmjwsddjnsamggm.okhjnfloqebawjxnvgdj.xfiikrxnjffdzwblvswe.neofwsbgnwcdtddpeokw.nadtheeqiiotldpjltdc.com to 8.8.4.4
+Apr 24 16:17:06 dnsmasq[68]: reply jtjsytbqlqyueijhucmr.pimllsihoocmflsvdknw.xxlundmjwsddjnsamggm.okhjnfloqebawjxnvgdj.xfiikrxnjffdzwblvswe.neofwsbgnwcdtddpeokw.nadtheeqiiotldpjltdc.com is NXDOMAIN
+Apr 24 16:17:07 dnsmasq[68]: query[A] hefgkeuirlpjozqhqoqt.nhfjkvjtmyucmdhucriu.umjycinrmzncpdphhiyu.rdlhttlyajpymsjninde.com from 172.19.0.1
+Apr 24 16:17:07 dnsmasq[68]: forwarded hefgkeuirlpjozqhqoqt.nhfjkvjtmyucmdhucriu.umjycinrmzncpdphhiyu.rdlhttlyajpymsjninde.com to 8.8.4.4
+Apr 24 16:17:07 dnsmasq[68]: reply hefgkeuirlpjozqhqoqt.nhfjkvjtmyucmdhucriu.umjycinrmzncpdphhiyu.rdlhttlyajpymsjninde.com is NXDOMAIN
+Apr 24 16:17:07 dnsmasq[68]: query[A] xxvowchntjvuisfiawnc.luofxhvjipvawngeqbhk.amkuqobxrdqcsbszubsp.fbeqbpusudymmusbcwnj.zfugmldpyqoykxbrpbrf.iskwejfvjvboihvordyf.com from 172.19.0.1
+Apr 24 16:17:07 dnsmasq[68]: forwarded xxvowchntjvuisfiawnc.luofxhvjipvawngeqbhk.amkuqobxrdqcsbszubsp.fbeqbpusudymmusbcwnj.zfugmldpyqoykxbrpbrf.iskwejfvjvboihvordyf.com to 8.8.4.4
+Apr 24 16:17:07 dnsmasq[68]: reply xxvowchntjvuisfiawnc.luofxhvjipvawngeqbhk.amkuqobxrdqcsbszubsp.fbeqbpusudymmusbcwnj.zfugmldpyqoykxbrpbrf.iskwejfvjvboihvordyf.com is NXDOMAIN
+Apr 24 16:17:08 dnsmasq[68]: query[A] iodbklyqynfirozcblpc.djvyoulfbgnoslmapomb.nsvcgfaweauyyvqbgriu.vylbxttmlnhystmnuxzp.fkgaurjvdsythltugzow.kluihdfnrsvgqrsuprmg.vakujjtbexhgyuvryxts.com from 172.19.0.1
+Apr 24 16:17:08 dnsmasq[68]: forwarded iodbklyqynfirozcblpc.djvyoulfbgnoslmapomb.nsvcgfaweauyyvqbgriu.vylbxttmlnhystmnuxzp.fkgaurjvdsythltugzow.kluihdfnrsvgqrsuprmg.vakujjtbexhgyuvryxts.com to 8.8.4.4
+Apr 24 16:17:08 dnsmasq[68]: reply iodbklyqynfirozcblpc.djvyoulfbgnoslmapomb.nsvcgfaweauyyvqbgriu.vylbxttmlnhystmnuxzp.fkgaurjvdsythltugzow.kluihdfnrsvgqrsuprmg.vakujjtbexhgyuvryxts.com is NXDOMAIN
+Apr 24 16:17:08 dnsmasq[68]: query[A] yqtikgrovfzehawegjun.uzsxssrmaopynyeunutg.xxtogqojmqjubripelml.coymzibptazrhozhpkmt.vxsdqnsqgyveuwfytrby.setzjmlrjvgoouciyetn.ezkysrcmbphpakizaofi.com from 172.19.0.1
+Apr 24 16:17:08 dnsmasq[68]: forwarded yqtikgrovfzehawegjun.uzsxssrmaopynyeunutg.xxtogqojmqjubripelml.coymzibptazrhozhpkmt.vxsdqnsqgyveuwfytrby.setzjmlrjvgoouciyetn.ezkysrcmbphpakizaofi.com to 8.8.4.4
+Apr 24 16:17:08 dnsmasq[68]: reply yqtikgrovfzehawegjun.uzsxssrmaopynyeunutg.xxtogqojmqjubripelml.coymzibptazrhozhpkmt.vxsdqnsqgyveuwfytrby.setzjmlrjvgoouciyetn.ezkysrcmbphpakizaofi.com is NXDOMAIN
+Apr 24 16:17:09 dnsmasq[68]: query[A] bosvifysmmivdbjkzjhp.ljqmjexpumdpmvjhcwoa.upnejeetdocbmfoqukvq.robdtqhdxpzdzqbyordk.vkonrjhjwwouvabxhwbd.qhhzwocyvpouzxurjdau.pseyxctsghtkcyudpxbd.com from 172.19.0.1
+Apr 24 16:17:09 dnsmasq[68]: forwarded bosvifysmmivdbjkzjhp.ljqmjexpumdpmvjhcwoa.upnejeetdocbmfoqukvq.robdtqhdxpzdzqbyordk.vkonrjhjwwouvabxhwbd.qhhzwocyvpouzxurjdau.pseyxctsghtkcyudpxbd.com to 8.8.4.4
+Apr 24 16:17:09 dnsmasq[68]: reply bosvifysmmivdbjkzjhp.ljqmjexpumdpmvjhcwoa.upnejeetdocbmfoqukvq.robdtqhdxpzdzqbyordk.vkonrjhjwwouvabxhwbd.qhhzwocyvpouzxurjdau.pseyxctsghtkcyudpxbd.com is NXDOMAIN
+Apr 24 16:17:09 dnsmasq[68]: query[A] nrgywlnkxzlwjowhwvpk.uflcpjflupzjdllbzoyn.mbwldyzqtzwjpycywthb.sjowhqjalauxhwgaywpt.ctodmpxhrmgfxwfvpjdw.aotbujuvciannymsbmai.com from 172.19.0.1
+Apr 24 16:17:09 dnsmasq[68]: forwarded nrgywlnkxzlwjowhwvpk.uflcpjflupzjdllbzoyn.mbwldyzqtzwjpycywthb.sjowhqjalauxhwgaywpt.ctodmpxhrmgfxwfvpjdw.aotbujuvciannymsbmai.com to 8.8.4.4
+Apr 24 16:17:09 dnsmasq[68]: reply nrgywlnkxzlwjowhwvpk.uflcpjflupzjdllbzoyn.mbwldyzqtzwjpycywthb.sjowhqjalauxhwgaywpt.ctodmpxhrmgfxwfvpjdw.aotbujuvciannymsbmai.com is NXDOMAIN
+Apr 24 16:17:10 dnsmasq[68]: query[A] hpejgsgjfokfjmxfcqnb.kuklgxqvtekovylcherm.cwnpgjljnvrdhemiuyny.edxftisjnqcamnslkwmy.rqatefcdaopykutifomv.xfacislstjeijrzindmy.tmdfkihrjnycxnovcise.com from 172.19.0.1
+Apr 24 16:17:10 dnsmasq[68]: forwarded hpejgsgjfokfjmxfcqnb.kuklgxqvtekovylcherm.cwnpgjljnvrdhemiuyny.edxftisjnqcamnslkwmy.rqatefcdaopykutifomv.xfacislstjeijrzindmy.tmdfkihrjnycxnovcise.com to 8.8.4.4
+Apr 24 16:17:10 dnsmasq[68]: reply hpejgsgjfokfjmxfcqnb.kuklgxqvtekovylcherm.cwnpgjljnvrdhemiuyny.edxftisjnqcamnslkwmy.rqatefcdaopykutifomv.xfacislstjeijrzindmy.tmdfkihrjnycxnovcise.com is NXDOMAIN
+Apr 24 16:17:10 dnsmasq[68]: query[A] bjikffcmeksezyeyghxw.vwbsqmtqlsavieutrqkr.oawwllqvejvhxuwqsddu.qrnywhwpwjhyjtzcxlks.pfwkvlftwyqwwjfmzotp.qkpmjtmxoorzpanevmbr.twpoxsudmaxclgnzdtbg.com from 172.19.0.1
+Apr 24 16:17:10 dnsmasq[68]: forwarded bjikffcmeksezyeyghxw.vwbsqmtqlsavieutrqkr.oawwllqvejvhxuwqsddu.qrnywhwpwjhyjtzcxlks.pfwkvlftwyqwwjfmzotp.qkpmjtmxoorzpanevmbr.twpoxsudmaxclgnzdtbg.com to 8.8.4.4
+Apr 24 16:17:10 dnsmasq[68]: reply bjikffcmeksezyeyghxw.vwbsqmtqlsavieutrqkr.oawwllqvejvhxuwqsddu.qrnywhwpwjhyjtzcxlks.pfwkvlftwyqwwjfmzotp.qkpmjtmxoorzpanevmbr.twpoxsudmaxclgnzdtbg.com is NXDOMAIN
+Apr 24 16:17:11 dnsmasq[68]: query[A] woyvfzdzosgyulaancey.rbujcceuhezhdmuedddv.jzgmkduxdhwpfoiyatha.kxpufjigjglykzwzxdom.lzbhkgnaopjjujnromee.hcnyivlmfakdpdzukspi.com from 172.19.0.1
+Apr 24 16:17:11 dnsmasq[68]: forwarded woyvfzdzosgyulaancey.rbujcceuhezhdmuedddv.jzgmkduxdhwpfoiyatha.kxpufjigjglykzwzxdom.lzbhkgnaopjjujnromee.hcnyivlmfakdpdzukspi.com to 8.8.4.4
+Apr 24 16:17:11 dnsmasq[68]: reply woyvfzdzosgyulaancey.rbujcceuhezhdmuedddv.jzgmkduxdhwpfoiyatha.kxpufjigjglykzwzxdom.lzbhkgnaopjjujnromee.hcnyivlmfakdpdzukspi.com is NXDOMAIN
+Apr 24 16:17:11 dnsmasq[68]: query[A] jwupzsntwvvuaotqwhvx.rcbiuuequzchybjwolyj.izpynprvtcwaevxtojuh.ytwhzcgbtdnmpbijmxrl.xlckszdkqhpmxculwozk.lqjalzfzwsgizmzlvprz.com from 172.19.0.1
+Apr 24 16:17:11 dnsmasq[68]: forwarded jwupzsntwvvuaotqwhvx.rcbiuuequzchybjwolyj.izpynprvtcwaevxtojuh.ytwhzcgbtdnmpbijmxrl.xlckszdkqhpmxculwozk.lqjalzfzwsgizmzlvprz.com to 8.8.4.4
+Apr 24 16:17:11 dnsmasq[68]: reply jwupzsntwvvuaotqwhvx.rcbiuuequzchybjwolyj.izpynprvtcwaevxtojuh.ytwhzcgbtdnmpbijmxrl.xlckszdkqhpmxculwozk.lqjalzfzwsgizmzlvprz.com is NXDOMAIN
+Apr 24 16:17:12 dnsmasq[68]: query[A] tftemtmymidxxhwoougr.bznalvhdrdxntsmkqztu.kfmvhiemmtgrynewfsyp.bapvbxiaqqqedsxiwknb.com from 172.19.0.1
+Apr 24 16:17:12 dnsmasq[68]: forwarded tftemtmymidxxhwoougr.bznalvhdrdxntsmkqztu.kfmvhiemmtgrynewfsyp.bapvbxiaqqqedsxiwknb.com to 8.8.4.4
+Apr 24 16:17:12 dnsmasq[68]: reply tftemtmymidxxhwoougr.bznalvhdrdxntsmkqztu.kfmvhiemmtgrynewfsyp.bapvbxiaqqqedsxiwknb.com is NXDOMAIN
+Apr 24 16:17:12 dnsmasq[68]: query[A] udibaudqrmjpokxafigf.mshlimjkpafmwmvewsse.tfdikpiwfjiaqgnackhm.tcgvzernxaujdwmtqojo.com from 172.19.0.1
+Apr 24 16:17:12 dnsmasq[68]: forwarded udibaudqrmjpokxafigf.mshlimjkpafmwmvewsse.tfdikpiwfjiaqgnackhm.tcgvzernxaujdwmtqojo.com to 8.8.4.4
+Apr 24 16:17:12 dnsmasq[68]: reply udibaudqrmjpokxafigf.mshlimjkpafmwmvewsse.tfdikpiwfjiaqgnackhm.tcgvzernxaujdwmtqojo.com is NXDOMAIN
+Apr 24 16:17:13 dnsmasq[68]: query[A] zlplxnogwkggiumttjou.xjcbspbdqecfhshdgbyb.xwhmzxgqvtrgyrcnczql.hcrjhdjzetgcauygthpx.hkvmsvtmcagahyfidvdx.eeirjigtewuqfjypkuqn.wpnbipcqyewqkhlsqont.com from 172.19.0.1
+Apr 24 16:17:13 dnsmasq[68]: forwarded zlplxnogwkggiumttjou.xjcbspbdqecfhshdgbyb.xwhmzxgqvtrgyrcnczql.hcrjhdjzetgcauygthpx.hkvmsvtmcagahyfidvdx.eeirjigtewuqfjypkuqn.wpnbipcqyewqkhlsqont.com to 8.8.4.4
+Apr 24 16:17:13 dnsmasq[68]: reply zlplxnogwkggiumttjou.xjcbspbdqecfhshdgbyb.xwhmzxgqvtrgyrcnczql.hcrjhdjzetgcauygthpx.hkvmsvtmcagahyfidvdx.eeirjigtewuqfjypkuqn.wpnbipcqyewqkhlsqont.com is NXDOMAIN
+Apr 24 16:17:13 dnsmasq[68]: query[A] cfcvezfiupvwmgmckqri.lroekzrhmvexeoihjqoi.cwxiyeudvykmfzscpbws.kaovamudusfpojuwvqft.com from 172.19.0.1
+Apr 24 16:17:13 dnsmasq[68]: forwarded cfcvezfiupvwmgmckqri.lroekzrhmvexeoihjqoi.cwxiyeudvykmfzscpbws.kaovamudusfpojuwvqft.com to 8.8.4.4
+Apr 24 16:17:13 dnsmasq[68]: reply cfcvezfiupvwmgmckqri.lroekzrhmvexeoihjqoi.cwxiyeudvykmfzscpbws.kaovamudusfpojuwvqft.com is NXDOMAIN
+Apr 24 16:17:14 dnsmasq[68]: query[A] tpgtnuwsmamvssjguonl.jeusxnlrbglgcsxakhnj.tggepwqlgjrcohjojhgd.oxfvhmitrtyassriklci.cqqnutpixzcfckuzmwhn.com from 172.19.0.1
+Apr 24 16:17:14 dnsmasq[68]: forwarded tpgtnuwsmamvssjguonl.jeusxnlrbglgcsxakhnj.tggepwqlgjrcohjojhgd.oxfvhmitrtyassriklci.cqqnutpixzcfckuzmwhn.com to 8.8.4.4
+Apr 24 16:17:14 dnsmasq[68]: reply tpgtnuwsmamvssjguonl.jeusxnlrbglgcsxakhnj.tggepwqlgjrcohjojhgd.oxfvhmitrtyassriklci.cqqnutpixzcfckuzmwhn.com is NXDOMAIN
+Apr 24 16:17:14 dnsmasq[68]: query[A] iqbgtioluyevyowaekdg.syvrotaznfiiyyltbpwl.otlvhihoujsiatrgpvtq.lweeylxivkqkdgqzefwm.ybxrosawqrvigikcdzwd.xoarwgeyxhgoojgdngna.com from 172.19.0.1
+Apr 24 16:17:14 dnsmasq[68]: forwarded iqbgtioluyevyowaekdg.syvrotaznfiiyyltbpwl.otlvhihoujsiatrgpvtq.lweeylxivkqkdgqzefwm.ybxrosawqrvigikcdzwd.xoarwgeyxhgoojgdngna.com to 8.8.4.4
+Apr 24 16:17:14 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:17:14 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 24 16:17:14 dnsmasq[68]: reply iqbgtioluyevyowaekdg.syvrotaznfiiyyltbpwl.otlvhihoujsiatrgpvtq.lweeylxivkqkdgqzefwm.ybxrosawqrvigikcdzwd.xoarwgeyxhgoojgdngna.com is NXDOMAIN
+Apr 24 16:17:14 dnsmasq[68]: query[A] dzziifhnqpxlaaopwwlb.rhbnfrbgruireynsgsax.wjwxtcfvlchldjkwjhjw.rjndrdypzmxqbzikjjcu.xegnbnqkoneslgtgmwsf.wpmmjidqqqmhnlwowvcy.vspszvlnxtuphdjawkfw.com from 172.19.0.1
+Apr 24 16:17:14 dnsmasq[68]: forwarded dzziifhnqpxlaaopwwlb.rhbnfrbgruireynsgsax.wjwxtcfvlchldjkwjhjw.rjndrdypzmxqbzikjjcu.xegnbnqkoneslgtgmwsf.wpmmjidqqqmhnlwowvcy.vspszvlnxtuphdjawkfw.com to 8.8.4.4
+Apr 24 16:17:15 dnsmasq[68]: reply dzziifhnqpxlaaopwwlb.rhbnfrbgruireynsgsax.wjwxtcfvlchldjkwjhjw.rjndrdypzmxqbzikjjcu.xegnbnqkoneslgtgmwsf.wpmmjidqqqmhnlwowvcy.vspszvlnxtuphdjawkfw.com is NXDOMAIN
+Apr 24 16:17:15 dnsmasq[68]: query[A] nmlllobzbchccctfaqjr.rgydhzskpsykmvlrvurq.eopsrpbrtducvzshusxk.espwmtujjabtcttwgrep.vktdfqvgnauozupixguz.com from 172.19.0.1
+Apr 24 16:17:15 dnsmasq[68]: forwarded nmlllobzbchccctfaqjr.rgydhzskpsykmvlrvurq.eopsrpbrtducvzshusxk.espwmtujjabtcttwgrep.vktdfqvgnauozupixguz.com to 8.8.4.4
+Apr 24 16:17:15 dnsmasq[68]: reply nmlllobzbchccctfaqjr.rgydhzskpsykmvlrvurq.eopsrpbrtducvzshusxk.espwmtujjabtcttwgrep.vktdfqvgnauozupixguz.com is NXDOMAIN
+Apr 24 16:17:15 dnsmasq[68]: query[A] vigkyiucnvpcdpwnorzi.xbvsvbojsfsxwgyhgops.kzvieqtpnuvulorixsvu.phpntsbgnnmxllyutbvu.rucdstrcxlixbegyrphj.com from 172.19.0.1
+Apr 24 16:17:15 dnsmasq[68]: forwarded vigkyiucnvpcdpwnorzi.xbvsvbojsfsxwgyhgops.kzvieqtpnuvulorixsvu.phpntsbgnnmxllyutbvu.rucdstrcxlixbegyrphj.com to 8.8.4.4
+Apr 24 16:17:15 dnsmasq[68]: reply vigkyiucnvpcdpwnorzi.xbvsvbojsfsxwgyhgops.kzvieqtpnuvulorixsvu.phpntsbgnnmxllyutbvu.rucdstrcxlixbegyrphj.com is NXDOMAIN
+Apr 24 16:17:16 dnsmasq[68]: query[A] xmwntyffvkwevupxhgmi.edcautbcdpgokabxiabc.btzejqplwkvsjjgyjirn.phlpnmuqdqzkyypwjsbq.com from 172.19.0.1
+Apr 24 16:17:16 dnsmasq[68]: forwarded xmwntyffvkwevupxhgmi.edcautbcdpgokabxiabc.btzejqplwkvsjjgyjirn.phlpnmuqdqzkyypwjsbq.com to 8.8.4.4
+Apr 24 16:17:16 dnsmasq[68]: reply xmwntyffvkwevupxhgmi.edcautbcdpgokabxiabc.btzejqplwkvsjjgyjirn.phlpnmuqdqzkyypwjsbq.com is NXDOMAIN
+Apr 24 16:17:16 dnsmasq[68]: query[A] ybesurwanwsosqspmpys.axlwjxjqavhgripndsyq.tgeaibaiguunjgxjckux.rbhfyrlompkmkxizdxsa.hajjdebjerfqadnmutop.maddnlpczexmjcjqklns.com from 172.19.0.1
+Apr 24 16:17:16 dnsmasq[68]: forwarded ybesurwanwsosqspmpys.axlwjxjqavhgripndsyq.tgeaibaiguunjgxjckux.rbhfyrlompkmkxizdxsa.hajjdebjerfqadnmutop.maddnlpczexmjcjqklns.com to 8.8.4.4
+Apr 24 16:17:16 dnsmasq[68]: reply ybesurwanwsosqspmpys.axlwjxjqavhgripndsyq.tgeaibaiguunjgxjckux.rbhfyrlompkmkxizdxsa.hajjdebjerfqadnmutop.maddnlpczexmjcjqklns.com is NXDOMAIN
+Apr 24 16:17:17 dnsmasq[68]: query[A] arwxpwpsnmkyjwobwahi.jiimeeatfjmlierdwkyo.xylvualahdcqrdvsjppl.djqmijgyrtrbvzcphpje.hqldnwhpaljktuojcwzz.com from 172.19.0.1
+Apr 24 16:17:17 dnsmasq[68]: forwarded arwxpwpsnmkyjwobwahi.jiimeeatfjmlierdwkyo.xylvualahdcqrdvsjppl.djqmijgyrtrbvzcphpje.hqldnwhpaljktuojcwzz.com to 8.8.4.4
+Apr 24 16:17:17 dnsmasq[68]: reply arwxpwpsnmkyjwobwahi.jiimeeatfjmlierdwkyo.xylvualahdcqrdvsjppl.djqmijgyrtrbvzcphpje.hqldnwhpaljktuojcwzz.com is NXDOMAIN
+Apr 24 16:17:17 dnsmasq[68]: query[A] rzcrpepmkohwtrroyphd.hoovxddojsftyzwbyock.knyhzgfuzixorrzgglxd.eldpvzffibxfcrguhsxo.acvogyphbsttunqtzqqt.ozjkbnifbczipngqkbew.com from 172.19.0.1
+Apr 24 16:17:17 dnsmasq[68]: forwarded rzcrpepmkohwtrroyphd.hoovxddojsftyzwbyock.knyhzgfuzixorrzgglxd.eldpvzffibxfcrguhsxo.acvogyphbsttunqtzqqt.ozjkbnifbczipngqkbew.com to 8.8.4.4
+Apr 24 16:17:17 dnsmasq[68]: reply rzcrpepmkohwtrroyphd.hoovxddojsftyzwbyock.knyhzgfuzixorrzgglxd.eldpvzffibxfcrguhsxo.acvogyphbsttunqtzqqt.ozjkbnifbczipngqkbew.com is NXDOMAIN
+Apr 24 16:17:18 dnsmasq[68]: query[A] gobeqyhmjpzmtjpotmvg.teminuegtcqbadchcrak.kjjvenhjrzqubmqmpeiw.edyvjwhjijnoqzkbxovo.com from 172.19.0.1
+Apr 24 16:17:18 dnsmasq[68]: forwarded gobeqyhmjpzmtjpotmvg.teminuegtcqbadchcrak.kjjvenhjrzqubmqmpeiw.edyvjwhjijnoqzkbxovo.com to 8.8.4.4
+Apr 24 16:17:18 dnsmasq[68]: reply gobeqyhmjpzmtjpotmvg.teminuegtcqbadchcrak.kjjvenhjrzqubmqmpeiw.edyvjwhjijnoqzkbxovo.com is NXDOMAIN
+Apr 24 16:17:18 dnsmasq[68]: query[A] tdhuzbdcpqzgbblvffsu.uhxrgziiyvwgmjzfivsh.sijcckidmlfuxyxtozpv.fsbnnwowezfsytxozczl.stwoqcipsorzsltjtadj.mnzxwulfiwiatiamfjap.tskuipqhapshmwitsiht.com from 172.19.0.1
+Apr 24 16:17:18 dnsmasq[68]: forwarded tdhuzbdcpqzgbblvffsu.uhxrgziiyvwgmjzfivsh.sijcckidmlfuxyxtozpv.fsbnnwowezfsytxozczl.stwoqcipsorzsltjtadj.mnzxwulfiwiatiamfjap.tskuipqhapshmwitsiht.com to 8.8.4.4
+Apr 24 16:17:18 dnsmasq[68]: reply tdhuzbdcpqzgbblvffsu.uhxrgziiyvwgmjzfivsh.sijcckidmlfuxyxtozpv.fsbnnwowezfsytxozczl.stwoqcipsorzsltjtadj.mnzxwulfiwiatiamfjap.tskuipqhapshmwitsiht.com is NXDOMAIN
+Apr 24 16:17:44 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:17:44 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 24 16:18:14 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:18:14 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 24 16:18:44 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:18:44 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 24 16:19:15 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:19:15 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 24 16:19:45 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:19:45 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 24 16:20:15 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:20:15 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 24 16:20:45 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:20:45 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 24 16:21:15 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:21:15 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 24 16:21:45 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:21:45 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 24 16:22:15 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:22:15 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 24 16:22:46 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:22:46 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 24 16:23:16 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:23:16 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 24 16:23:46 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:23:46 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 24 16:24:16 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:24:16 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 24 16:24:46 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:24:46 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 24 16:50:37 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:50:37 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 24 16:51:07 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 24 16:51:07 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 25 23:18:53 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 25 23:18:53 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 25 23:19:23 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 25 23:19:23 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 25 23:19:53 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 25 23:19:53 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 25 23:20:23 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 25 23:20:23 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 25 23:20:55 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 25 23:20:55 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:00:39 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:00:39 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:01:09 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:01:09 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:01:39 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:01:39 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:02:09 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:02:09 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:02:39 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:02:39 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:03:09 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:03:09 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:03:40 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:03:40 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:04:10 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:04:10 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:04:40 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:04:40 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:05:10 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:05:10 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:05:40 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:05:40 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:06:10 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:06:10 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:06:40 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:06:40 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:07:10 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:07:10 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:07:40 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:07:40 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:08:10 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:08:10 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:08:41 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:08:41 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:09:11 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:09:11 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:09:41 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:09:41 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:10:11 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:10:11 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:10:41 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:10:41 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:11:11 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:11:11 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:11:41 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:11:41 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:12:11 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:12:11 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:12:41 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:12:41 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:13:12 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:13:12 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:13:42 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:13:42 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:14:12 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:14:12 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:14:42 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:14:42 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:15:12 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:15:12 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:15:42 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:15:42 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:16:12 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:16:12 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:16:42 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:16:42 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:17:12 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:17:12 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:17:42 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:17:42 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:18:13 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:18:13 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:18:43 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:18:43 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:19:13 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:19:13 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:19:43 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:19:43 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:20:13 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:20:13 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:20:43 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:20:43 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:21:13 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:21:13 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:21:43 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:21:43 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:22:13 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:22:13 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:22:43 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:22:43 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:23:14 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:23:14 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:23:44 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:23:44 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:24:14 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:24:14 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:24:44 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:24:44 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:25:14 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:25:14 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:25:44 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:25:44 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:26:14 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:26:14 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:26:44 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:26:44 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:27:14 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:27:14 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:27:44 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:27:44 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:28:15 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:28:15 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:28:45 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:28:45 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:29:15 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:29:15 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:29:45 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:29:45 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:30:15 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:30:15 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:30:45 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:30:45 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:31:15 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:31:15 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:31:45 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:31:45 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:32:15 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:32:15 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:32:45 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:32:45 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:33:16 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:33:16 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:33:46 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:33:46 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:34:16 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:34:16 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:34:46 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:34:46 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:35:16 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:35:16 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:35:46 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:35:46 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:36:16 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:36:16 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:36:46 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:36:46 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:37:16 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:37:16 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:37:46 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:37:46 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:38:17 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:38:17 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:38:47 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:38:47 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:39:17 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:39:17 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:39:47 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:39:47 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:40:17 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:40:17 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:40:47 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:40:47 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:41:17 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:41:17 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:41:47 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:41:47 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:42:17 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:42:17 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:42:47 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:42:47 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:43:17 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:43:17 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 00:43:48 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 00:43:48 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 01:44:54 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 01:44:54 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 01:45:24 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 01:45:24 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 01:45:56 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 01:45:56 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 01:46:26 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 01:46:26 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 01:47:07 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 01:47:07 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 01:47:37 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 01:47:37 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 04:26:53 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 04:26:53 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 04:27:32 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 04:27:32 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 04:28:02 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 04:28:02 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:10:38 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:10:38 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:11:08 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:11:08 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:11:28 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:11:28 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:11:58 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:11:58 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:12:28 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:12:28 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:12:58 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:12:58 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:13:28 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:13:28 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:13:58 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:13:58 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:14:28 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:14:28 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:14:59 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:14:59 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:15:29 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:15:29 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:15:59 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:15:59 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:16:29 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:16:29 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:16:59 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:16:59 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:17:29 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:17:29 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:17:59 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:17:59 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:18:29 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:18:29 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:18:59 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:18:59 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:19:30 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:19:30 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:20:00 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:20:00 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:20:30 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:20:30 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:21:00 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:21:00 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:21:30 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:21:30 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:22:00 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:22:00 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:22:30 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:22:30 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:23:00 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:23:00 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:23:31 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:23:31 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:24:01 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:24:01 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:24:31 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:24:31 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:25:01 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:25:01 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:25:31 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:25:31 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:26:01 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:26:01 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:26:31 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:26:31 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:27:01 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:27:01 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:27:31 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:27:31 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:28:01 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:28:01 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:28:32 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:28:32 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:29:02 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:29:02 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:29:32 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:29:32 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:30:02 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:30:02 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:30:32 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:30:32 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:31:02 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:31:02 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:31:32 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:31:32 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:32:02 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:32:02 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:32:32 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:32:32 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:33:03 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:33:03 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:33:33 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:33:33 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:34:03 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:34:03 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:34:33 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:34:33 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:35:03 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:35:03 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:35:33 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:35:33 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:36:03 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:36:03 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:36:33 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:36:33 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:37:03 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:37:03 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:37:34 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:37:34 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:38:04 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:38:04 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:38:34 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:38:34 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:39:04 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:39:04 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:39:34 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:39:34 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:40:04 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:40:04 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:40:34 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:40:34 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:41:04 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:41:04 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 15:41:35 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 15:41:35 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 16:42:40 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 16:42:40 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 16:43:10 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 16:43:10 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 19:38:42 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 19:38:42 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 19:52:38 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 19:52:38 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 19:53:08 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 19:53:08 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 19:53:39 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 19:53:39 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 19:54:09 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 19:54:09 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 19:54:39 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 19:54:39 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 19:55:09 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 19:55:09 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 19:55:39 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 19:55:39 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 19:56:09 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 19:56:09 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 19:56:39 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 19:56:39 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 19:57:09 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 19:57:09 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 19:57:40 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 19:57:40 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 19:58:10 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 19:58:10 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 19:58:40 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 19:58:40 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 19:59:10 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 19:59:10 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 19:59:40 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 19:59:40 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:00:10 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:00:10 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:00:40 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:00:40 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:01:11 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:01:11 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:01:41 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:01:41 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:02:11 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:02:11 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:02:41 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:02:41 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:03:11 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:03:11 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:03:41 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:03:41 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:04:11 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:04:11 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:04:41 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:04:41 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:05:12 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:05:12 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:05:42 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:05:42 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:06:12 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:06:12 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:06:42 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:06:42 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:07:12 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:07:12 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:07:42 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:07:42 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:08:12 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:08:12 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:08:42 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:08:42 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:09:13 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:09:13 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:09:43 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:09:43 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:10:13 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:10:13 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:10:43 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:10:43 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:11:13 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:11:13 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:11:43 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:11:43 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:12:13 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:12:13 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:12:44 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:12:44 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:13:14 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:13:14 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:13:44 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:13:44 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 20:14:14 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 28 20:14:14 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 28 21:07:29 dnsmasq[68]: started, version pi-hole-v2.92rc1 cachesize 10000
+Apr 28 21:07:29 dnsmasq[68]: DNS service limited to local subnets
+Apr 28 21:07:29 dnsmasq[68]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n IDN2 DHCP DHCPv6 Lua TFTP no-conntrack ipset no-nftset auth DNSSEC loop-detect inotify dumpfile
+Apr 28 21:07:29 dnsmasq[68]: using nameserver 8.8.8.8#53
+Apr 28 21:07:29 dnsmasq[68]: using nameserver 8.8.4.4#53
+Apr 28 21:07:29 dnsmasq[68]: using only locally-known addresses for onion
+Apr 28 21:07:29 dnsmasq[68]: using only locally-known addresses for bind
+Apr 28 21:07:29 dnsmasq[68]: using only locally-known addresses for invalid
+Apr 28 21:07:29 dnsmasq[68]: using only locally-known addresses for test
+Apr 28 21:07:29 dnsmasq[68]: using only locally-known addresses for pi.hole
+Apr 28 21:07:29 dnsmasq[68]: using only locally-known addresses for lan
+Apr 28 21:07:29 dnsmasq[68]: using only locally-known addresses for internal
+Apr 28 21:07:29 dnsmasq[68]: using only locally-known addresses for home.arpa
+Apr 28 21:07:29 dnsmasq[68]: read /etc/hosts - 9 names
+Apr 28 21:07:29 dnsmasq[68]: read /etc/pihole/hosts/custom.list - 0 names
+Apr 28 21:07:34 dnsmasq[68]: exiting on receipt of SIGTERM

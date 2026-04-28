@@ -1,0 +1,170 @@
+[
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "hajavzhkjdgp.nonexistent-hajavzhkjdgp.xyz",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "rtelmtiwryhg.nonexistent-rtelmtiwryhg.com",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "adzsvyqwnxjg.nonexistent-adzsvyqwnxjg.xyz",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "rldnayvwlksv.nonexistent-rldnayvwlksv.com",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "zpzxhqbmntaf.nonexistent-zpzxhqbmntaf.xyz",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "knteqffuqtem.nonexistent-knteqffuqtem.org",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "dvcqqibeafdp.nonexistent-dvcqqibeafdp.net",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "frmnvmvfpksu.nonexistent-frmnvmvfpksu.xyz",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "xnqgiimzzgqg.nonexistent-xnqgiimzzgqg.org",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "xnvoochremrp.nonexistent-xnvoochremrp.com",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "qpktdgxhpwak.nonexistent-qpktdgxhpwak.com",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "tylkwgeeltcm.nonexistent-tylkwgeeltcm.com",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "qbearihvsqtl.nonexistent-qbearihvsqtl.net",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "ujhjddmkiqsr.nonexistent-ujhjddmkiqsr.net",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "dkediptckusc.nonexistent-dkediptckusc.org",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "qdlfrenhkpof.nonexistent-qdlfrenhkpof.xyz",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "kvibskazxtiy.nonexistent-kvibskazxtiy.net",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "hzswhzmobinr.nonexistent-hzswhzmobinr.com",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "gtzlzxxucoia.nonexistent-gtzlzxxucoia.com",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "mllzyogjhekg.nonexistent-mllzyogjhekg.org",
+      "length": 41
+    },
+    "why_flagged": "Domain length 41 exceeds threshold 18 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "nxdomain_like",
+    "evidence": {
+      "unique_domains": 51,
+      "total_queries": 52
+    },
+    "why_flagged": "High ratio of unique domains to total queries (many one-off lookups). Unusual behaviour often associated with failed lookups."
+  }
+]
