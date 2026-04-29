@@ -5,6 +5,7 @@ services:
     environment:
       TZ: Europe/London
       WEBPASSWORD: admin12345
+      FTLCONF_dns_listeningMode: ALL
     ports:
       - "5354:53/tcp"
       - "5354:53/udp"

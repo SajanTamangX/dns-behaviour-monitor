@@ -592,3 +592,942 @@ Apr 28 21:07:29 dnsmasq[68]: using only locally-known addresses for home.arpa
 Apr 28 21:07:29 dnsmasq[68]: read /etc/hosts - 9 names
 Apr 28 21:07:29 dnsmasq[68]: read /etc/pihole/hosts/custom.list - 0 names
 Apr 28 21:07:34 dnsmasq[68]: exiting on receipt of SIGTERM
+Apr 29 10:07:37 dnsmasq[68]: started, version pi-hole-v2.92rc1 cachesize 10000
+Apr 29 10:07:37 dnsmasq[68]: DNS service limited to local subnets
+Apr 29 10:07:37 dnsmasq[68]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n IDN2 DHCP DHCPv6 Lua TFTP no-conntrack ipset no-nftset auth DNSSEC loop-detect inotify dumpfile
+Apr 29 10:07:37 dnsmasq[68]: using nameserver 8.8.8.8#53
+Apr 29 10:07:37 dnsmasq[68]: using nameserver 8.8.4.4#53
+Apr 29 10:07:37 dnsmasq[68]: using only locally-known addresses for onion
+Apr 29 10:07:37 dnsmasq[68]: using only locally-known addresses for bind
+Apr 29 10:07:37 dnsmasq[68]: using only locally-known addresses for invalid
+Apr 29 10:07:37 dnsmasq[68]: using only locally-known addresses for test
+Apr 29 10:07:37 dnsmasq[68]: using only locally-known addresses for pi.hole
+Apr 29 10:07:37 dnsmasq[68]: using only locally-known addresses for lan
+Apr 29 10:07:37 dnsmasq[68]: using only locally-known addresses for internal
+Apr 29 10:07:37 dnsmasq[68]: using only locally-known addresses for home.arpa
+Apr 29 10:07:37 dnsmasq[68]: read /etc/hosts - 9 names
+Apr 29 10:07:37 dnsmasq[68]: read /etc/pihole/hosts/custom.list - 0 names
+Apr 29 10:07:42 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:07:42 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:07:42 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:07:42 dnsmasq[68]: query[PTR] 1.0.19.172.in-addr.arpa from 127.0.0.1
+Apr 29 10:07:42 dnsmasq[68]: config 172.19.0.1 is NXDOMAIN
+Apr 29 10:07:42 dnsmasq[68]: query[PTR] 8.8.8.8.in-addr.arpa from 127.0.0.1
+Apr 29 10:07:42 dnsmasq[68]: forwarded 8.8.8.8.in-addr.arpa to 8.8.8.8
+Apr 29 10:07:42 dnsmasq[68]: forwarded 8.8.8.8.in-addr.arpa to 8.8.4.4
+Apr 29 10:07:44 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:07:44 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:07:44 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:07:45 dnsmasq[68]: query[PTR] 1.0.0.127.in-addr.arpa from 127.0.0.1
+Apr 29 10:07:45 dnsmasq[68]: /etc/hosts 127.0.0.1 is localhost
+Apr 29 10:07:46 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:07:46 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:07:46 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:07:52 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:07:52 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:07:52 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:07:54 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:07:54 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:07:54 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:07:57 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:07:57 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:07:57 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:08:03 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:08:03 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:08:03 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:08:05 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:08:05 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:08:05 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:08:06 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:08:06 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:08:07 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:08:07 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:08:07 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:08:14 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:08:14 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:08:14 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:08:16 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:08:16 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:08:16 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:08:18 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:08:18 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:08:18 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:08:24 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:08:24 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:08:24 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:08:26 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:08:26 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:08:26 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:08:29 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:08:29 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:08:29 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:08:35 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:08:35 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:08:35 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:08:36 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:08:36 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:08:37 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:08:37 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:08:37 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:08:39 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:08:39 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:08:39 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:08:45 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:08:45 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:08:45 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:08:48 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:08:48 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:08:48 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:08:50 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:08:50 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:08:50 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:08:56 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:08:56 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:08:56 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:08:58 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:08:58 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:08:58 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:09:00 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:09:00 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:09:00 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:09:06 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:09:06 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:09:07 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:09:07 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:09:07 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:09:09 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:09:09 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:09:09 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:09:11 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:09:11 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:09:11 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:09:17 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:09:17 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:09:17 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:09:19 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:09:19 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:09:19 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:09:22 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:09:22 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:09:22 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:09:28 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:09:28 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:09:28 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:09:30 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:09:30 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:09:30 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:09:32 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:09:32 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:09:32 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:09:36 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:09:36 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:09:39 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:09:39 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:09:39 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:09:41 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:09:41 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:09:41 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:09:43 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:09:43 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:09:43 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:09:49 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:09:49 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:09:49 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:09:51 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:09:51 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:09:51 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:09:54 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:09:54 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:09:54 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:10:00 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:10:00 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:10:00 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:10:02 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:10:02 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:10:02 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:10:04 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:10:04 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:10:04 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:10:06 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:10:06 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:10:11 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:10:11 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:10:11 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:10:13 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:10:13 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:10:13 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:10:15 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:10:15 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:10:15 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:10:21 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:10:21 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:10:21 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:10:23 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:10:23 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:10:23 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:10:25 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:10:25 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:10:25 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:10:32 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:10:32 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:10:32 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:10:34 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:10:34 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:10:34 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:10:36 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:10:36 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:10:36 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:10:36 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:10:36 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:10:42 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:10:42 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:10:42 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:10:45 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:10:45 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:10:45 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:10:47 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:10:47 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:10:47 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:11:07 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:11:07 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:11:37 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:11:37 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:12:07 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:12:07 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:12:37 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:12:37 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:12:45 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:12:45 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:12:45 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:12:48 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:12:48 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:12:48 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:12:50 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:12:50 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:12:50 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:12:56 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:12:56 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:12:56 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:12:58 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:12:58 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:12:58 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:13:00 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:13:00 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:13:00 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:13:07 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:13:07 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:13:07 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:13:07 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:13:07 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:13:09 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:13:09 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:13:09 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:14:25 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:14:25 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:14:25 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:14:27 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:14:27 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:14:27 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:14:30 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:14:30 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:14:30 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:14:36 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:14:36 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:14:36 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:14:38 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:14:38 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:14:38 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:14:40 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:14:40 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:14:40 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:14:44 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:14:44 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:14:47 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:14:47 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:14:47 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:14:49 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:14:49 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:14:49 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:14:51 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:14:51 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:14:51 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:14:58 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:14:58 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:14:58 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:15:00 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:15:00 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:15:00 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:15:02 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:15:02 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:15:02 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:15:08 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:15:08 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:15:08 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:15:10 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:15:10 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:15:10 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:15:13 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:15:13 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:15:13 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:15:14 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:15:14 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:15:19 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:15:19 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:15:19 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:15:21 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:15:21 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:15:21 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:15:23 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:15:23 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:15:23 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:15:30 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:15:30 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:15:30 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:15:32 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:15:32 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:15:32 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:15:34 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:15:34 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:15:34 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:15:40 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:15:40 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:15:40 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:15:42 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:15:42 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:15:42 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:15:44 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:15:44 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:15:45 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:15:45 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:15:45 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:15:51 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:15:51 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:15:51 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:15:53 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:15:53 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:15:53 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:15:55 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:15:55 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:15:55 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:02 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:02 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:02 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:04 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:04 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:04 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:06 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:06 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:06 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:12 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:12 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:12 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:14 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:16:14 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:16:15 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:15 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:15 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:17 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:17 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:17 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:23 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:23 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:23 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:25 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:25 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:25 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:27 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:27 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:27 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:34 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:34 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:34 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:36 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:36 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:36 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:38 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:38 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:38 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:44 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:44 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:44 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:44 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:16:44 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:16:46 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:46 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:46 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:49 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:49 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:49 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:55 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:55 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:55 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:57 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:57 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:57 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:16:59 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 10:16:59 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 10:16:59 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 10:17:15 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:17:15 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:17:45 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:17:45 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:18:15 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:18:15 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:18:45 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:18:45 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:19:15 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:19:15 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:19:45 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:19:45 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:20:15 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:20:15 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:20:45 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:20:45 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:21:16 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:21:16 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:21:46 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:21:46 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:22:16 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:22:16 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:22:46 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:22:46 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:23:16 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:23:16 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:23:46 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:23:46 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:24:17 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:24:17 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:24:47 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:24:47 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 10:25:17 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 10:25:17 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:50:27 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:50:27 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:50:57 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:50:57 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:51:27 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:51:27 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:51:55 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:51:55 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:51:55 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:51:57 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:51:57 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:51:57 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:51:57 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:51:57 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:51:59 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:51:59 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:51:59 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:52:05 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:52:05 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:52:05 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:52:07 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:52:07 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:52:07 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:52:10 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:52:10 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:52:10 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:52:16 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:52:16 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:52:16 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:52:18 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:52:18 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:52:18 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:52:20 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:52:20 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:52:20 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:52:27 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:52:27 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:52:27 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:52:27 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:52:27 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:52:29 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:52:29 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:52:29 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:52:31 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:52:31 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:52:31 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:52:37 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:52:37 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:52:37 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:52:39 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:52:39 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:52:39 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:52:42 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:52:42 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:52:42 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:52:48 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:52:48 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:52:48 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:52:50 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:52:50 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:52:50 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:52:52 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:52:52 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:52:52 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:52:57 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:52:57 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:52:59 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:52:59 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:52:59 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:01 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:53:01 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:53:01 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:03 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:53:03 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:53:03 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:09 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:53:09 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:53:09 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:11 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:53:11 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:53:11 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:14 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:53:14 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:53:14 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:20 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:53:20 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:53:20 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:22 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:53:22 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:53:22 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:24 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:53:24 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:53:24 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:27 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:53:27 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:53:31 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:53:31 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:53:31 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:33 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:53:33 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:53:33 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:35 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:53:35 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:53:35 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:41 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:53:41 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:53:41 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:43 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:53:43 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:53:43 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:46 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:53:46 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:53:46 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:52 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:53:52 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:53:52 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:54 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:53:54 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:53:54 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:56 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:53:56 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:53:56 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:53:58 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:53:58 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:54:03 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:54:03 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:54:03 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:54:05 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:54:05 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:54:05 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:54:07 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:54:07 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:54:07 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:54:13 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:54:13 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:54:13 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:54:15 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:54:15 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:54:15 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:54:18 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:54:18 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:54:18 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:54:24 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:54:24 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:54:24 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:54:26 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:54:26 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:54:26 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:54:28 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:54:28 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:54:28 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:54:28 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:54:28 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:54:35 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:54:35 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:54:35 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:54:37 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:54:37 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:54:37 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:54:39 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:54:39 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:54:39 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:54:45 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:54:45 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:54:45 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:54:47 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:54:47 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:54:47 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:54:50 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:54:50 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:54:50 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:54:56 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:54:56 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:54:56 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:54:58 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:54:58 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:54:58 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:54:58 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:54:58 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:55:00 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 11:55:00 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 11:55:00 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 11:55:28 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:55:28 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:55:58 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:55:58 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:56:28 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:56:28 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:56:58 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:56:58 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:57:28 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:57:28 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:57:58 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:57:58 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:58:29 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:58:29 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:58:59 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:58:59 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:59:29 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:59:29 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 11:59:59 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 11:59:59 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:00:00 dnsmasq[68]: query[PTR] 1.0.19.172.in-addr.arpa from 127.0.0.1
+Apr 29 12:00:00 dnsmasq[68]: config 172.19.0.1 is NXDOMAIN
+Apr 29 12:00:00 dnsmasq[68]: query[PTR] 1.0.0.127.in-addr.arpa from 127.0.0.1
+Apr 29 12:00:00 dnsmasq[68]: /etc/hosts 127.0.0.1 is localhost
+Apr 29 12:00:00 dnsmasq[68]: query[PTR] 8.8.8.8.in-addr.arpa from 127.0.0.1
+Apr 29 12:00:00 dnsmasq[68]: forwarded 8.8.8.8.in-addr.arpa to 8.8.8.8
+Apr 29 12:00:00 dnsmasq[68]: forwarded 8.8.8.8.in-addr.arpa to 8.8.4.4
+Apr 29 12:00:29 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:00:29 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:00:59 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:00:59 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:01:29 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:01:29 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:01:59 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:01:59 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:02:30 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:02:30 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:03:00 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:03:00 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:03:30 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:03:30 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:04:00 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:04:00 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:04:30 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:04:30 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:05:00 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:05:00 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:05:30 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:05:30 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:06:00 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:06:00 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:06:31 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:06:31 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:07:01 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:07:01 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:07:31 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:07:31 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:07:45 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:07:45 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:07:45 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:07:48 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:07:48 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:07:48 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:07:50 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:07:50 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:07:50 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:07:56 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:07:56 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:07:56 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:07:58 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:07:58 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:07:58 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:08:00 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:08:00 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:08:00 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:08:01 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:08:01 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:08:07 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:08:07 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:08:07 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:08:09 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:08:09 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:08:09 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:08:11 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:08:11 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:08:11 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:08:17 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:08:17 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:08:17 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:08:19 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:08:19 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:08:19 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:08:22 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:08:22 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:08:22 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:08:28 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:08:28 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:08:28 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:08:30 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:08:30 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:08:30 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:08:31 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:08:31 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:08:32 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:08:32 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:08:32 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:08:39 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:08:39 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:08:39 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:08:41 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:08:41 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:08:41 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:08:43 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:08:43 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:08:43 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:08:49 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:08:49 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:08:49 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:08:51 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:08:51 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:08:51 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:08:53 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:08:53 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:08:53 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:00 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:00 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:00 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:01 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:09:01 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:09:02 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:02 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:02 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:04 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:04 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:04 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:10 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:10 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:10 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:13 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:13 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:13 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:15 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:15 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:15 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:21 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:21 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:21 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:23 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:23 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:23 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:25 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:25 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:25 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:31 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:09:31 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:09:32 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:32 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:32 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:34 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:34 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:34 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:36 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:36 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:36 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:42 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:42 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:42 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:45 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:45 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:45 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:47 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:47 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:47 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:53 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:53 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:53 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:55 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:55 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:55 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:09:57 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:09:57 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:09:57 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:10:01 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:10:01 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:10:04 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:10:04 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:10:04 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:10:06 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:10:06 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:10:06 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:10:08 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:10:08 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:10:08 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:10:14 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:10:14 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:10:14 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:10:16 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:10:16 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:10:16 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:10:19 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:10:19 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:10:19 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:10:25 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:10:25 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:10:25 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:10:27 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:10:27 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:10:27 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:10:29 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:10:29 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:10:29 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:10:32 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:10:32 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:10:35 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:10:35 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:10:35 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:10:38 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:10:38 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:10:38 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:10:40 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:10:40 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:10:40 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:10:46 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:10:46 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:10:46 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:10:48 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:10:48 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:10:48 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:10:50 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:10:50 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:10:50 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:11:02 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:11:02 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:11:18 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:11:18 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:11:18 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:11:32 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:11:32 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:11:52 dnsmasq[68]: exiting on receipt of SIGTERM
+Apr 29 12:11:54 dnsmasq[68]: started, version pi-hole-v2.92rc1 cachesize 10000
+Apr 29 12:11:54 dnsmasq[68]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n IDN2 DHCP DHCPv6 Lua TFTP no-conntrack ipset no-nftset auth DNSSEC loop-detect inotify dumpfile
+Apr 29 12:11:54 dnsmasq[68]: using nameserver 8.8.8.8#53
+Apr 29 12:11:54 dnsmasq[68]: using nameserver 8.8.4.4#53
+Apr 29 12:11:54 dnsmasq[68]: using only locally-known addresses for onion
+Apr 29 12:11:54 dnsmasq[68]: using only locally-known addresses for bind
+Apr 29 12:11:54 dnsmasq[68]: using only locally-known addresses for invalid
+Apr 29 12:11:54 dnsmasq[68]: using only locally-known addresses for test
+Apr 29 12:11:54 dnsmasq[68]: using only locally-known addresses for pi.hole
+Apr 29 12:11:54 dnsmasq[68]: using only locally-known addresses for lan
+Apr 29 12:11:54 dnsmasq[68]: using only locally-known addresses for internal
+Apr 29 12:11:54 dnsmasq[68]: using only locally-known addresses for home.arpa
+Apr 29 12:11:54 dnsmasq[68]: read /etc/hosts - 9 names
+Apr 29 12:11:54 dnsmasq[68]: read /etc/pihole/hosts/custom.list - 0 names
+Apr 29 12:11:56 dnsmasq[68]: query[PTR] 1.0.19.172.in-addr.arpa from 127.0.0.1
+Apr 29 12:11:56 dnsmasq[68]: config 172.19.0.1 is NXDOMAIN
+Apr 29 12:11:56 dnsmasq[68]: query[PTR] 1.0.0.127.in-addr.arpa from 127.0.0.1
+Apr 29 12:11:56 dnsmasq[68]: /etc/hosts 127.0.0.1 is localhost
+Apr 29 12:11:56 dnsmasq[68]: query[PTR] 8.8.8.8.in-addr.arpa from 127.0.0.1
+Apr 29 12:11:56 dnsmasq[68]: forwarded 8.8.8.8.in-addr.arpa to 8.8.8.8
+Apr 29 12:11:56 dnsmasq[68]: forwarded 8.8.8.8.in-addr.arpa to 8.8.4.4
+Apr 29 12:12:01 dnsmasq[68]: exiting on receipt of SIGTERM
+Apr 29 12:12:04 dnsmasq[68]: started, version pi-hole-v2.92rc1 cachesize 10000
+Apr 29 12:12:04 dnsmasq[68]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n IDN2 DHCP DHCPv6 Lua TFTP no-conntrack ipset no-nftset auth DNSSEC loop-detect inotify dumpfile
+Apr 29 12:12:04 dnsmasq[68]: using nameserver 8.8.8.8#53
+Apr 29 12:12:04 dnsmasq[68]: using nameserver 8.8.4.4#53
+Apr 29 12:12:04 dnsmasq[68]: using only locally-known addresses for onion
+Apr 29 12:12:04 dnsmasq[68]: using only locally-known addresses for bind
+Apr 29 12:12:04 dnsmasq[68]: using only locally-known addresses for invalid
+Apr 29 12:12:04 dnsmasq[68]: using only locally-known addresses for test
+Apr 29 12:12:04 dnsmasq[68]: using only locally-known addresses for pi.hole
+Apr 29 12:12:04 dnsmasq[68]: using only locally-known addresses for lan
+Apr 29 12:12:04 dnsmasq[68]: using only locally-known addresses for internal
+Apr 29 12:12:04 dnsmasq[68]: using only locally-known addresses for home.arpa
+Apr 29 12:12:04 dnsmasq[68]: read /etc/hosts - 9 names
+Apr 29 12:12:04 dnsmasq[68]: read /etc/pihole/hosts/custom.list - 0 names
+Apr 29 12:12:06 dnsmasq[68]: query[PTR] 1.0.19.172.in-addr.arpa from 127.0.0.1
+Apr 29 12:12:06 dnsmasq[68]: config 172.19.0.1 is NXDOMAIN
+Apr 29 12:12:06 dnsmasq[68]: query[PTR] 1.0.0.127.in-addr.arpa from 127.0.0.1
+Apr 29 12:12:06 dnsmasq[68]: /etc/hosts 127.0.0.1 is localhost
+Apr 29 12:12:06 dnsmasq[68]: query[PTR] 8.8.8.8.in-addr.arpa from 127.0.0.1
+Apr 29 12:12:06 dnsmasq[68]: forwarded 8.8.8.8.in-addr.arpa to 8.8.8.8
+Apr 29 12:12:06 dnsmasq[68]: forwarded 8.8.8.8.in-addr.arpa to 8.8.4.4
+Apr 29 12:12:20 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:12:20 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:12:20 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:12:33 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:12:33 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:13:03 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:13:03 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:13:23 dnsmasq[68]: query[A] google.com from 127.0.0.1
+Apr 29 12:13:23 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:13:23 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:13:23 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:13:23 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:13:23 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:13:33 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:13:33 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:14:03 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:14:03 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:14:33 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:14:33 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:14:42 dnsmasq[264]: query[A] google.com from 127.0.0.1
+Apr 29 12:14:44 dnsmasq[264]: TCP connection failed: Connection refused
+Apr 29 12:14:46 dnsmasq[264]: TCP connection failed: Connection refused
+Apr 29 12:14:46 dnsmasq[264]: config error is REFUSED (EDE: network error)
+Apr 29 12:15:03 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:15:03 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:15:06 dnsmasq[68]: query[A] google.com from 127.0.0.1
+Apr 29 12:15:06 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:15:06 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:15:25 dnsmasq[68]: exiting on receipt of SIGTERM
+Apr 29 12:15:45 dnsmasq[68]: started, version pi-hole-v2.92rc1 cachesize 10000
+Apr 29 12:15:45 dnsmasq[68]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n IDN2 DHCP DHCPv6 Lua TFTP no-conntrack ipset no-nftset auth DNSSEC loop-detect inotify dumpfile
+Apr 29 12:15:45 dnsmasq[68]: using nameserver 8.8.8.8#53
+Apr 29 12:15:45 dnsmasq[68]: using nameserver 8.8.4.4#53
+Apr 29 12:15:45 dnsmasq[68]: using only locally-known addresses for onion
+Apr 29 12:15:45 dnsmasq[68]: using only locally-known addresses for bind
+Apr 29 12:15:45 dnsmasq[68]: using only locally-known addresses for invalid
+Apr 29 12:15:45 dnsmasq[68]: using only locally-known addresses for test
+Apr 29 12:15:45 dnsmasq[68]: using only locally-known addresses for pi.hole
+Apr 29 12:15:45 dnsmasq[68]: using only locally-known addresses for lan
+Apr 29 12:15:45 dnsmasq[68]: using only locally-known addresses for internal
+Apr 29 12:15:45 dnsmasq[68]: using only locally-known addresses for home.arpa
+Apr 29 12:15:45 dnsmasq[68]: read /etc/hosts - 9 names
+Apr 29 12:15:45 dnsmasq[68]: read /etc/pihole/hosts/custom.list - 0 names
+Apr 29 12:15:47 dnsmasq[68]: query[PTR] 1.0.19.172.in-addr.arpa from 127.0.0.1
+Apr 29 12:15:47 dnsmasq[68]: config 172.19.0.1 is NXDOMAIN
+Apr 29 12:15:47 dnsmasq[68]: query[PTR] 1.0.0.127.in-addr.arpa from 127.0.0.1
+Apr 29 12:15:47 dnsmasq[68]: /etc/hosts 127.0.0.1 is localhost
+Apr 29 12:15:47 dnsmasq[68]: query[PTR] 8.8.8.8.in-addr.arpa from 127.0.0.1
+Apr 29 12:15:47 dnsmasq[68]: forwarded 8.8.8.8.in-addr.arpa to 8.8.8.8
+Apr 29 12:15:47 dnsmasq[68]: forwarded 8.8.8.8.in-addr.arpa to 8.8.4.4
+Apr 29 12:16:12 dnsmasq[68]: query[A] google.com from 172.19.0.1
+Apr 29 12:16:12 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:16:12 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:16:14 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:16:14 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:16:30 dnsmasq[68]: query[A] google.com from 127.0.0.1
+Apr 29 12:16:30 dnsmasq[68]: forwarded google.com to 8.8.8.8
+Apr 29 12:16:30 dnsmasq[68]: forwarded google.com to 8.8.4.4
+Apr 29 12:16:35 dnsmasq[216]: query[A] google.com from 127.0.0.1
+Apr 29 12:16:40 dnsmasq[216]: TCP connection failed: Operation in progress
+Apr 29 12:16:44 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:16:44 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:16:44 dnsmasq[216]: TCP connection failed: Connection refused
+Apr 29 12:16:44 dnsmasq[216]: config error is REFUSED (EDE: network error)
+Apr 29 12:17:14 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:17:14 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
