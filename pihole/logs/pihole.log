@@ -1531,3 +1531,5 @@ Apr 29 12:16:44 dnsmasq[216]: TCP connection failed: Connection refused
 Apr 29 12:16:44 dnsmasq[216]: config error is REFUSED (EDE: network error)
 Apr 29 12:17:14 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
 Apr 29 12:17:14 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
+Apr 29 12:17:44 dnsmasq[68]: query[A] pi.hole from 127.0.0.1
+Apr 29 12:17:44 dnsmasq[68]: Pi-hole hostname pi.hole is 127.0.0.1
