@@ -1,7 +1,7 @@
 # Pi-hole configuration file (v6.5)
 # Encoding: UTF-8
 # This file is managed by pihole-FTL
-# Last updated on 2026-02-20 13:01:28 GMT
+# Last updated on 2026-04-29 12:11:52 BST
 
 [dns]
   # Upstream DNS Servers to be used by Pi-hole. If this is not set, Pi-hole will not
@@ -206,7 +206,7 @@
   #       configuration file. This is useful if you want to manually configure the
   #       listening mode in auxiliary configuration files. This option is really meant
   #       for advanced users only, support for this option may be limited.
-  listeningMode = "LOCAL"
+  listeningMode = "ALL" ### CHANGED, default = "LOCAL"
 
   # Log DNS queries and replies to pihole.log
   #
@@ -1716,6 +1716,6 @@
   all = false
 
 # Configuration statistics:
-# 166 total entries out of which 163 entries are default
-# --> 3 entries are modified
+# 166 total entries out of which 162 entries are default
+# --> 4 entries are modified
 

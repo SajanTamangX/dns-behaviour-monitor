@@ -6,6 +6,7 @@ services:
       TZ: Europe/London
       WEBPASSWORD: admin12345
       FTLCONF_dns_listeningMode: ALL
+      FTLCONF_dns_upstreams: 172.28.28.3;172.28.28.4
     ports:
       - "5354:53/tcp"
       - "5354:53/udp"
