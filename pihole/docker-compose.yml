@@ -6,7 +6,9 @@ services:
       TZ: Europe/London
       WEBPASSWORD: admin12345
       FTLCONF_dns_listeningMode: ALL
-      FTLCONF_dns_upstreams: 172.28.28.3;172.28.28.4
+      # Use public upstream DNS resolvers for reproducible local demos.
+      # The previous private IP resolvers may be unreachable outside a specific LAN.
+      FTLCONF_dns_upstreams: 1.1.1.1;8.8.8.8
     ports:
       - "5354:53/tcp"
       - "5354:53/udp"

@@ -5,25 +5,28 @@ $ErrorActionPreference = "Stop"
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $Root = Resolve-Path (Join-Path $ScriptDir "..")
 
-Write-Host "1. Starting Pi-hole (first run may take 1-2 min to pull image)..."
+Write-Host "1. Starting Pi-hole (first run may take 1-3 min to pull image/init)..."
 & (Join-Path $ScriptDir "pihole_up.ps1")
-# Wait for Pi-hole to be ready: DNS must answer on 127.0.0.1:5354
-$maxWait = 90
+# Wait for Pi-hole container healthcheck to report "healthy".
+# This is more reliable than host DNS probing in environments where localhost
+# networking or upstream resolvers can be transient.
+$maxWait = 180
 $step = 5
-$VenvPython = Join-Path (Join-Path $Root ".venv") "Scripts\\python.exe"
-if (Test-Path $VenvPython) { $Py = $VenvPython } else { $Py = "python" }
 $waited = 0
 while ($waited -lt $maxWait) {
     Start-Sleep -Seconds $step
     $waited += $step
     try {
-        $result = & $Py -c "import dns.resolver; r = dns.resolver.Resolver(configure=False); r.nameservers = ['127.0.0.1']; r.port = 5354; r.resolve('google.com', 'A'); print('ok')" 2>$null
-        if ($result -match "ok") { Write-Host "   Pi-hole is ready (DNS answered after ${waited}s)."; break }
+        $health = docker inspect pihole --format "{{.State.Health.Status}}" 2>$null
+        if ($health -eq "healthy") {
+            Write-Host "   Pi-hole is healthy after ${waited}s."
+            break
+        }
     } catch {}
-    Write-Host "   Waiting for Pi-hole DNS... ${waited}s"
+    Write-Host "   Waiting for Pi-hole healthcheck... ${waited}s"
 }
 if ($waited -ge $maxWait) {
-    Write-Error "Pi-hole did not answer DNS on 5354 within ${maxWait}s. Is Docker running? Try: .\scripts\pihole_up.ps1 then check http://localhost:8081"
+    Write-Error "Pi-hole did not reach healthy state within ${maxWait}s. Is Docker running? Try: .\scripts\pihole_up.ps1 then check docker logs pihole and http://localhost:8081"
     exit 1
 }
 

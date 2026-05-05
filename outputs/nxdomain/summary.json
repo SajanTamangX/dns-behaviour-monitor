@@ -1,278 +1,142 @@
 {
-  "total_queries": 51,
-  "unique_domains": 51,
+  "total_queries": 15,
+  "unique_domains": 12,
   "time_range": {
-    "min": "2026-04-29T12:27:31",
-    "max": "2026-04-29T12:27:49"
+    "min": "2026-05-05T21:10:17",
+    "max": "2026-05-05T21:10:22"
   },
   "volume_over_time": [
     {
-      "bucket": "2026-04-29T12:27:30",
-      "count": 25
+      "bucket": "2026-05-05T21:10:10",
+      "count": 11
     },
     {
-      "bucket": "2026-04-29T12:27:40",
-      "count": 26
+      "bucket": "2026-05-05T21:10:20",
+      "count": 4
     }
   ],
   "top_domains": [
     {
-      "domain": "bjabjqfiofex.nonexistent-bjabjqfiofex.net",
+      "domain": "cnn.com",
+      "count": 4
+    },
+    {
+      "domain": "fanuuvwbigqu.nonexistent-fanuuvwbigqu.org",
       "count": 1
     },
     {
-      "domain": "uwooohiskifx.nonexistent-uwooohiskifx.org",
+      "domain": "qtzacixetwyq.nonexistent-qtzacixetwyq.xyz",
       "count": 1
     },
     {
-      "domain": "rxvzecoanygf.nonexistent-rxvzecoanygf.org",
+      "domain": "ydzcewhwltqr.nonexistent-ydzcewhwltqr.org",
       "count": 1
     },
     {
-      "domain": "pzadocbgpqiz.nonexistent-pzadocbgpqiz.xyz",
+      "domain": "snymykcuuyps.nonexistent-snymykcuuyps.net",
       "count": 1
     },
     {
-      "domain": "lubkjcbywirn.nonexistent-lubkjcbywirn.xyz",
+      "domain": "dhsfjwlyaeva.nonexistent-dhsfjwlyaeva.org",
       "count": 1
     },
     {
-      "domain": "rmhxyrnrfubq.nonexistent-rmhxyrnrfubq.net",
+      "domain": "amazon.com",
       "count": 1
     },
     {
-      "domain": "yzuhcdqnzpef.nonexistent-yzuhcdqnzpef.xyz",
+      "domain": "diohikzanofo.nonexistent-diohikzanofo.xyz",
       "count": 1
     },
     {
-      "domain": "pfaliofdbtne.nonexistent-pfaliofdbtne.org",
+      "domain": "spotify.com",
       "count": 1
     },
     {
-      "domain": "dhzldjhrudqq.nonexistent-dhzldjhrudqq.xyz",
+      "domain": "apple.com",
       "count": 1
     },
     {
-      "domain": "xatrlagqmpol.nonexistent-xatrlagqmpol.net",
+      "domain": "cloudflare.com",
       "count": 1
     },
     {
-      "domain": "euvamkydyqwh.nonexistent-euvamkydyqwh.net",
-      "count": 1
-    },
-    {
-      "domain": "hxisqdabpgjd.nonexistent-hxisqdabpgjd.org",
-      "count": 1
-    },
-    {
-      "domain": "iiichpgczhyu.nonexistent-iiichpgczhyu.xyz",
-      "count": 1
-    },
-    {
-      "domain": "cysaqiorhskr.nonexistent-cysaqiorhskr.org",
-      "count": 1
-    },
-    {
-      "domain": "kysrlchznvoa.nonexistent-kysrlchznvoa.org",
-      "count": 1
-    },
-    {
-      "domain": "ennjeuokudic.nonexistent-ennjeuokudic.com",
-      "count": 1
-    },
-    {
-      "domain": "jgifjgefapwm.nonexistent-jgifjgefapwm.xyz",
-      "count": 1
-    },
-    {
-      "domain": "jclivasztqiw.nonexistent-jclivasztqiw.com",
-      "count": 1
-    },
-    {
-      "domain": "pi.hole",
-      "count": 1
-    },
-    {
-      "domain": "kvzvzlpuzneh.nonexistent-kvzvzlpuzneh.com",
-      "count": 1
-    },
-    {
-      "domain": "kwqtbhhhsrwt.nonexistent-kwqtbhhhsrwt.com",
-      "count": 1
-    },
-    {
-      "domain": "ikwuzelrpzcr.nonexistent-ikwuzelrpzcr.net",
-      "count": 1
-    },
-    {
-      "domain": "oersnzrfxzql.nonexistent-oersnzrfxzql.xyz",
-      "count": 1
-    },
-    {
-      "domain": "gqolxkfvezga.nonexistent-gqolxkfvezga.xyz",
-      "count": 1
-    },
-    {
-      "domain": "wrnevxirjfbr.nonexistent-wrnevxirjfbr.net",
-      "count": 1
-    },
-    {
-      "domain": "xcghalrclymj.nonexistent-xcghalrclymj.xyz",
-      "count": 1
-    },
-    {
-      "domain": "anvwxxxwpsny.nonexistent-anvwxxxwpsny.xyz",
-      "count": 1
-    },
-    {
-      "domain": "fsnakfxtjvlg.nonexistent-fsnakfxtjvlg.xyz",
-      "count": 1
-    },
-    {
-      "domain": "ddublovjgllk.nonexistent-ddublovjgllk.net",
-      "count": 1
-    },
-    {
-      "domain": "ubskurjwkoiu.nonexistent-ubskurjwkoiu.com",
-      "count": 1
-    },
-    {
-      "domain": "awzpvifncfxp.nonexistent-awzpvifncfxp.xyz",
-      "count": 1
-    },
-    {
-      "domain": "judjduvjwohx.nonexistent-judjduvjwohx.com",
-      "count": 1
-    },
-    {
-      "domain": "eokmpiutbzpy.nonexistent-eokmpiutbzpy.org",
-      "count": 1
-    },
-    {
-      "domain": "amuwlchtrgtq.nonexistent-amuwlchtrgtq.com",
-      "count": 1
-    },
-    {
-      "domain": "ayyseaziuuzw.nonexistent-ayyseaziuuzw.xyz",
-      "count": 1
-    },
-    {
-      "domain": "zlpidlfclxsi.nonexistent-zlpidlfclxsi.org",
-      "count": 1
-    },
-    {
-      "domain": "ijissxgwkonq.nonexistent-ijissxgwkonq.org",
-      "count": 1
-    },
-    {
-      "domain": "ctntmpiwsyim.nonexistent-ctntmpiwsyim.org",
-      "count": 1
-    },
-    {
-      "domain": "xzdsngpsyjga.nonexistent-xzdsngpsyjga.com",
-      "count": 1
-    },
-    {
-      "domain": "ksimelshqkrx.nonexistent-ksimelshqkrx.net",
-      "count": 1
-    },
-    {
-      "domain": "bomiyyizflqb.nonexistent-bomiyyizflqb.com",
-      "count": 1
-    },
-    {
-      "domain": "ppblekajaaes.nonexistent-ppblekajaaes.com",
-      "count": 1
-    },
-    {
-      "domain": "jtmmkwfxlwzh.nonexistent-jtmmkwfxlwzh.com",
-      "count": 1
-    },
-    {
-      "domain": "vamiirdwrbbq.nonexistent-vamiirdwrbbq.xyz",
-      "count": 1
-    },
-    {
-      "domain": "vosrdecworll.nonexistent-vosrdecworll.xyz",
-      "count": 1
-    },
-    {
-      "domain": "cvrnrsiispwv.nonexistent-cvrnrsiispwv.net",
-      "count": 1
-    },
-    {
-      "domain": "yznfesxnhnwk.nonexistent-yznfesxnhnwk.xyz",
-      "count": 1
-    },
-    {
-      "domain": "ujhstislproh.nonexistent-ujhstislproh.net",
-      "count": 1
-    },
-    {
-      "domain": "mzgtvomfifrt.nonexistent-mzgtvomfifrt.org",
-      "count": 1
-    },
-    {
-      "domain": "jlmdtkrohsco.nonexistent-jlmdtkrohsco.net",
+      "domain": "linkedin.com",
       "count": 1
     }
   ],
   "tld_distribution": [
     {
-      "tld": "xyz",
-      "count": 16
-    },
-    {
-      "tld": "net",
-      "count": 12
+      "tld": "com",
+      "count": 9
     },
     {
       "tld": "org",
-      "count": 11
+      "count": 3
     },
     {
-      "tld": "com",
-      "count": 11
+      "tld": "xyz",
+      "count": 2
     },
     {
-      "tld": "hole",
+      "tld": "net",
       "count": 1
     }
   ],
   "domain_length_distribution": [
     {
       "domain_length": 7,
+      "count": 4
+    },
+    {
+      "domain_length": 9,
+      "count": 1
+    },
+    {
+      "domain_length": 10,
+      "count": 1
+    },
+    {
+      "domain_length": 11,
+      "count": 1
+    },
+    {
+      "domain_length": 12,
+      "count": 1
+    },
+    {
+      "domain_length": 14,
       "count": 1
     },
     {
       "domain_length": 41,
-      "count": 50
+      "count": 6
     }
   ],
   "label_count_distribution": [
     {
       "label_count": 2,
-      "count": 1
+      "count": 9
     },
     {
       "label_count": 3,
-      "count": 50
+      "count": 6
     }
   ],
   "query_type_distribution": [
     {
       "query_type": "A",
-      "count": 51
+      "count": 15
     }
   ],
   "response_code_distribution": [
     {
-      "response_code": "NXDOMAIN",
-      "count": 50
+      "response_code": "NOERROR",
+      "count": 9
     },
     {
-      "response_code": "NOERROR",
-      "count": 1
+      "response_code": "NXDOMAIN",
+      "count": 6
     }
   ]
 }

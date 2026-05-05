@@ -1,2 +1,3 @@
 response_code,count
-NOERROR,81
+UNKNOWN,102
+NOERROR,8

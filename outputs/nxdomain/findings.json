@@ -2,171 +2,59 @@
   {
     "type": "long_domain",
     "evidence": {
-      "domain": "bjabjqfiofex.nonexistent-bjabjqfiofex.net",
+      "domain": "fanuuvwbigqu.nonexistent-fanuuvwbigqu.org",
       "length": 41
     },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
+    "why_flagged": "Domain length 41 exceeds threshold 24 (baseline-driven or hard limit). Unusual behaviour."
   },
   {
     "type": "long_domain",
     "evidence": {
-      "domain": "uwooohiskifx.nonexistent-uwooohiskifx.org",
+      "domain": "qtzacixetwyq.nonexistent-qtzacixetwyq.xyz",
       "length": 41
     },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
+    "why_flagged": "Domain length 41 exceeds threshold 24 (baseline-driven or hard limit). Unusual behaviour."
   },
   {
     "type": "long_domain",
     "evidence": {
-      "domain": "rxvzecoanygf.nonexistent-rxvzecoanygf.org",
+      "domain": "ydzcewhwltqr.nonexistent-ydzcewhwltqr.org",
       "length": 41
     },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
+    "why_flagged": "Domain length 41 exceeds threshold 24 (baseline-driven or hard limit). Unusual behaviour."
   },
   {
     "type": "long_domain",
     "evidence": {
-      "domain": "pzadocbgpqiz.nonexistent-pzadocbgpqiz.xyz",
+      "domain": "snymykcuuyps.nonexistent-snymykcuuyps.net",
       "length": 41
     },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
+    "why_flagged": "Domain length 41 exceeds threshold 24 (baseline-driven or hard limit). Unusual behaviour."
   },
   {
     "type": "long_domain",
     "evidence": {
-      "domain": "lubkjcbywirn.nonexistent-lubkjcbywirn.xyz",
+      "domain": "dhsfjwlyaeva.nonexistent-dhsfjwlyaeva.org",
       "length": 41
     },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
+    "why_flagged": "Domain length 41 exceeds threshold 24 (baseline-driven or hard limit). Unusual behaviour."
   },
   {
     "type": "long_domain",
     "evidence": {
-      "domain": "rmhxyrnrfubq.nonexistent-rmhxyrnrfubq.net",
+      "domain": "diohikzanofo.nonexistent-diohikzanofo.xyz",
       "length": 41
     },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "yzuhcdqnzpef.nonexistent-yzuhcdqnzpef.xyz",
-      "length": 41
-    },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "pfaliofdbtne.nonexistent-pfaliofdbtne.org",
-      "length": 41
-    },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "dhzldjhrudqq.nonexistent-dhzldjhrudqq.xyz",
-      "length": 41
-    },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "xatrlagqmpol.nonexistent-xatrlagqmpol.net",
-      "length": 41
-    },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "euvamkydyqwh.nonexistent-euvamkydyqwh.net",
-      "length": 41
-    },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "hxisqdabpgjd.nonexistent-hxisqdabpgjd.org",
-      "length": 41
-    },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "iiichpgczhyu.nonexistent-iiichpgczhyu.xyz",
-      "length": 41
-    },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "cysaqiorhskr.nonexistent-cysaqiorhskr.org",
-      "length": 41
-    },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "kysrlchznvoa.nonexistent-kysrlchznvoa.org",
-      "length": 41
-    },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "ennjeuokudic.nonexistent-ennjeuokudic.com",
-      "length": 41
-    },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "jgifjgefapwm.nonexistent-jgifjgefapwm.xyz",
-      "length": 41
-    },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "jclivasztqiw.nonexistent-jclivasztqiw.com",
-      "length": 41
-    },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "kvzvzlpuzneh.nonexistent-kvzvzlpuzneh.com",
-      "length": 41
-    },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "kwqtbhhhsrwt.nonexistent-kwqtbhhhsrwt.com",
-      "length": 41
-    },
-    "why_flagged": "Domain length 41 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
+    "why_flagged": "Domain length 41 exceeds threshold 24 (baseline-driven or hard limit). Unusual behaviour."
   },
   {
     "type": "nxdomain_excess",
     "evidence": {
-      "nxdomain_count": 50,
-      "total_queries": 51,
-      "nxdomain_ratio": 0.98,
+      "nxdomain_count": 6,
+      "total_queries": 15,
+      "nxdomain_ratio": 0.4,
       "baseline_ratio": 0.0
     },
-    "why_flagged": "NXDOMAIN responses are 98.0% of queries (baseline 0.0%). Unusual behaviour often associated with repeated failed lookups."
+    "why_flagged": "NXDOMAIN responses are 40.0% of queries (baseline 0.0%). Unusual behaviour often associated with repeated failed lookups."
   }
 ]
