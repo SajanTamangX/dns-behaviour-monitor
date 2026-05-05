@@ -5,7 +5,6 @@ Loads baseline summary for heuristic baseline if available.
 import sys
 from pathlib import Path
 
-# Allow running from project root
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src.log_parser import parse_log
@@ -19,13 +18,16 @@ def run_analysis(
     dataset_name: str,
     outputs_root: str | Path = "outputs",
     baseline_summary_path: str | Path | None = None,
+    bucket_seconds: int = 10,
 ) -> tuple[object, dict, list]:
     """
     Run full pipeline. Returns (df, metrics_dict, findings_list).
-    If baseline_summary_path is set, load baseline summary for heuristic comparison.
+
+    If baseline_summary_path is set, the baseline summary JSON is loaded so
+    heuristics can compare this dataset against established baseline behaviour.
     """
     df, parse_stats = parse_log(log_path)
-    df = add_features(df)
+    df = add_features(df, time_bucket_seconds=bucket_seconds)
     metrics = compute_metrics(df)
     write_outputs(metrics, dataset_name, outputs_root)
 
@@ -51,6 +53,13 @@ if __name__ == "__main__":
     p.add_argument("--name", required=True, help="Dataset name (e.g. baseline, burst)")
     p.add_argument("--outputs", default="outputs", help="Outputs root")
     p.add_argument("--baseline-summary", default=None, help="Path to baseline summary.json for heuristics")
+    p.add_argument("--bucket-seconds", type=int, default=10, help="Time bucket width in seconds")
     args = p.parse_args()
-    run_analysis(args.log_path, args.name, args.outputs, args.baseline_summary)
+    run_analysis(
+        args.log_path,
+        args.name,
+        args.outputs,
+        args.baseline_summary,
+        bucket_seconds=args.bucket_seconds,
+    )
     print(f"Done: {args.outputs}/{args.name}/")

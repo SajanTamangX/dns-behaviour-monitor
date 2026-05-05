@@ -216,7 +216,23 @@ h1,h2,h3,h4 {{ font-family: 'Share Tech Mono', monospace !important; letter-spac
 [data-testid="stMetricValue"] {{ font-family:'Share Tech Mono',monospace!important;
                                   color:{C_ACCENT}!important; }}
 #MainMenu, footer {{ visibility:hidden; }}
-[data-testid="stToolbar"] {{ visibility:hidden; }}
+
+/* keep the top toolbar slot but hide only the deploy/share/help buttons inside it,
+   so the sidebar collapse/expand control next to it stays clickable. */
+[data-testid="stToolbarActions"],
+[data-testid="stDeployButton"],
+[data-testid="stStatusWidget"] {{ visibility:hidden !important; }}
+
+/* always keep the sidebar visible and the collapse control reachable. */
+[data-testid="stSidebar"] {{ display:flex !important; min-width:280px !important; }}
+[data-testid="stSidebarCollapsedControl"],
+[data-testid="collapsedControl"],
+[data-testid="stSidebarCollapseButton"] {{
+    visibility:visible !important;
+    display:flex !important;
+    opacity:1 !important;
+    z-index:9999 !important;
+}}
 </style>
 """
 
@@ -225,19 +241,19 @@ RULES = [
     {
         "type":     "burst_window",
         "label":    "Burst Window",
-        "desc":     "Query count in a time bucket exceeds baseline p95 × 2.0",
+        "desc":     "Query count in a 10-second bucket exceeds baseline p95 × 2.0",
         "severity": "high",
     },
     {
-        "type":     "nxdomain_like",
-        "label":    "NXDOMAIN-Like",
-        "desc":     "Unique-domain ratio > 90 % — many one-off lookups (failed lookup proxy)",
+        "type":     "nxdomain_excess",
+        "label":    "NXDOMAIN Excess",
+        "desc":     "NXDOMAIN ratio ≥ 20 % AND ≥ 20 pp above baseline NXDOMAIN ratio",
         "severity": "high",
     },
     {
         "type":     "long_domain",
         "label":    "Long Domain",
-        "desc":     "Domain length > baseline mean + 2 σ (or hard limit 60 chars)",
+        "desc":     "Domain length > max(baseline max, mean + 2 σ); hard cap 60 chars",
         "severity": "med",
     },
     {
@@ -415,6 +431,30 @@ def chart_query_types(qt_dist: list) -> go.Figure | None:
         hovertemplate="%{x}: %{y} queries<extra></extra>",
     ))
     fig.update_layout(**_layout(title="QUERY TYPE DISTRIBUTION  (A / AAAA / MX …)"))
+    return fig
+
+
+def chart_response_codes(rc_dist: list) -> go.Figure | None:
+    if not rc_dist:
+        return None
+    df = pd.DataFrame(rc_dist)
+    if "response_code" not in df.columns:
+        return None
+    color_map = {
+        "NOERROR":  C_GREEN,
+        "NXDOMAIN": C_RED,
+        "NODATA":   C_YELLOW,
+        "SERVFAIL": "#ff6ec7",
+        "REFUSED":  "#ff9a00",
+        "UNKNOWN":  C_MUTED,
+    }
+    bar_colors = [color_map.get(rc, C_ACCENT) for rc in df["response_code"]]
+    fig = go.Figure(go.Bar(
+        x=df["response_code"], y=df["count"],
+        marker=dict(color=bar_colors, line=dict(color=C_BG, width=0.5)),
+        hovertemplate="%{x}: %{y} queries<extra></extra>",
+    ))
+    fig.update_layout(**_layout(title="RESPONSE CODE DISTRIBUTION  (RFC 1035)"))
     return fig
 
 
@@ -773,39 +813,17 @@ def main():
             """, unsafe_allow_html=True)
         card_close()
 
-    # ── MODULE 10 · RESPONSE CODES (note) ────────────────────────────────────
-    st.markdown(f"""
-    <div class="module-card">
-      <div class="module-label">Module 10</div>
-      <div class="module-title">RESPONSE CODES · AVAILABILITY NOTE</div>
-      <div style="display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start;">
-        <div style="flex:1;min-width:260px;">
-          <div style="font-size:.85rem;color:{C_TEXT};line-height:1.7;margin-bottom:12px;">
-            DNS response codes (NOERROR, NXDOMAIN, SERVFAIL…) are defined in
-            <b>RFC 1035</b> and are an explicit baseline metric in this project's
-            methodology (Section 4.2.2).
-          </div>
-          <div style="font-size:.82rem;color:{C_MUTED};line-height:1.7;">
-            <b style="color:{C_YELLOW};">Current limitation:</b> The Pi-hole/dnsmasq log format
-            only records <code>query[…]</code> lines, not reply lines with RCODE.
-            Response code distribution is therefore unavailable from this log source.
-          </div>
-        </div>
-        <div style="flex:1;min-width:220px;">
-          <div style="font-size:.75rem;color:{C_MUTED};font-family:'Share Tech Mono',monospace;
-                      letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;">
-            NXDOMAIN Proxy (heuristic)
-          </div>
-          <div style="font-size:.82rem;color:{C_TEXT};line-height:1.7;">
-            The <b style="color:{C_RED};">NXDOMAIN-like</b> heuristic acts as a proxy:
-            it flags datasets where unique-domain ratio &gt; 90 % — a pattern
-            consistent with many failed (NXDOMAIN) lookups, as used in
-            <i>Dataset C (nxdomain)</i>.
-          </div>
-        </div>
-      </div>
-    </div>
-    """, unsafe_allow_html=True)
+    # ── MODULE 10 · RESPONSE CODES ────────────────────────────────────────────
+    card_open("Module 10", "RESPONSE CODES · RFC 1035 RCODE DISTRIBUTION")
+    fig = chart_response_codes(metrics.get("response_code_distribution") or [])
+    if fig:
+        st.plotly_chart(fig, use_container_width=True)
+    else:
+        st.markdown(f"""
+        <div class="no-data">No response-code data yet.<br>
+        Click ⚡ Re-run Analysis to populate.</div>
+        """, unsafe_allow_html=True)
+    card_close()
 
     # ── MODULE 11 · RULE FIRING MATRIX ───────────────────────────────────────
     card_open("Module 11", "MATRIX · RULE FIRINGS ACROSS DATASETS")

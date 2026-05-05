@@ -1,5 +1,11 @@
 """
-Derive features from normalised log DataFrame: tld, domain_length, label_count, time_bucket.
+Derive features from normalised log DataFrame:
+  tld, domain_length, label_count, time_bucket.
+
+The time bucket is configurable in seconds. A 10-second default works well
+across the project's small datasets: it is fine enough to surface bursts in
+the burst dataset while still grouping baseline traffic into a handful of
+buckets for stable p95-style baselines.
 """
 import pandas as pd
 
@@ -23,10 +29,11 @@ def extract_label_count(domain: str) -> int:
     return len(domain.split("."))
 
 
-def add_features(df: pd.DataFrame, time_bucket_minutes: int = 5) -> pd.DataFrame:
+def add_features(df: pd.DataFrame, time_bucket_seconds: int = 10) -> pd.DataFrame:
     """
     Add columns: tld, domain_length, label_count, time_bucket.
-    time_bucket is floor of timestamp to N-minute bucket.
+
+    time_bucket is the floor of timestamp to a bucket of `time_bucket_seconds`.
     """
     out = df.copy()
     out["tld"] = out["domain"].astype(str).map(extract_tld)
@@ -34,7 +41,7 @@ def add_features(df: pd.DataFrame, time_bucket_minutes: int = 5) -> pd.DataFrame
     out["label_count"] = out["domain"].astype(str).map(extract_label_count)
 
     if "timestamp" in out.columns and pd.api.types.is_datetime64_any_dtype(out["timestamp"]):
-        out["time_bucket"] = out["timestamp"].dt.floor(f"{time_bucket_minutes}min")
+        out["time_bucket"] = out["timestamp"].dt.floor(f"{int(time_bucket_seconds)}s")
     else:
         out["time_bucket"] = pd.NaT
     return out

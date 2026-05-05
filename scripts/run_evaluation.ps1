@@ -43,7 +43,7 @@ $nxFindings = Get-Content (Join-Path $OutputsDir "nxdomain" "findings.json") | C
 
 $burstOk = ($burstFindings | Where-Object { $_.type -eq "burst_window" }).Count -ge 1
 $longOk = ($longFindings | Where-Object { $_.type -eq "long_domain" }).Count -ge 1
-$nxOk = ($nxFindings | Where-Object { $_.type -eq "nxdomain_like" }).Count -ge 1
+$nxOk = ($nxFindings | Where-Object { $_.type -eq "nxdomain_excess" }).Count -ge 1
 
 # 4) Copy CSVs to evaluation_tables
 foreach ($p in $profiles) {
@@ -60,7 +60,7 @@ foreach ($p in $profiles) {
 - **Baseline**: generated, analysed, used as heuristic baseline.
 - **Burst**: burst_window heuristic triggered: $burstOk
 - **Long domain**: long_domain heuristic triggered: $longOk
-- **NXDOMAIN**: nxdomain_like heuristic triggered: $nxOk
+- **NXDOMAIN**: nxdomain_excess heuristic triggered: $nxOk
 
 ## Outputs
 

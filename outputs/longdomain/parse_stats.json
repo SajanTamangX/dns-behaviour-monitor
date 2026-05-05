@@ -3,5 +3,7 @@
   "query_attempts": 41,
   "parsed_lines": 41,
   "skipped_lines": 81,
-  "parse_success_rate": 100.0
+  "parse_success_rate": 100.0,
+  "replies_seen": 41,
+  "queries_with_rcode": 41
 }

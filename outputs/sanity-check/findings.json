@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "1.0.0.127.in-addr.arpa",
+      "length": 22
+    },
+    "why_flagged": "Domain length 22 exceeds threshold 16 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "google.com.resnet.roehampton.ac.uk",
+      "length": 34
+    },
+    "why_flagged": "Domain length 34 exceeds threshold 16 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "1.0.18.172.in-addr.arpa",
+      "length": 23
+    },
+    "why_flagged": "Domain length 23 exceeds threshold 16 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "8.8.8.8.in-addr.arpa",
+      "length": 20
+    },
+    "why_flagged": "Domain length 20 exceeds threshold 16 (baseline-driven or hard limit). Unusual behaviour."
+  }
+]

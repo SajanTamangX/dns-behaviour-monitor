@@ -90,6 +90,17 @@ def compute_metrics(df: pd.DataFrame) -> dict[str, Any]:
         query_type_dist.columns = ["query_type", "count"]
         query_type_dist = query_type_dist.to_dict("records")
 
+    response_code_dist: list[dict] = []
+    if "response_code" in df.columns:
+        rc_series = df["response_code"].fillna("UNKNOWN")
+        response_code_dist = (
+            rc_series
+            .value_counts()
+            .reset_index()
+        )
+        response_code_dist.columns = ["response_code", "count"]
+        response_code_dist = response_code_dist.to_dict("records")
+
     return {
         "total_queries": int(total),
         "unique_domains": int(unique),
@@ -100,6 +111,7 @@ def compute_metrics(df: pd.DataFrame) -> dict[str, Any]:
         "domain_length_distribution": length_dist,
         "label_count_distribution": label_count_dist,
         "query_type_distribution": query_type_dist,
+        "response_code_distribution": response_code_dist,
     }
 
 
@@ -128,4 +140,8 @@ def write_outputs(metrics: dict[str, Any], dataset_name: str, outputs_root: str 
     if metrics.get("query_type_distribution"):
         pd.DataFrame(metrics["query_type_distribution"]).to_csv(
             root / "query_type_distribution.csv", index=False
+        )
+    if metrics.get("response_code_distribution"):
+        pd.DataFrame(metrics["response_code_distribution"]).to_csv(
+            root / "response_code_distribution.csv", index=False
         )

@@ -2,6 +2,32 @@
 
 Reproducible pipeline: Pi-hole in Docker (DNS on host port **5354**, admin **8081**), scripted DNS traffic, log export, normalised parsing, baseline metrics and heuristics, and a Streamlit dashboard. Wording is behavioural/analytical only (no threat or security claims).
 
+## Normalised schema and metrics
+
+The parser emits one row per query with the schema:
+
+| field | example |
+|-------|---------|
+| `timestamp` | `2026-04-29T12:26:43` |
+| `domain` | `github.com` |
+| `query_type` | `A`, `AAAA`, `PTR` … |
+| `client` | `172.19.0.1` |
+| `response_code` | `NOERROR`, `NXDOMAIN`, `NODATA`, `SERVFAIL` |
+| `source` | `pihole` |
+
+Response codes are recovered by correlating each `query[…]` line with the next `reply` / `cached` / `config` / `Pi-hole hostname` line for the same domain.
+
+Baseline metrics written to `outputs/<dataset>/`: query volume per **10-second** time bucket, top domains, TLD distribution, domain length distribution, label-count distribution, query-type distribution, **response-code distribution**.
+
+## Heuristics
+
+| type | rule |
+|------|------|
+| `long_domain`     | length > max(baseline-max-length, baseline mean + 2σ); hard cap 60 chars |
+| `burst_window`    | bucket count > baseline p95 × 2 (10-second buckets) |
+| `nxdomain_excess` | NXDOMAIN ratio ≥ 20% AND ≥ 20 pp above baseline |
+| `rare_tld`        | TLD seen in < 1% of queries |
+
 ## Prerequisites (do this once)
 
 - **Windows** with PowerShell
@@ -94,4 +120,4 @@ python -m pytest tests/test_parser.py -v
 python -m tests.test_parser
 ```
 
-Parser success rate target: ≥ 95% on query lines; required columns and timestamp parsing are validated.
+Parser success rate target: ≥ 95% on query lines; required columns, timestamp parsing, and response-code correlation (NOERROR / NXDOMAIN / cached) are validated.

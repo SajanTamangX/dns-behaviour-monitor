@@ -497,3 +497,181 @@
 2026-04-29 12:20:40.013 BST [68/T106] INFO:  -> DNS cache records: 0
 2026-04-29 12:20:40.023 BST [68/T106] INFO:  -> Known forward destinations: 1
 2026-04-29 12:20:40.062 BST [68/T106] INFO: Compiled 0 allow and 0 deny regex for 2 clients in 2.6 msec
+2026-04-29 12:25:24.551 BST [68M] INFO: Asked to terminate by "N/A" (PID 303, user root UID 0)
+2026-04-29 12:25:24.590 BST [68/T106] INFO: Terminating database thread
+2026-04-29 12:25:24.595 BST [68/T109] INFO: Terminating timer thread
+2026-04-29 12:25:24.808 BST [68M] INFO: Finished final database update
+2026-04-29 12:25:24.809 BST [68M] INFO: Waiting for threads to join
+2026-04-29 12:25:24.819 BST [68M] INFO: Thread housekeeper (1) is idle, terminating it.
+2026-04-29 12:25:24.829 BST [68M] INFO: Thread dns-client (2) is idle, terminating it.
+2026-04-29 12:25:24.842 BST [68M] INFO: Thread webserver (7) is idle, terminating it.
+2026-04-29 12:25:24.851 BST [68M] INFO: All threads joined
+2026-04-29 12:25:24.864 BST [68M] INFO: PID file emptied
+2026-04-29 12:25:24.881 BST [68M] INFO: Stored 0 API sessions in the database
+2026-04-29 12:25:24.970 BST [68M] INFO: ########## FTL terminated after 4m 45s  (code 0)! ##########
+2026-04-29 12:26:38.340 BST [68M] INFO: ########## FTL started on 561dd94ba83d! ##########
+2026-04-29 12:26:38.341 BST [68M] INFO: FTL branch: master
+2026-04-29 12:26:38.353 BST [68M] INFO: FTL version: v6.5
+2026-04-29 12:26:38.364 BST [68M] INFO: FTL commit: f8883098
+2026-04-29 12:26:38.375 BST [68M] INFO: FTL date: 2026-02-17 20:20:12 +0000
+2026-04-29 12:26:38.385 BST [68M] INFO: FTL user: pihole
+2026-04-29 12:26:38.394 BST [68M] INFO: Compiled for linux/amd64 (compiled on CI) using cc (Alpine 15.2.0) 15.2.0
+2026-04-29 12:26:38.425 BST [68M] INFO: 2 FTLCONF environment variables found (2 used, 0 invalid, 0 ignored)
+2026-04-29 12:26:38.427 BST [68M] INFO:    [✓] FTLCONF_dns_listeningMode is used
+2026-04-29 12:26:38.440 BST [68M] INFO:    [✓] FTLCONF_dns_upstreams is used
+2026-04-29 12:26:38.465 BST [68M] INFO: Wrote config file:
+2026-04-29 12:26:38.466 BST [68M] INFO:  - 166 total entries
+2026-04-29 12:26:38.477 BST [68M] INFO:  - 162 entries are default
+2026-04-29 12:26:38.489 BST [68M] INFO:  - 4 entries are modified
+2026-04-29 12:26:38.500 BST [68M] INFO:  - 2 entries are forced through environment
+2026-04-29 12:26:38.596 BST [68M] INFO: Parsed config file /etc/pihole/pihole.toml successfully
+2026-04-29 12:26:38.597 BST [68M] INFO: PID file does not exist or not readable
+2026-04-29 12:26:38.608 BST [68M] INFO: No other running FTL process found.
+2026-04-29 12:26:38.619 BST [68M] WARNING: Insufficient permissions to set process priority to -10 (CAP_SYS_NICE required), process priority remains at 0
+2026-04-29 12:26:38.633 BST [68M] INFO: PID of FTL process: 68
+2026-04-29 12:26:38.643 BST [68M] INFO: listening on 0.0.0.0 port 53
+2026-04-29 12:26:38.649 BST [68M] INFO: listening on :: port 53
+2026-04-29 12:26:38.661 BST [68M] INFO: PID of FTL process: 68
+2026-04-29 12:26:38.689 BST [68M] INFO: Database version is 21
+2026-04-29 12:26:38.694 BST [68M] INFO: Database successfully initialized
+2026-04-29 12:26:38.764 BST [68M] WARNING: Insufficient permissions to set system time (CAP_SYS_TIME required), NTP client not available
+2026-04-29 12:26:38.766 BST [68/T113] INFO: NTP server listening on :::123 (IPv6)
+2026-04-29 12:26:38.769 BST [68/T118] INFO: Reading certificate from /etc/pihole/tls.pem ...
+2026-04-29 12:26:38.766 BST [68/T112] INFO: NTP server listening on 0.0.0.0:123 (IPv4)
+2026-04-29 12:26:38.767 BST [68M] INFO: FTL is running as user pihole (UID 1000)
+2026-04-29 12:26:38.781 BST [68M] INFO: Blocking status is enabled
+2026-04-29 12:26:38.785 BST [68/T114] INFO: Imported 527 queries from the on-disk database (it has 1734 rows)
+2026-04-29 12:26:38.781 BST [68/T118] INFO: Using SSL/TLS certificate file /etc/pihole/tls.pem
+2026-04-29 12:26:38.790 BST [68/T118] INFO: Web server ports:
+2026-04-29 12:26:38.787 BST [68/T114] INFO: Parsing queries in database
+2026-04-29 12:26:38.802 BST [68/T118] INFO:   - 0.0.0.0:80 (HTTP, IPv4, optional, OK)
+2026-04-29 12:26:38.822 BST [68/T114] INFO: Imported 527 queries from the long-term database
+2026-04-29 12:26:38.812 BST [68/T118] INFO:   - 0.0.0.0:443 (HTTPS, IPv4, optional, OK)
+2026-04-29 12:26:38.823 BST [68/T118] INFO:   - [::]:80 (HTTP, IPv6, optional, OK)
+2026-04-29 12:26:38.823 BST [68/T114] INFO:  -> Total DNS queries: 527
+2026-04-29 12:26:38.831 BST [68/T118] INFO:   - [::]:443 (HTTPS, IPv6, optional, OK)
+2026-04-29 12:26:38.831 BST [68/T114] INFO:  -> Cached DNS queries: 173
+2026-04-29 12:26:38.842 BST [68/T114] INFO:  -> Forwarded DNS queries: 350
+2026-04-29 12:26:38.843 BST [68/T118] INFO: Restored 0 API sessions from the database
+2026-04-29 12:26:38.851 BST [68/T114] INFO:  -> Blocked DNS queries: 0
+2026-04-29 12:26:38.861 BST [68/T114] INFO:  -> Unknown DNS queries: 0
+2026-04-29 12:26:38.870 BST [68/T114] INFO:  -> Unique domains: 114
+2026-04-29 12:26:38.878 BST [68/T114] INFO:  -> Unique clients: 2
+2026-04-29 12:26:38.887 BST [68/T114] INFO:  -> DNS cache records: 0
+2026-04-29 12:26:38.896 BST [68/T114] INFO:  -> Known forward destinations: 2
+2026-04-29 12:26:38.931 BST [68/T114] INFO: Compiled 0 allow and 0 deny regex for 2 clients in 2.3 msec
+2026-04-30 16:13:53.928 BST [68M] INFO: Asked to terminate by "N/A" (PID 6394, user root UID 0)
+2026-04-30 16:13:53.983 BST [68/T114] INFO: Terminating database thread
+2026-04-30 16:13:54.045 BST [68/T117] INFO: Terminating timer thread
+2026-04-30 16:13:54.202 BST [68M] INFO: Finished final database update
+2026-04-30 16:13:54.204 BST [68M] INFO: Waiting for threads to join
+2026-04-30 16:13:54.224 BST [68M] INFO: Thread housekeeper (1) is idle, terminating it.
+2026-04-30 16:13:54.243 BST [68M] INFO: Thread dns-client (2) is idle, terminating it.
+2026-04-30 16:13:54.266 BST [68M] INFO: Thread webserver (7) is idle, terminating it.
+2026-04-30 16:13:54.283 BST [68M] INFO: All threads joined
+2026-04-30 16:13:54.321 BST [68M] INFO: PID file emptied
+2026-04-30 16:13:54.328 BST [68M] INFO: Stored 0 API sessions in the database
+2026-04-30 16:13:54.683 BST [68M] INFO: ########## FTL terminated after 1d 3h 47m 16s  (code 0)! ##########
+2026-04-30 16:17:23.981 BST [69M] INFO: ########## FTL started on 561dd94ba83d! ##########
+2026-04-30 16:17:23.982 BST [69M] INFO: FTL branch: master
+2026-04-30 16:17:23.999 BST [69M] INFO: FTL version: v6.5
+2026-04-30 16:17:24.014 BST [69M] INFO: FTL commit: f8883098
+2026-04-30 16:17:24.032 BST [69M] INFO: FTL date: 2026-02-17 20:20:12 +0000
+2026-04-30 16:17:24.048 BST [69M] INFO: FTL user: pihole
+2026-04-30 16:17:24.065 BST [69M] INFO: Compiled for linux/amd64 (compiled on CI) using cc (Alpine 15.2.0) 15.2.0
+2026-04-30 16:17:24.118 BST [69M] INFO: 2 FTLCONF environment variables found (2 used, 0 invalid, 0 ignored)
+2026-04-30 16:17:24.119 BST [69M] INFO:    [✓] FTLCONF_dns_listeningMode is used
+2026-04-30 16:17:24.135 BST [69M] INFO:    [✓] FTLCONF_dns_upstreams is used
+2026-04-30 16:17:24.174 BST [69M] INFO: Wrote config file:
+2026-04-30 16:17:24.175 BST [69M] INFO:  - 166 total entries
+2026-04-30 16:17:24.192 BST [69M] INFO:  - 162 entries are default
+2026-04-30 16:17:24.210 BST [69M] INFO:  - 4 entries are modified
+2026-04-30 16:17:24.226 BST [69M] INFO:  - 2 entries are forced through environment
+2026-04-30 16:17:24.391 BST [69M] INFO: Parsed config file /etc/pihole/pihole.toml successfully
+2026-04-30 16:17:24.394 BST [69M] INFO: PID file does not exist or not readable
+2026-04-30 16:17:24.410 BST [69M] INFO: No other running FTL process found.
+2026-04-30 16:17:24.427 BST [69M] WARNING: Insufficient permissions to set process priority to -10 (CAP_SYS_NICE required), process priority remains at 0
+2026-04-30 16:17:24.448 BST [69M] INFO: PID of FTL process: 69
+2026-04-30 16:17:24.471 BST [69M] INFO: listening on 0.0.0.0 port 53
+2026-04-30 16:17:24.473 BST [69M] INFO: listening on :: port 53
+2026-04-30 16:17:24.490 BST [69M] INFO: PID of FTL process: 69
+2026-04-30 16:17:24.534 BST [69M] INFO: Database version is 21
+2026-04-30 16:17:24.543 BST [69M] INFO: Database successfully initialized
+2026-04-30 16:17:24.688 BST [69M] WARNING: Insufficient permissions to set system time (CAP_SYS_TIME required), NTP client not available
+2026-04-30 16:17:24.692 BST [69M] INFO: FTL is running as user pihole (UID 1000)
+2026-04-30 16:17:24.691 BST [69/T105] INFO: NTP server listening on 0.0.0.0:123 (IPv4)
+2026-04-30 16:17:24.691 BST [69/T106] INFO: NTP server listening on :::123 (IPv6)
+2026-04-30 16:17:24.714 BST [69/T111] INFO: Reading certificate from /etc/pihole/tls.pem ...
+2026-04-30 16:17:24.718 BST [69M] INFO: Blocking status is enabled
+2026-04-30 16:17:24.742 BST [69/T107] INFO: Imported 0 queries from the on-disk database (it has 2014 rows)
+2026-04-30 16:17:24.745 BST [69/T111] INFO: Using SSL/TLS certificate file /etc/pihole/tls.pem
+2026-04-30 16:17:24.744 BST [69/T107] INFO: Parsing queries in database
+2026-04-30 16:17:24.764 BST [69/T111] INFO: Web server ports:
+2026-04-30 16:17:24.760 BST [69/T107] INFO: Imported 0 queries from the long-term database
+2026-04-30 16:17:24.773 BST [69/T107] INFO:  -> Total DNS queries: 0
+2026-04-30 16:17:24.772 BST [69/T111] INFO:   - 0.0.0.0:80 (HTTP, IPv4, optional, OK)
+2026-04-30 16:17:24.785 BST [69/T111] INFO:   - 0.0.0.0:443 (HTTPS, IPv4, optional, OK)
+2026-04-30 16:17:24.785 BST [69/T107] INFO:  -> Cached DNS queries: 0
+2026-04-30 16:17:24.798 BST [69/T111] INFO:   - [::]:80 (HTTP, IPv6, optional, OK)
+2026-04-30 16:17:24.799 BST [69/T107] INFO:  -> Forwarded DNS queries: 0
+2026-04-30 16:17:24.811 BST [69/T111] INFO:   - [::]:443 (HTTPS, IPv6, optional, OK)
+2026-04-30 16:17:24.811 BST [69/T107] INFO:  -> Blocked DNS queries: 0
+2026-04-30 16:17:24.825 BST [69/T107] INFO:  -> Unknown DNS queries: 0
+2026-04-30 16:17:24.831 BST [69/T111] INFO: Restored 0 API sessions from the database
+2026-04-30 16:17:24.839 BST [69/T107] INFO:  -> Unique domains: 0
+2026-04-30 16:17:24.856 BST [69/T107] INFO:  -> Unique clients: 0
+2026-04-30 16:17:24.871 BST [69/T107] INFO:  -> DNS cache records: 0
+2026-04-30 16:17:24.885 BST [69/T107] INFO:  -> Known forward destinations: 0
+2026-04-30 16:17:24.955 BST [69/T107] INFO: Compiled 0 allow and 0 deny regex for 0 client in 2.8 msec
+2026-05-05 13:39:22.639 BST [68M] INFO: ########## FTL started on 561dd94ba83d! ##########
+2026-05-05 13:39:22.640 BST [68M] INFO: FTL branch: master
+2026-05-05 13:39:22.656 BST [68M] INFO: FTL version: v6.5
+2026-05-05 13:39:22.667 BST [68M] INFO: FTL commit: f8883098
+2026-05-05 13:39:22.681 BST [68M] INFO: FTL date: 2026-02-17 20:20:12 +0000
+2026-05-05 13:39:22.697 BST [68M] INFO: FTL user: pihole
+2026-05-05 13:39:22.711 BST [68M] INFO: Compiled for linux/amd64 (compiled on CI) using cc (Alpine 15.2.0) 15.2.0
+2026-05-05 13:39:22.749 BST [68M] INFO: 2 FTLCONF environment variables found (2 used, 0 invalid, 0 ignored)
+2026-05-05 13:39:22.751 BST [68M] INFO:    [✓] FTLCONF_dns_listeningMode is used
+2026-05-05 13:39:22.765 BST [68M] INFO:    [✓] FTLCONF_dns_upstreams is used
+2026-05-05 13:39:22.792 BST [68M] INFO: Wrote config file:
+2026-05-05 13:39:22.793 BST [68M] INFO:  - 166 total entries
+2026-05-05 13:39:22.805 BST [68M] INFO:  - 162 entries are default
+2026-05-05 13:39:22.819 BST [68M] INFO:  - 4 entries are modified
+2026-05-05 13:39:22.831 BST [68M] INFO:  - 2 entries are forced through environment
+2026-05-05 13:39:22.961 BST [68M] INFO: Parsed config file /etc/pihole/pihole.toml successfully
+2026-05-05 13:39:22.962 BST [68M] INFO: PID file does not exist or not readable
+2026-05-05 13:39:22.973 BST [68M] INFO: No other running FTL process found.
+2026-05-05 13:39:22.984 BST [68M] WARNING: Insufficient permissions to set process priority to -10 (CAP_SYS_NICE required), process priority remains at 0
+2026-05-05 13:39:22.998 BST [68M] INFO: PID of FTL process: 68
+2026-05-05 13:39:23.012 BST [68M] INFO: listening on 0.0.0.0 port 53
+2026-05-05 13:39:23.019 BST [68M] INFO: listening on :: port 53
+2026-05-05 13:39:23.032 BST [68M] INFO: PID of FTL process: 68
+2026-05-05 13:39:23.082 BST [68M] ERROR: SQLite3: recovered 3 frames from WAL file /etc/pihole/pihole-FTL.db-wal (283)
+2026-05-05 13:39:23.085 BST [68M] INFO: Database version is 21
+2026-05-05 13:39:23.103 BST [68M] INFO: Database successfully initialized
+2026-05-05 13:39:23.185 BST [68M] WARNING: Insufficient permissions to set system time (CAP_SYS_TIME required), NTP client not available
+2026-05-05 13:39:23.186 BST [68/T113] INFO: NTP server listening on :::123 (IPv6)
+2026-05-05 13:39:23.186 BST [68/T112] INFO: NTP server listening on 0.0.0.0:123 (IPv4)
+2026-05-05 13:39:23.187 BST [68M] INFO: FTL is running as user pihole (UID 1000)
+2026-05-05 13:39:23.199 BST [68/T118] INFO: Reading certificate from /etc/pihole/tls.pem ...
+2026-05-05 13:39:23.211 BST [68M] INFO: Blocking status is enabled
+2026-05-05 13:39:23.219 BST [68/T114] INFO: Imported 0 queries from the on-disk database (it has 2014 rows)
+2026-05-05 13:39:23.218 BST [68/T118] INFO: Using SSL/TLS certificate file /etc/pihole/tls.pem
+2026-05-05 13:39:23.231 BST [68/T118] INFO: Web server ports:
+2026-05-05 13:39:23.228 BST [68/T114] INFO: Parsing queries in database
+2026-05-05 13:39:23.239 BST [68/T118] INFO:   - 0.0.0.0:80 (HTTP, IPv4, optional, OK)
+2026-05-05 13:39:23.239 BST [68/T114] INFO: Imported 0 queries from the long-term database
+2026-05-05 13:39:23.249 BST [68/T114] INFO:  -> Total DNS queries: 0
+2026-05-05 13:39:23.248 BST [68/T118] INFO:   - 0.0.0.0:443 (HTTPS, IPv4, optional, OK)
+2026-05-05 13:39:23.260 BST [68/T118] INFO:   - [::]:80 (HTTP, IPv6, optional, OK)
+2026-05-05 13:39:23.260 BST [68/T114] INFO:  -> Cached DNS queries: 0
+2026-05-05 13:39:23.268 BST [68/T114] INFO:  -> Forwarded DNS queries: 0
+2026-05-05 13:39:23.268 BST [68/T118] INFO:   - [::]:443 (HTTPS, IPv6, optional, OK)
+2026-05-05 13:39:23.277 BST [68/T118] INFO: Restored 0 API sessions from the database
+2026-05-05 13:39:23.276 BST [68/T114] INFO:  -> Blocked DNS queries: 0
+2026-05-05 13:39:23.283 BST [68/T114] INFO:  -> Unknown DNS queries: 0
+2026-05-05 13:39:23.293 BST [68/T114] INFO:  -> Unique domains: 0
+2026-05-05 13:39:23.301 BST [68/T114] INFO:  -> Unique clients: 0
+2026-05-05 13:39:23.308 BST [68/T114] INFO:  -> DNS cache records: 0
+2026-05-05 13:39:23.315 BST [68/T114] INFO:  -> Known forward destinations: 0
+2026-05-05 13:39:23.346 BST [68/T114] INFO: Compiled 0 allow and 0 deny regex for 0 client in 1.6 msec

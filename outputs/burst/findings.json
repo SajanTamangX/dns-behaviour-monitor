@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "type": "burst_window",
+    "evidence": {
+      "time_bucket": "2026-04-29T12:27:20",
+      "query_count": 100,
+      "threshold": 40.0
+    },
+    "why_flagged": "Query count in time window (100) exceeds baseline p95-driven threshold 40. Unusual high volume."
+  }
+]

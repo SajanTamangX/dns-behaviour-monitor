@@ -6,3 +6,7 @@
 [2026-04-29 12:12:04.436 BST 68] Initializing HTTP server on ports "80o,443os,[::]:80o,[::]:443os"
 [2026-04-29 12:15:45.279 BST 68] Initializing HTTP server on ports "80o,443os,[::]:80o,[::]:443os"
 [2026-04-29 12:20:39.878 BST 68] Initializing HTTP server on ports "80o,443os,[::]:80o,[::]:443os"
+[2026-04-29 12:26:38.767 BST 68] Initializing HTTP server on ports "80o,443os,[::]:80o,[::]:443os"
+[2026-04-30 16:17:24.692 BST 69] Initializing HTTP server on ports "80o,443os,[::]:80o,[::]:443os"
+[2026-05-05 13:39:23.187 BST 68] Initializing HTTP server on ports "80o,443os,[::]:80o,[::]:443os"
+[2026-05-05 13:51:21.056 BST 68] Authentication required, redirecting to /admin/login
