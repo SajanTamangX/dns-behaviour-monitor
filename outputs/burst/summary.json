@@ -1,92 +1,96 @@
 {
-  "total_queries": 102,
-  "unique_domains": 20,
+  "total_queries": 101,
+  "unique_domains": 21,
   "time_range": {
-    "min": "2026-05-05T21:09:52",
-    "max": "2026-05-05T21:09:57"
+    "min": "2026-05-05T21:14:14",
+    "max": "2026-05-05T21:14:17"
   },
   "volume_over_time": [
     {
-      "bucket": "2026-05-05T21:09:50",
-      "count": 102
+      "bucket": "2026-05-05T21:14:10",
+      "count": 101
     }
   ],
   "top_domains": [
     {
-      "domain": "microsoft.com",
-      "count": 11
+      "domain": "netflix.com",
+      "count": 10
     },
     {
-      "domain": "wikipedia.org",
+      "domain": "reddit.com",
+      "count": 10
+    },
+    {
+      "domain": "medium.com",
       "count": 8
     },
     {
-      "domain": "spotify.com",
+      "domain": "github.com",
       "count": 7
     },
     {
-      "domain": "bbc.co.uk",
-      "count": 6
+      "domain": "apple.com",
+      "count": 7
     },
     {
-      "domain": "amazon.com",
-      "count": 6
+      "domain": "wikipedia.org",
+      "count": 7
     },
     {
       "domain": "twitter.com",
       "count": 6
     },
     {
-      "domain": "netflix.com",
-      "count": 6
-    },
-    {
-      "domain": "cloudflare.com",
-      "count": 6
-    },
-    {
-      "domain": "zoom.us",
-      "count": 6
-    },
-    {
-      "domain": "medium.com",
-      "count": 6
-    },
-    {
-      "domain": "slack.com",
-      "count": 6
+      "domain": "linkedin.com",
+      "count": 5
     },
     {
       "domain": "cnn.com",
       "count": 5
     },
     {
-      "domain": "dropbox.com",
+      "domain": "microsoft.com",
+      "count": 5
+    },
+    {
+      "domain": "stackoverflow.com",
       "count": 4
     },
     {
-      "domain": "linkedin.com",
+      "domain": "slack.com",
       "count": 4
     },
     {
-      "domain": "google.com",
+      "domain": "amazon.com",
       "count": 4
-    },
-    {
-      "domain": "reddit.com",
-      "count": 4
-    },
-    {
-      "domain": "apple.com",
-      "count": 3
-    },
-    {
-      "domain": "github.com",
-      "count": 2
     },
     {
       "domain": "youtube.com",
-      "count": 1
+      "count": 3
+    },
+    {
+      "domain": "spotify.com",
+      "count": 3
+    },
+    {
+      "domain": "google.com",
+      "count": 3
+    },
+    {
+      "domain": "dropbox.com",
+      "count": 3
+    },
+    {
+      "domain": "zoom.us",
+      "count": 2
+    },
+    {
+      "domain": "cloudflare.com",
+      "count": 2
+    },
+    {
+      "domain": "bbc.co.uk",
+      "count": 2
     },
     {
       "domain": "pi.hole",
@@ -96,19 +100,19 @@
   "tld_distribution": [
     {
       "tld": "com",
-      "count": 81
+      "count": 89
     },
     {
       "tld": "org",
-      "count": 8
-    },
-    {
-      "tld": "uk",
-      "count": 6
+      "count": 7
     },
     {
       "tld": "us",
-      "count": 6
+      "count": 2
+    },
+    {
+      "tld": "uk",
+      "count": 2
     },
     {
       "tld": "hole",
@@ -118,53 +122,57 @@
   "domain_length_distribution": [
     {
       "domain_length": 7,
-      "count": 12
+      "count": 8
     },
     {
       "domain_length": 9,
-      "count": 15
+      "count": 13
     },
     {
       "domain_length": 10,
-      "count": 22
+      "count": 32
     },
     {
       "domain_length": 11,
-      "count": 24
+      "count": 25
     },
     {
       "domain_length": 12,
-      "count": 4
+      "count": 5
     },
     {
       "domain_length": 13,
-      "count": 19
+      "count": 12
     },
     {
       "domain_length": 14,
-      "count": 6
+      "count": 2
+    },
+    {
+      "domain_length": 17,
+      "count": 4
     }
   ],
   "label_count_distribution": [
     {
       "label_count": 2,
-      "count": 96
+      "count": 99
     },
     {
       "label_count": 3,
-      "count": 6
+      "count": 2
     }
   ],
   "query_type_distribution": [
     {
       "query_type": "A",
-      "count": 102
+      "count": 101
     }
   ],
   "response_code_distribution": [
     {
       "response_code": "NOERROR",
-      "count": 102
+      "count": 101
     }
   ]
 }

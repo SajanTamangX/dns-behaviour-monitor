@@ -1,135 +1,47 @@
 {
-  "total_queries": 110,
-  "unique_domains": 20,
+  "total_queries": 81,
+  "unique_domains": 21,
   "time_range": {
-    "min": "2026-05-05T21:06:10",
-    "max": "2026-05-05T21:09:50"
+    "min": "2026-05-05T21:13:31",
+    "max": "2026-05-05T21:14:11"
   },
   "volume_over_time": [
     {
-      "bucket": "2026-05-05T21:06:10",
-      "count": 5
+      "bucket": "2026-05-05T21:13:30",
+      "count": 17
     },
     {
-      "bucket": "2026-05-05T21:06:20",
-      "count": 6
+      "bucket": "2026-05-05T21:13:40",
+      "count": 21
     },
     {
-      "bucket": "2026-05-05T21:06:30",
-      "count": 5
+      "bucket": "2026-05-05T21:13:50",
+      "count": 20
     },
     {
-      "bucket": "2026-05-05T21:06:40",
-      "count": 5
+      "bucket": "2026-05-05T21:14:00",
+      "count": 20
     },
     {
-      "bucket": "2026-05-05T21:06:50",
-      "count": 6
-    },
-    {
-      "bucket": "2026-05-05T21:07:00",
-      "count": 6
-    },
-    {
-      "bucket": "2026-05-05T21:07:10",
-      "count": 4
-    },
-    {
-      "bucket": "2026-05-05T21:07:20",
-      "count": 7
-    },
-    {
-      "bucket": "2026-05-05T21:07:30",
-      "count": 5
-    },
-    {
-      "bucket": "2026-05-05T21:07:40",
-      "count": 5
-    },
-    {
-      "bucket": "2026-05-05T21:07:50",
-      "count": 6
-    },
-    {
-      "bucket": "2026-05-05T21:08:00",
-      "count": 5
-    },
-    {
-      "bucket": "2026-05-05T21:08:10",
-      "count": 5
-    },
-    {
-      "bucket": "2026-05-05T21:08:20",
-      "count": 6
-    },
-    {
-      "bucket": "2026-05-05T21:08:30",
-      "count": 5
-    },
-    {
-      "bucket": "2026-05-05T21:08:40",
-      "count": 5
-    },
-    {
-      "bucket": "2026-05-05T21:08:50",
-      "count": 6
-    },
-    {
-      "bucket": "2026-05-05T21:09:00",
-      "count": 5
-    },
-    {
-      "bucket": "2026-05-05T21:09:10",
-      "count": 6
-    },
-    {
-      "bucket": "2026-05-05T21:09:40",
-      "count": 2
-    },
-    {
-      "bucket": "2026-05-05T21:09:50",
-      "count": 5
+      "bucket": "2026-05-05T21:14:10",
+      "count": 3
     }
   ],
   "top_domains": [
     {
-      "domain": "reddit.com",
-      "count": 12
+      "domain": "cnn.com",
+      "count": 8
     },
     {
-      "domain": "linkedin.com",
-      "count": 12
-    },
-    {
-      "domain": "apple.com",
-      "count": 10
-    },
-    {
-      "domain": "zoom.us",
-      "count": 9
-    },
-    {
-      "domain": "wikipedia.org",
+      "domain": "twitter.com",
       "count": 7
-    },
-    {
-      "domain": "pi.hole",
-      "count": 6
-    },
-    {
-      "domain": "stackoverflow.com",
-      "count": 6
-    },
-    {
-      "domain": "netflix.com",
-      "count": 6
     },
     {
       "domain": "microsoft.com",
       "count": 6
     },
     {
-      "domain": "slack.com",
+      "domain": "wikipedia.org",
       "count": 6
     },
     {
@@ -138,137 +50,145 @@
     },
     {
       "domain": "medium.com",
-      "count": 6
+      "count": 5
     },
     {
-      "domain": "amazon.com",
-      "count": 6
+      "domain": "apple.com",
+      "count": 5
+    },
+    {
+      "domain": "stackoverflow.com",
+      "count": 4
+    },
+    {
+      "domain": "bbc.co.uk",
+      "count": 4
+    },
+    {
+      "domain": "cloudflare.com",
+      "count": 4
+    },
+    {
+      "domain": "zoom.us",
+      "count": 4
     },
     {
       "domain": "spotify.com",
       "count": 4
     },
     {
-      "domain": "cnn.com",
+      "domain": "reddit.com",
+      "count": 4
+    },
+    {
+      "domain": "youtube.com",
       "count": 3
     },
     {
-      "domain": "1.0.19.172.in-addr.arpa",
+      "domain": "netflix.com",
+      "count": 3
+    },
+    {
+      "domain": "google.com",
+      "count": 2
+    },
+    {
+      "domain": "github.com",
+      "count": 2
+    },
+    {
+      "domain": "linkedin.com",
       "count": 1
     },
     {
-      "domain": "1.0.0.127.in-addr.arpa",
+      "domain": "amazon.com",
       "count": 1
     },
     {
-      "domain": "3.28.28.172.in-addr.arpa",
+      "domain": "slack.com",
       "count": 1
     },
     {
-      "domain": "1.1.1.1.in-addr.arpa",
-      "count": 1
-    },
-    {
-      "domain": "8.8.8.8.in-addr.arpa",
+      "domain": "pi.hole",
       "count": 1
     }
   ],
   "tld_distribution": [
     {
       "tld": "com",
-      "count": 83
-    },
-    {
-      "tld": "us",
-      "count": 9
+      "count": 66
     },
     {
       "tld": "org",
-      "count": 7
-    },
-    {
-      "tld": "hole",
       "count": 6
     },
     {
-      "tld": "arpa",
-      "count": 5
+      "tld": "us",
+      "count": 4
+    },
+    {
+      "tld": "uk",
+      "count": 4
+    },
+    {
+      "tld": "hole",
+      "count": 1
     }
   ],
   "domain_length_distribution": [
     {
       "domain_length": 7,
-      "count": 18
-    },
-    {
-      "domain_length": 9,
-      "count": 16
-    },
-    {
-      "domain_length": 10,
-      "count": 24
-    },
-    {
-      "domain_length": 11,
-      "count": 16
-    },
-    {
-      "domain_length": 12,
-      "count": 12
-    },
-    {
-      "domain_length": 13,
       "count": 13
     },
     {
+      "domain_length": 9,
+      "count": 10
+    },
+    {
+      "domain_length": 10,
+      "count": 14
+    },
+    {
+      "domain_length": 11,
+      "count": 23
+    },
+    {
+      "domain_length": 12,
+      "count": 1
+    },
+    {
+      "domain_length": 13,
+      "count": 12
+    },
+    {
+      "domain_length": 14,
+      "count": 4
+    },
+    {
       "domain_length": 17,
-      "count": 6
-    },
-    {
-      "domain_length": 20,
-      "count": 2
-    },
-    {
-      "domain_length": 22,
-      "count": 1
-    },
-    {
-      "domain_length": 23,
-      "count": 1
-    },
-    {
-      "domain_length": 24,
-      "count": 1
+      "count": 4
     }
   ],
   "label_count_distribution": [
     {
       "label_count": 2,
-      "count": 105
+      "count": 77
     },
     {
-      "label_count": 6,
-      "count": 5
+      "label_count": 3,
+      "count": 4
     }
   ],
   "query_type_distribution": [
     {
       "query_type": "A",
-      "count": 105
-    },
-    {
-      "query_type": "PTR",
-      "count": 5
+      "count": 81
     }
   ],
   "response_code_distribution": [
     {
-      "response_code": "UNKNOWN",
-      "count": 102
-    },
-    {
       "response_code": "NOERROR",
-      "count": 8
+      "count": 81
     }
   ]
 }

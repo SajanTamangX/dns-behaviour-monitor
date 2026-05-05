@@ -1,284 +1,208 @@
 {
-  "total_queries": 78,
-  "unique_domains": 58,
+  "total_queries": 41,
+  "unique_domains": 41,
   "time_range": {
-    "min": "2026-05-05T21:10:22",
-    "max": "2026-05-05T21:10:41"
+    "min": "2026-05-05T21:14:40",
+    "max": "2026-05-05T21:14:56"
   },
   "volume_over_time": [
     {
-      "bucket": "2026-05-05T21:10:20",
-      "count": 33
+      "bucket": "2026-05-05T21:14:40",
+      "count": 25
     },
     {
-      "bucket": "2026-05-05T21:10:30",
-      "count": 42
-    },
-    {
-      "bucket": "2026-05-05T21:10:40",
-      "count": 3
+      "bucket": "2026-05-05T21:14:50",
+      "count": 16
     }
   ],
   "top_domains": [
     {
-      "domain": "amazon.com",
-      "count": 5
-    },
-    {
-      "domain": "stackoverflow.com",
-      "count": 5
-    },
-    {
-      "domain": "microsoft.com",
-      "count": 3
-    },
-    {
-      "domain": "slack.com",
-      "count": 3
-    },
-    {
-      "domain": "twitter.com",
-      "count": 2
-    },
-    {
-      "domain": "zoom.us",
-      "count": 2
-    },
-    {
-      "domain": "spotify.com",
-      "count": 2
-    },
-    {
-      "domain": "cloudflare.com",
-      "count": 2
-    },
-    {
-      "domain": "linkedin.com",
-      "count": 2
-    },
-    {
-      "domain": "reddit.com",
-      "count": 2
-    },
-    {
-      "domain": "github.com",
-      "count": 2
-    },
-    {
-      "domain": "netflix.com",
-      "count": 2
-    },
-    {
-      "domain": "mlkgztfimrbsawcgtfat.nkcpkthoycpnxulziyoc.ncidpjmmfojvtonpmxrp.apxmxfjfykyeqcajqdca.brswliykkkeevxecbbkh.bxwfxtrgrqxpcovopmok.egiiqxdzpnbkweogeyfr.com",
+      "domain": "mysyesnottcoesfckrmi.vgjvamvwxsufndzgwtxz.sapkwmxbsrjouyxzhopa.stmdzllnxdmvtmmxcflc.com",
       "count": 1
     },
     {
-      "domain": "koewvykajyqfqkcqzaid.aiqwosuunvoexydhfqdx.wdvqzimhfnqvuczyuuzy.lphbvjohosppichuhslz.com",
+      "domain": "pfyeltchnzqsxyddiqaw.jaqnoadioezrnjzbewzk.yqrgvhfjewruhywxplkb.ppupktnqstkxkgfbugbb.wheymjldedlbapcfrfzl.ekvpaebgouydyjilgmvt.dolpkjzwacwhdnecmwnj.com",
       "count": 1
     },
     {
-      "domain": "uzthfirzoianbjxodhze.dalitmxdgwoeylrpfvvh.jhssjzmasnyqdrnwdcwk.ovsxvotmjqezqovbmglj.juxotdvrmtpvruntwnjl.com",
+      "domain": "iozvnukqasgzjwsfcspr.icicutohuoaxeokcwktm.juhaupkseijovhgqpxud.yqgplqrrbcbhyntmuvjx.rcmcwhqxzddwypppzkok.cmbuiwdmrzlzmvgfmgpc.xbbaiwdbqbrrhahtlwds.com",
       "count": 1
     },
     {
-      "domain": "apple.com",
+      "domain": "qvokkjjfptcfvhgsbaec.lpffwgyzntysbjqdwuqg.pnnelocdhbfsggucyqac.ctwvkyqzdiwrhtyepibw.veyuifaunzcgpwmjixva.com",
       "count": 1
     },
     {
-      "domain": "akgazwbrkhwxebrhbaal.olzcafqtufnarnqiiamv.caqbunvllutkngugowjg.zbnkczkleealibinenlb.com",
+      "domain": "zpcecuhvdvytxqzgxppy.mmzjgddczqjecditkivp.cnwbsmludqqgwocomzyc.ybvalzohtoyaktqkthfi.njlpgyrfpbdpmbivcdgq.vjgoxixibptunkrqtrsu.fpmrkhbodfgpfnxfzxhu.com",
       "count": 1
     },
     {
-      "domain": "tyrrdlimufwxdfgnuvnl.asoibftvmppaeurgllqv.riscffxajobzwawuongw.udqjimhqhemkklnchvif.brfukyrwdpktqprbtqho.icvtnywbswovmhecpqnm.com",
+      "domain": "ziieehxgpaqksqouyzev.ibjupyobqceuogizssmm.sbxosknbcxqywobslnop.uxgujyselfqvapnbjweg.qpradbkduvwbffifludn.ektfdvlmbgusirtpgswh.oiysnrddvnjjlzpaextf.com",
       "count": 1
     },
     {
-      "domain": "rntnzrzwlnbaqmjubmrz.yzcdastrcfimgmnfimnu.ubwbfdfikymnkroihqty.vwfoifmvcmhhabfafzsn.com",
+      "domain": "wktutzxyykrcireejvpz.nbxzjgxgkzjhiqaxzims.jakxclkxwqvopuvrsddr.uvjnzvbjoszycercwvia.com",
       "count": 1
     },
     {
-      "domain": "jpoheozrelyaoacuwokx.hotjbqvhwxkdpxpsibxu.ggwzonkyfkipsfxgikgo.xaldubtcqfwrabujdqyh.com",
+      "domain": "fibbtmoxfdunaeomshff.lencgbhglvtavbtomzxo.dlqpobnrghvetklwekra.znceboreluzvaiylrmxm.xjrcldueospasmpucodx.axdzrjhlsrybbwaldtbg.com",
       "count": 1
     },
     {
-      "domain": "zqahityiqgelonlkiujo.flvwrqghcqzpsyqdvgji.gbsgtobzxkznthvtczhy.rrnspkdiqhukzuxaplhe.qlouxivforzbkcvrhtys.com",
+      "domain": "taoxpboljmttyhdxlvhn.mgoxhzxpfognpusukwrl.cwexrutxfigidzdbwwzk.bpqlltuaxwrtmylieedo.yrmrobrullzvwctznmra.nmsubpnbgjwqavlifbio.nvmimvkqqcocizjvbinc.com",
       "count": 1
     },
     {
-      "domain": "hnmrgzlmewjuouorvtgg.egvudirnhsjlqbgzqyrj.llddhbtuvdznpybzzxrt.tskxzvozjlmllydimdbw.yezmpedvawqamuvbttbd.xnnugfhtwuecifkvasoa.amfxljnixpbvnrrsvrqn.com",
+      "domain": "ymdjdkpyycywyzihbogg.czkpjpvcuaffxdkwsiee.ogjwyednkuprwpftqrqd.wxlirfekcocoyqkjxzbz.ppmjtcxssryeetvlocfh.hjilgehbkqcmixxdjdbc.ftcbrsblcnthhdboygjo.com",
       "count": 1
     },
     {
-      "domain": "zpiawucccbjdnkteewvm.rfmupsgnbnigdnscurtw.ujjmvocwawwupcqwzkgc.efxtndkxezddrzqeqayq.oimvatecgrnrfcvxuuah.vxnngirpmohsgkawztdl.com",
+      "domain": "szefxtyajyjbykfnfcmp.bjkfpreeojuqlqljpopx.xamsivuorgomkfksnvxh.ogrzbvfnvgebcdcwzltp.com",
       "count": 1
     },
     {
-      "domain": "jepctaqoilivebmabwig.glyklsstnnkhlmvoyafk.uffhitaauqpfjiyqxhit.fdunsssfknoovrzsscgb.rmjahswiokzduddwtbgm.lcapagocskcoydvtkpvw.nbhscnidbumyqzxbuzeb.com",
+      "domain": "tfozgrjeuqbetpzqqrif.vykhobsvpvvymlavpmsp.hpttswqvnfcjtgsdjclz.gxmiibhnzsvjivrdugoq.vthcpuoavfsevtwdvltz.ujnneuygedxzkppugmli.com",
       "count": 1
     },
     {
-      "domain": "google.com",
+      "domain": "dzsvssteetxdtvzkctnn.jmvnaxrviuzggfxspdny.pdkvmcpsftqxerolccui.tfmkhycnggnnbklqlwvk.zixmzxirvbxjekgptwvd.xoesrpjmamdpxbysolid.jvrbwpdgzysyobccxysr.com",
       "count": 1
     },
     {
-      "domain": "fjfyrflyijhzygeotmaj.puxeznteqatejqxykaed.jnikcnhqqtflswklalpz.cstpulhdxkqlcjatical.bulsrbeeqwqruilkflrv.hxwasstxtjsfcwmgintl.cvwoyrxzfqrouxvzdrid.com",
+      "domain": "tginvfiqzzbhcpstfvfx.ihtwujzjnwfbnzgwieov.jwditwxsvvogpngvwbng.wcdjitdzxfuvamohifjm.com",
       "count": 1
     },
     {
-      "domain": "pvkjedcbxmccspcylssf.urnocptwiliuyziezklc.stigzgiuoyhqdufmlaep.qlzhipdtqvextirohtlt.ujdpouknjqalbkubdopc.com",
+      "domain": "whrjkwrrpdnruhrfkikd.zdfqxvlrjsatpcpirlqf.vgwjzrezutrbdlsnatgp.txkazcutnjyrakibodnu.com",
       "count": 1
     },
     {
-      "domain": "padhxdgpemrxwsmquacj.cavyefwbetopykgkmpqm.umoceywobyqbdfkmfbau.ihexphiamosjdifkuprv.com",
+      "domain": "msccjzcpqslevshsyhwu.bvmbglarptwpkjbkqdrd.lumwnbvvuaibigozqmzs.orbiphkjdopjsdgngfqi.isxmalhdfifvdihtzglu.com",
       "count": 1
     },
     {
-      "domain": "htcnnwcuomgugogzyhjt.qfymzuakhgayecbbskxv.wmyxrnqzikdqudvxsycb.clsrbrqlxzhfnvjmmwrh.rssiiyavtokmqwopecmb.com",
+      "domain": "wtywjmnxiymdaxfkglmv.czejeiiwjaapzlrltkwi.uwzgzdeseesuqvasptyp.xgqfpijrfsdaefpcftbq.com",
       "count": 1
     },
     {
-      "domain": "medium.com",
+      "domain": "jhhtaczzcehuevehbamm.ukjlgvaizvzkadsuzfhr.mpydzogftgselsvbjmjy.kygtszushbilimxprdel.com",
       "count": 1
     },
     {
-      "domain": "rlbtthsmszkoagqwqnsf.cpzakrbnunsqcbtaedwr.ectuvprttvouyrlgsqdh.buriflbgcgkqnarpmckm.kjlqmfpoppfshrewwqnq.olliinihgyrwbmamegzc.tmsgjodttjpujgpukrxr.com",
+      "domain": "xndrwtzmdwnmmtmeanof.ztxgocmcxrtisaoinscb.nyixdkeenazdcpxyxxzj.opkdaownhfezhvbylxzn.com",
       "count": 1
     },
     {
-      "domain": "ttoqutqmaqwavwlnmjck.rtnlwdiaaaleexhdeabi.gsbgmnmfacscjiekcwyt.whopbixfzfjxmlkgdfcx.pqipabxxjnujvhhjhquk.com",
+      "domain": "pi.hole",
       "count": 1
     },
     {
-      "domain": "dtuyuhjvajleyzrkueie.ymlbqvfodlmezfdjclqc.abyvziidbugmmcdznknx.gablqmlbnynexmafwtca.rdqxltggyculmxeyuirt.kzfuzmbnmuezftzambza.com",
+      "domain": "zzuxqtimhvtsfjvtkhwz.errhayyslcstogmlzlrg.gykdanhjxurahhemstch.yppzmstwoyiivhuwrxth.com",
       "count": 1
     },
     {
-      "domain": "klbnoaxdtohpmrsswkva.kuerfgurmrhobumoexsy.awxbhqacpdqlnzewmhhw.hgykzvyszuoypkpmoztg.vflfwdsklyjqoiquxaxg.com",
+      "domain": "pluolalfhljfusctdeii.kytatqvycszuydxyuubz.bchkjuwjplssjxurymic.ajgeekmfcitwboltulkk.dwtdlrqnkjwuwgbwplzb.fkdogpjopyflyfppxtus.com",
       "count": 1
     },
     {
-      "domain": "pacptyojsziukptpwukj.keizokimhrarsnhqzgtd.cpolewgwdzaqgtmccbfa.tjecnjhoikezgahwaxeb.zpadaiwippylzsleiips.hhvpkxjqeskfmnwfrwvs.com",
+      "domain": "fnietlagqaeustnkxsfd.uuhmcsqyzymyittxswch.qkfdwfawvxfpwmmclanb.aralndiwxzukokphgkns.com",
       "count": 1
     },
     {
-      "domain": "xzcpdyfftwzyblcxmdkc.aupbuvdewnsitobnzqgl.zcuvibyxdaientblwxpl.cjplqidonfiyvlgyazrr.com",
+      "domain": "ryeclcnygbjwgtpwnzau.rcwyfcqenbwovmyhdzfs.twaxgucnqorrfdjelnvi.rnjcubxccncwcdcywbfo.com",
       "count": 1
     },
     {
-      "domain": "xuvunnxtjtazqgagyibo.sowagpcaikcgkhayhjia.oclqtpmoaugmuxrhelhj.tyzgymvbjphtzanzrlfr.gtsmqdfbnkhguftyevus.xngvyljebljfgtizaypx.com",
+      "domain": "igbjiksypqytcyekakyj.zlxjwqfizegzrtmdwvba.ynorsuljfyhtjlpvqpyz.ucvtbchjewezdfiqjudo.eeggmujktvegbhbqxnci.fiirapyfwdznorznzstb.com",
       "count": 1
     },
     {
-      "domain": "ermymxsurtqjqygmczrq.liwgzvlkvmkadejfxrro.psjuggusexcclxqweayo.qeewgcrdchwqptpoocdw.com",
+      "domain": "kgxlwwoxhonvgakbnjhq.qvqeanczzafjkuxmbpkz.lfenafqarhwovfcgeofu.oedegeradwzxlnjafppj.rrsistqgptqjnuclkkpl.yraaarckfwnuuimdjfda.zfpbpiouaqeamtowiupl.com",
       "count": 1
     },
     {
-      "domain": "sxndtxjvbreckecowxmz.wqxbwebqhrdrokcmihsy.wiuqdirtauvogjyzfacg.onmewcpppgafqqwbjrrn.com",
+      "domain": "lcfxjkslqxnnrhmrnimy.tuhurbvkfuclbianlidx.nxgglfcwmzfxlkmojhog.cwimkovfvucvkqzypjnf.bsltkykkulepxeeobrnn.zhlwuxgauruortqzeiwk.pvynbbuudqiafbegywfv.com",
       "count": 1
     },
     {
-      "domain": "kpbebsqdnvyhihlgkhos.rrbhcedycgpcmjipqvru.vtsimfavgyfztfexlwvg.ktmpgmhroctbyklswgeq.com",
+      "domain": "iptgagpyobbyyyrpltuj.poctfanyhpgnjlvujqqz.kezfzjjfrdzgcwjcarbe.oavlqbghsxbpjecpagbj.com",
       "count": 1
     },
     {
-      "domain": "wikipedia.org",
+      "domain": "dwonuwxskxredmvqeqrb.readkjilblbmwxzmyruy.famsdrdydsnretmuoztg.trswabduyqyxhogccuew.jpzexgrlrxzqeplzbgwu.ldnvnkzskmubqsqndfqi.com",
       "count": 1
     },
     {
-      "domain": "lvcwxoxtjmubldyxmily.dbfshtizaerdrxcreuqe.uipgswqidxarqoplfjzg.ubmmjpwgmtxhfbksejdg.com",
+      "domain": "gvtuszemudhbzqrraxsa.wnrmocmsonktgfzogbdk.ahosaejcaarjfpvvluxz.clprmuoiigxezedebyvw.com",
       "count": 1
     },
     {
-      "domain": "ziuyojbxfwzbjrsffajv.eozlwdapiaihsfjmfsas.gxqzeiivtorusybirrmc.kfulvvdudkwdqqelahrt.gqauhzxmehjjlqyugvbs.com",
+      "domain": "nzonllraasohfnymxcps.mirzoayhqdnynahahntd.auncjnnirwawgemkitvp.fqlazqyqqlmgntbcriwc.cakrnkrwhvveccxwbrzj.kgqzrdikxjicuwzxeyhc.com",
       "count": 1
     },
     {
-      "domain": "ynedkxciacirfiokesyw.bmkydzoqvasfmcfbfvsm.emsitdliwfiqfswrisol.kkhnrklzemdxwyuixsyg.fxctfnmwbwbtzhxtanxc.yonaqryyzdfdcejnqrte.xpkdgilclstkyqzzmvrb.com",
+      "domain": "ouswwjesgdzdnkurlysb.fegrjsiomnpbfkgpgvnq.wbjblytgzpwldznyngmd.fwuolvpabzqwyhabtvyy.com",
       "count": 1
     },
     {
-      "domain": "yortevsgpjizecxysjfc.uhavozhiaspcmgefritm.ruqrrhmsqjonvzkureaw.njtpibkxfkmxmflmgqwv.zadtozjvzoajgzvteqwq.qwmufxyswevuluzzvdph.com",
+      "domain": "mjuqrpwrailcgohlweab.mcqlxfnkahycekikorvm.izftvawiicrxdntwtiox.evmnmyombsqjjkautina.vdehvocaejnyhahqkkeu.nwbjvqwalqaevfzrbtwq.urpneccfogvybevgcjuw.com",
       "count": 1
     },
     {
-      "domain": "piybgohbvfyyrifaezgo.nxtwdujxhzkmbzheacut.prswgkyxrqrroivvwcuk.poqnfxcmurriqhapwhox.qkaawmtukcquuybjmbwl.bovabnwzdzpfapvwsuws.com",
+      "domain": "mtnkerdpmidtcgcnblws.phjbrivhpenfuntrinjd.gssjvtqvukfwwngvrtyx.ufxzbqhswzoiyaskdjni.com",
       "count": 1
     },
     {
-      "domain": "cnn.com",
+      "domain": "rxyuvfhpfecmsdvlfwgh.hsxetbxyzijosiwlcjhb.suhxfwhdzaazmwodtzst.jfkqpuguspewhlfeuvqk.ukbtsjhowonfnoqmzthm.ozehsmgbybwnyobcmgvw.com",
       "count": 1
     },
     {
-      "domain": "ahscxlakeyiuylzpncfm.cvfbnqecnpdgaspqpuzc.ezzaduliubykahexnnwq.udvqnotakskmtduxyclz.ckxtjgigalymlzzzuhts.com",
+      "domain": "ywhadshlaakkjgnzescn.vqllgssatgdqkbojeylk.xvfahwfrbzrbyvgraywh.wcdhesaklypxqpapnsrm.com",
       "count": 1
     },
     {
-      "domain": "yfbwfslmcdtyqzevjrwm.rtlguqmabshntdmbxyvd.mfwugkcrxuvmosrxyctn.vjzldqyivhjpqetieoww.oefeosmueznvzalhapzo.com",
+      "domain": "vnpvsdrxuvjjwrfmvjfo.heyiqhvvyndtnglwrkho.gncktpqayeknkglokxra.wfkddjyswzcvjosjjqfl.com",
       "count": 1
     },
     {
-      "domain": "dwkegtqeigfuuwxmeyry.ehrxpcheeeivvqttimkj.kylwxhuujafmnmryaxht.snxzarqqklxgyhaghhps.com",
+      "domain": "lvlpzdespfttfsiqmhwb.yjkqcvuenddwmkjivhpk.fmrefatviyxjobymolnz.tazdaivopdycbrupcnec.com",
+      "count": 1
+    },
+    {
+      "domain": "hkpuuwvewtcnvtuyehsa.bpuemtiwyguamyjcmtmu.yfwjaemlgnmptyigzlgo.mwylxecpsubhqrbzmdnr.com",
+      "count": 1
+    },
+    {
+      "domain": "keysavjzinascceqhmko.kwropdohtyqgqtdpizkh.eghnayakzpcvepgzbcyk.wwsfbtmzvfyadeqizpds.com",
+      "count": 1
+    },
+    {
+      "domain": "fyvwqgrhxwfdleesqtqv.zhdxptnklanrncixwssp.eskmmdyrxsnopzjacadc.dwywkjebjodsswhswaym.com",
       "count": 1
     }
   ],
   "tld_distribution": [
     {
       "tld": "com",
-      "count": 74
+      "count": 40
     },
     {
-      "tld": "us",
-      "count": 2
-    },
-    {
-      "tld": "org",
-      "count": 1
-    },
-    {
-      "tld": "uk",
+      "tld": "hole",
       "count": 1
     }
   ],
   "domain_length_distribution": [
     {
       "domain_length": 7,
-      "count": 3
-    },
-    {
-      "domain_length": 9,
-      "count": 5
-    },
-    {
-      "domain_length": 10,
-      "count": 11
-    },
-    {
-      "domain_length": 11,
-      "count": 6
-    },
-    {
-      "domain_length": 12,
-      "count": 2
-    },
-    {
-      "domain_length": 13,
-      "count": 4
-    },
-    {
-      "domain_length": 14,
-      "count": 2
-    },
-    {
-      "domain_length": 17,
-      "count": 5
+      "count": 1
     },
     {
       "domain_length": 87,
-      "count": 15
+      "count": 21
     },
     {
       "domain_length": 108,
-      "count": 11
+      "count": 2
     },
     {
       "domain_length": 129,
@@ -286,25 +210,21 @@
     },
     {
       "domain_length": 150,
-      "count": 7
+      "count": 10
     }
   ],
   "label_count_distribution": [
     {
       "label_count": 2,
-      "count": 37
-    },
-    {
-      "label_count": 3,
       "count": 1
     },
     {
       "label_count": 5,
-      "count": 15
+      "count": 21
     },
     {
       "label_count": 6,
-      "count": 11
+      "count": 2
     },
     {
       "label_count": 7,
@@ -312,13 +232,13 @@
     },
     {
       "label_count": 8,
-      "count": 7
+      "count": 10
     }
   ],
   "query_type_distribution": [
     {
       "query_type": "A",
-      "count": 78
+      "count": 41
     }
   ],
   "response_code_distribution": [
@@ -328,7 +248,7 @@
     },
     {
       "response_code": "NOERROR",
-      "count": 38
+      "count": 1
     }
   ]
 }

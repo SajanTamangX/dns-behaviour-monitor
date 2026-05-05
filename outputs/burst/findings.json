@@ -2,11 +2,11 @@
   {
     "type": "burst_window",
     "evidence": {
-      "time_bucket": "2026-05-05T21:09:50",
-      "query_count": 102,
-      "threshold": 12.0
+      "time_bucket": "2026-05-05T21:14:10",
+      "query_count": 101,
+      "threshold": 41.6
     },
-    "why_flagged": "Query count in time window (102) exceeds baseline p95-driven threshold 12. Unusual high volume."
+    "why_flagged": "Query count in time window (101) exceeds baseline p95-driven threshold 42. Unusual high volume."
   },
   {
     "type": "rare_tld",

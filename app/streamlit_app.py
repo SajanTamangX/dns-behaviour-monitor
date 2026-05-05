@@ -564,19 +564,19 @@ def main():
         st.markdown(f'<div style="font-size:.65rem;color:{C_MUTED};letter-spacing:2px;'
                     'text-transform:uppercase;margin-bottom:8px;">Active Dataset</div>',
                     unsafe_allow_html=True)
-        selected = st.selectbox("", datasets, key="dataset",
+        selected = st.selectbox("Select dataset", datasets, key="dataset",
                                 label_visibility="collapsed")
 
         st.markdown(f'<div style="margin-top:20px;font-size:.65rem;color:{C_MUTED};'
                     'letter-spacing:2px;text-transform:uppercase;margin-bottom:8px;">'
                     'Compare Datasets</div>', unsafe_allow_html=True)
-        compare_sel = st.multiselect("", datasets,
+        compare_sel = st.multiselect("Compare datasets", datasets,
                                      default=datasets[:min(3, len(datasets))],
                                      key="compare", label_visibility="collapsed")
 
         st.markdown(f"<hr style='border-color:{C_BORDER};margin:20px 0;'>",
                     unsafe_allow_html=True)
-        run_clicked = st.button("⚡  Re-run Analysis", use_container_width=True)
+        run_clicked = st.button("⚡  Re-run Analysis", width="stretch")
 
         # Sidebar rule legend
         st.markdown(f"""
@@ -728,7 +728,7 @@ def main():
         card_open("Module 03", "SIGNAL · QUERY VOLUME OVER TIME")
         fig = chart_volume(metrics.get("volume_over_time") or [])
         if fig:
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width="stretch")
         else:
             st.markdown('<div class="no-data">No volume-over-time data.</div>',
                         unsafe_allow_html=True)
@@ -762,7 +762,7 @@ def main():
         card_open("Module 05", "SPECTRUM · TLD DISTRIBUTION")
         fig = chart_tld(metrics.get("tld_distribution") or [])
         if fig:
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width="stretch")
         else:
             st.markdown('<div class="no-data">No TLD data.</div>',
                         unsafe_allow_html=True)
@@ -772,7 +772,7 @@ def main():
         card_open("Module 06", "SIGNATURE · DOMAIN LENGTH")
         fig = chart_length(metrics.get("domain_length_distribution") or [])
         if fig:
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width="stretch")
         else:
             st.markdown('<div class="no-data">No length data.</div>',
                         unsafe_allow_html=True)
@@ -782,7 +782,7 @@ def main():
     card_open("Module 07", "FREQUENCY · TOP DOMAIN BREAKDOWN")
     fig = chart_top_domains(metrics.get("top_domains") or [])
     if fig:
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
     else:
         st.markdown('<div class="no-data">No data.</div>', unsafe_allow_html=True)
     card_close()
@@ -793,7 +793,7 @@ def main():
         card_open("Module 08", "DEPTH · SUBDOMAIN STRUCTURE  (label count)")
         fig = chart_label_count(metrics.get("label_count_distribution") or [])
         if fig:
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width="stretch")
         else:
             st.markdown(f"""
             <div class="no-data">No label-count data yet.<br>
@@ -805,7 +805,7 @@ def main():
         card_open("Module 09", "RECORD TYPES · QUERY TYPE DISTRIBUTION")
         fig = chart_query_types(metrics.get("query_type_distribution") or [])
         if fig:
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width="stretch")
         else:
             st.markdown(f"""
             <div class="no-data">No query-type data yet.<br>
@@ -817,7 +817,7 @@ def main():
     card_open("Module 10", "RESPONSE CODES · RFC 1035 RCODE DISTRIBUTION")
     fig = chart_response_codes(metrics.get("response_code_distribution") or [])
     if fig:
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
     else:
         st.markdown(f"""
         <div class="no-data">No response-code data yet.<br>
@@ -831,7 +831,7 @@ def main():
     if all_ds:
         fig = chart_rules_heatmap(all_ds)
         if fig:
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width="stretch")
     else:
         st.markdown('<div class="no-data">No datasets found.</div>',
                     unsafe_allow_html=True)
@@ -842,7 +842,7 @@ def main():
     if compare_sel:
         fig = chart_compare(compare_sel)
         if fig:
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width="stretch")
         else:
             st.markdown('<div class="no-data">Run analysis on each dataset first.</div>',
                         unsafe_allow_html=True)
