@@ -1,28 +1,0 @@
-[K  [✓] DNS resolution is available
-
-  [i] Neutrino emissions detected...
-
-  [i] Preparing new gravity database...[K  [✓] Preparing new gravity database
-  [i] Creating new gravity databases...[K  [✓] Creating new gravity databases
-[K  [✓] Pulling blocklist source list into range
-  [i] Using libz compression
-
-  [i] Target: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-  [i] Status: Pending...[K  [✓] Status: Retrieval successful
-  [i] List has been updated
-  [✓] Parsed 87771 exact domains and 0 ABP-style domains (blocking, ignored 1 non-domain entries)
-      Sample of non-domain entries:
-        - fe80::1%lo0
-
-  [i] Building tree...[K  [✓] Building tree
-  [i] Number of gravity domains: 87771 (87771 unique domains)
-  [i] Number of exact denied domains: 0
-  [i] Number of regex denied filters: 0
-  [i] Number of exact allowed domains: 0
-  [i] Number of regex allowed filters: 0
-  [i] Optimizing database...[K  [✓] Optimizing database
-  [i] Swapping databases...[K  [✓] Swapping databases
-  [✓] The old database remains available
-  [i] Cleaning up stray matter...[K  [✓] Cleaning up stray matter
-
-  [✓] Done.
