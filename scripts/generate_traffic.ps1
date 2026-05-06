@@ -2,7 +2,9 @@
 param(
     [Parameter(Mandatory = $true)]
     [ValidateSet("baseline", "burst", "nxdomain", "longdomain")]
-    [string]$Profile
+    [string]$Profile,
+    [double]$Timeout = 1.0,
+    [switch]$QuietTimeouts
 )
 $ErrorActionPreference = "Stop"
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
@@ -11,5 +13,9 @@ $PythonScript = Join-Path $ScriptDir "generate_dns.py"
 # Prefer project venv if present
 $VenvPython = Join-Path (Join-Path $Root ".venv") "Scripts\\python.exe"
 if (Test-Path $VenvPython) { $Py = $VenvPython } else { $Py = "python" }
-& $Py $PythonScript --profile $Profile
+$Args = @($PythonScript, "--profile", $Profile, "--timeout", $Timeout)
+if ($QuietTimeouts) {
+    $Args += "--quiet-timeouts"
+}
+& $Py @Args
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

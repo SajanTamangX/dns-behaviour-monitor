@@ -2,21 +2,10 @@
   {
     "type": "burst_window",
     "evidence": {
-      "time_bucket": "2026-05-05T21:14:10",
-      "query_count": 101,
-      "threshold": 12.0
+      "time_bucket": "2026-05-06T15:56:00",
+      "query_count": 100,
+      "threshold": 41.6
     },
-    "why_flagged": "Query count in time window (101) exceeds baseline p95-driven threshold 12. Unusual high volume."
-  },
-  {
-    "type": "rare_tld",
-    "evidence": {
-      "tld": "hole",
-      "count": 1,
-      "sample_domains": [
-        "pi.hole"
-      ]
-    },
-    "why_flagged": "TLD 'hole' appears in <1% of queries. Unusual behaviour."
+    "why_flagged": "Query count in time window (100) exceeds baseline p95-driven threshold 42. Unusual high volume."
   }
 ]

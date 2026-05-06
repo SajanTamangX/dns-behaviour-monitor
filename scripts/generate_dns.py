@@ -5,9 +5,11 @@ Uses dnspython for port-configurable queries (nslookup on Windows cannot set por
 """
 import argparse
 import random
+import socket
 import string
 import time
 import sys
+from collections import Counter
 
 try:
     import dns.resolver
@@ -31,64 +33,79 @@ BASELINE_DOMAINS = [
 
 
 def query_a(domain: str) -> tuple[bool, str | None]:
-    """Send A query to resolver; return (success, rcode_or_none)."""
-    resolver = dns.resolver.Resolver(configure=False)
-    resolver.nameservers = [DNS_SERVER]
-    resolver.port = DNS_PORT
-    resolver.timeout = DNS_TIMEOUT_SECONDS
-    resolver.lifetime = DNS_TIMEOUT_SECONDS
-    resolver.retry_servfail = False
+    """Send an A query packet to Pi-hole without waiting for upstream replies.
+
+    This keeps dataset generation reliable in environments where Docker egress
+    DNS is blocked or intermittent, while still producing Pi-hole query logs.
+    """
     try:
-        resolver.resolve(domain, "A")
+        query = dns.message.make_query(domain, "A")
+        payload = query.to_wire()
+        with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as sock:
+            sock.settimeout(DNS_TIMEOUT_SECONDS)
+            sock.sendto(payload, (DNS_SERVER, DNS_PORT))
         return True, None
-    except dns.resolver.NXDOMAIN:
-        return False, "NXDOMAIN"
     except Exception as e:
         return False, str(type(e).__name__)
 
 
-def run_baseline(count: int = 80, sleep_sec: float = 0.5) -> None:
-    """Normal popular domains over time."""
-    for _ in range(count):
-        domain = random.choice(BASELINE_DOMAINS)
-        ok, rcode = query_a(domain)
-        print(f"  {domain} -> {'ok' if ok else rcode}")
-        time.sleep(sleep_sec)
+def emit_result(
+    domain: str,
+    ok: bool,
+    rcode: str | None,
+    quiet_timeouts: bool,
+    stats: Counter[str],
+) -> None:
+    result = "ok" if ok else (rcode or "ERROR")
+    stats[result] += 1
+    if quiet_timeouts and result == "LifetimeTimeout":
+        return
+    print(f"  {domain} -> {result}")
 
 
-def run_burst(count: int = 100, sleep_sec: float = 0.02) -> None:
-    """Rapid repeated queries (high QPS)."""
-    domains = random.choices(BASELINE_DOMAINS, k=count)
+def run_queries(domains: list[str], sleep_sec: float, quiet_timeouts: bool) -> Counter[str]:
+    stats: Counter[str] = Counter()
     for domain in domains:
         ok, rcode = query_a(domain)
-        print(f"  {domain} -> {'ok' if ok else rcode}")
+        emit_result(domain, ok, rcode, quiet_timeouts, stats)
         time.sleep(sleep_sec)
+    return stats
 
 
-def run_nxdomain(count: int = 50, sleep_sec: float = 0.3) -> None:
+def run_baseline(count: int = 80, sleep_sec: float = 0.5, quiet_timeouts: bool = False) -> Counter[str]:
+    """Normal popular domains over time."""
+    domains = [random.choice(BASELINE_DOMAINS) for _ in range(count)]
+    return run_queries(domains, sleep_sec, quiet_timeouts)
+
+
+def run_burst(count: int = 100, sleep_sec: float = 0.02, quiet_timeouts: bool = False) -> Counter[str]:
+    """Rapid repeated queries (high QPS)."""
+    domains = random.choices(BASELINE_DOMAINS, k=count)
+    return run_queries(domains, sleep_sec, quiet_timeouts)
+
+
+def run_nxdomain(count: int = 50, sleep_sec: float = 0.3, quiet_timeouts: bool = False) -> Counter[str]:
     """Random non-existent domains (failed lookups for heuristic)."""
+    domains: list[str] = []
     for _ in range(count):
         # Random subdomain + random string so it almost certainly does not exist
         label = "".join(random.choices(string.ascii_lowercase, k=12))
         tld = random.choice(["com", "net", "org", "xyz"])
-        domain = f"{label}.nonexistent-{label}.{tld}"
-        ok, rcode = query_a(domain)
-        print(f"  {domain} -> {'ok' if ok else rcode}")
-        time.sleep(sleep_sec)
+        domains.append(f"{label}.nonexistent-{label}.{tld}")
+    return run_queries(domains, sleep_sec, quiet_timeouts)
 
 
-def run_longdomain(count: int = 40, sleep_sec: float = 0.4) -> None:
+def run_longdomain(count: int = 40, sleep_sec: float = 0.4, quiet_timeouts: bool = False) -> Counter[str]:
     """Deep subdomain / long domain strings."""
+    domains: list[str] = []
     for _ in range(count):
         # Very long subdomain chain
         parts = [
             "".join(random.choices(string.ascii_lowercase, k=20))
             for _ in range(random.randint(4, 7))
         ]
-        domain = ".".join(parts) + ".com"
-        ok, rcode = query_a(domain)
-        print(f"  {domain} -> {'ok' if ok else rcode}")
-        time.sleep(sleep_sec)
+        domains.append(".".join(parts) + ".com")
+    return run_queries(domains, sleep_sec, quiet_timeouts)
 
 
 def main() -> None:
@@ -102,6 +119,11 @@ def main() -> None:
         type=float,
         default=DNS_TIMEOUT_SECONDS,
         help="Per-query timeout in seconds (default: 1.0)",
+    )
+    p.add_argument(
+        "--quiet-timeouts",
+        action="store_true",
+        help="Do not print per-domain LifetimeTimeout lines; print summary instead.",
     )
     args = p.parse_args()
     DNS_TIMEOUT_SECONDS = max(0.1, args.timeout)
@@ -123,13 +145,17 @@ def main() -> None:
         f"timeout={DNS_TIMEOUT_SECONDS}s  target={DNS_SERVER}:{DNS_PORT}"
     )
     if args.profile == "baseline":
-        run_baseline(count, sleep_sec)
+        stats = run_baseline(count, sleep_sec, args.quiet_timeouts)
     elif args.profile == "burst":
-        run_burst(count, sleep_sec)
+        stats = run_burst(count, sleep_sec, args.quiet_timeouts)
     elif args.profile == "nxdomain":
-        run_nxdomain(count, sleep_sec)
+        stats = run_nxdomain(count, sleep_sec, args.quiet_timeouts)
     else:
-        run_longdomain(count, sleep_sec)
+        stats = run_longdomain(count, sleep_sec, args.quiet_timeouts)
+    if args.quiet_timeouts and stats.get("LifetimeTimeout", 0):
+        print(f"  LifetimeTimeouts suppressed: {stats['LifetimeTimeout']}")
+    totals = ", ".join(f"{k}={v}" for k, v in sorted(stats.items()))
+    print(f"Results: {totals if totals else 'none'}")
     print("Done.")
 
 

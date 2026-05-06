@@ -4,6 +4,7 @@
 $ErrorActionPreference = "Stop"
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $Root = Resolve-Path (Join-Path $ScriptDir "..")
+$TrafficTimeout = 1.0
 
 Write-Host "1. Starting Pi-hole (first run may take 1-3 min to pull image/init)..."
 & (Join-Path $ScriptDir "pihole_up.ps1")
@@ -32,25 +33,25 @@ if ($waited -ge $maxWait) {
 
 Write-Host "2. Generating baseline and exporting..."
 & (Join-Path $ScriptDir "flush_pihole_log.ps1")
-& (Join-Path $ScriptDir "generate_traffic.ps1") -Profile baseline
+& (Join-Path $ScriptDir "generate_traffic.ps1") -Profile baseline -Timeout $TrafficTimeout -QuietTimeouts
 Start-Sleep -Seconds 2
 & (Join-Path $ScriptDir "export_dataset.ps1") -Name baseline
 
 Write-Host "3. Generating burst and exporting..."
 & (Join-Path $ScriptDir "flush_pihole_log.ps1")
-& (Join-Path $ScriptDir "generate_traffic.ps1") -Profile burst
+& (Join-Path $ScriptDir "generate_traffic.ps1") -Profile burst -Timeout $TrafficTimeout -QuietTimeouts
 Start-Sleep -Seconds 2
 & (Join-Path $ScriptDir "export_dataset.ps1") -Name burst
 
 Write-Host "4. Generating nxdomain and exporting..."
 & (Join-Path $ScriptDir "flush_pihole_log.ps1")
-& (Join-Path $ScriptDir "generate_traffic.ps1") -Profile nxdomain
+& (Join-Path $ScriptDir "generate_traffic.ps1") -Profile nxdomain -Timeout $TrafficTimeout -QuietTimeouts
 Start-Sleep -Seconds 2
 & (Join-Path $ScriptDir "export_dataset.ps1") -Name nxdomain
 
 Write-Host "5. Generating longdomain and exporting..."
 & (Join-Path $ScriptDir "flush_pihole_log.ps1")
-& (Join-Path $ScriptDir "generate_traffic.ps1") -Profile longdomain
+& (Join-Path $ScriptDir "generate_traffic.ps1") -Profile longdomain -Timeout $TrafficTimeout -QuietTimeouts
 Start-Sleep -Seconds 2
 & (Join-Path $ScriptDir "export_dataset.ps1") -Name longdomain
 

@@ -1,9 +1,9 @@
 {
-  "total_lines": 512,
-  "query_attempts": 256,
-  "parsed_lines": 256,
-  "skipped_lines": 256,
+  "total_lines": 238,
+  "query_attempts": 81,
+  "parsed_lines": 81,
+  "skipped_lines": 157,
   "parse_success_rate": 100.0,
-  "replies_seen": 16,
-  "queries_with_rcode": 16
+  "replies_seen": 1,
+  "queries_with_rcode": 1
 }
