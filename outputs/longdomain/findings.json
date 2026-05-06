@@ -160,6 +160,24 @@
     "why_flagged": "Domain length 87 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
   },
   {
+    "type": "burst_window",
+    "evidence": {
+      "time_bucket": "2026-05-05T21:14:40",
+      "query_count": 25,
+      "threshold": 12.0
+    },
+    "why_flagged": "Query count in time window (25) exceeds baseline p95-driven threshold 12. Unusual high volume."
+  },
+  {
+    "type": "burst_window",
+    "evidence": {
+      "time_bucket": "2026-05-05T21:14:50",
+      "query_count": 16,
+      "threshold": 12.0
+    },
+    "why_flagged": "Query count in time window (16) exceeds baseline p95-driven threshold 12. Unusual high volume."
+  },
+  {
     "type": "nxdomain_excess",
     "evidence": {
       "nxdomain_count": 40,

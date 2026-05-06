@@ -19,6 +19,7 @@ except ImportError:
 
 DNS_SERVER = "127.0.0.1"
 DNS_PORT = 5354
+DNS_TIMEOUT_SECONDS = 1.0
 
 # Popular domains for baseline (real domains that resolve)
 BASELINE_DOMAINS = [
@@ -34,6 +35,9 @@ def query_a(domain: str) -> tuple[bool, str | None]:
     resolver = dns.resolver.Resolver(configure=False)
     resolver.nameservers = [DNS_SERVER]
     resolver.port = DNS_PORT
+    resolver.timeout = DNS_TIMEOUT_SECONDS
+    resolver.lifetime = DNS_TIMEOUT_SECONDS
+    resolver.retry_servfail = False
     try:
         resolver.resolve(domain, "A")
         return True, None
@@ -88,11 +92,19 @@ def run_longdomain(count: int = 40, sleep_sec: float = 0.4) -> None:
 
 
 def main() -> None:
+    global DNS_TIMEOUT_SECONDS
     p = argparse.ArgumentParser(description="Generate DNS traffic to 127.0.0.1:5354")
     p.add_argument("--profile", required=True, choices=["baseline", "burst", "nxdomain", "longdomain"])
     p.add_argument("--count", type=int, default=None, help="Override loop count")
     p.add_argument("--sleep", type=float, default=None, help="Override sleep between queries (sec)")
+    p.add_argument(
+        "--timeout",
+        type=float,
+        default=DNS_TIMEOUT_SECONDS,
+        help="Per-query timeout in seconds (default: 1.0)",
+    )
     args = p.parse_args()
+    DNS_TIMEOUT_SECONDS = max(0.1, args.timeout)
 
     defaults = {
         "baseline": (80, 0.5),
@@ -106,7 +118,10 @@ def main() -> None:
     if args.sleep is not None:
         sleep_sec = args.sleep
 
-    print(f"Profile: {args.profile}  count={count}  sleep={sleep_sec}s  target={DNS_SERVER}:{DNS_PORT}")
+    print(
+        f"Profile: {args.profile}  count={count}  sleep={sleep_sec}s  "
+        f"timeout={DNS_TIMEOUT_SECONDS}s  target={DNS_SERVER}:{DNS_PORT}"
+    )
     if args.profile == "baseline":
         run_baseline(count, sleep_sec)
     elif args.profile == "burst":
