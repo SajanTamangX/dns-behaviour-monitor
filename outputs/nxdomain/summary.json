@@ -2,178 +2,134 @@
   "total_queries": 51,
   "unique_domains": 51,
   "time_range": {
-    "min": "2026-05-06T15:56:08",
-    "max": "2026-05-06T15:56:23"
+    "min": "2026-05-19T10:03:52",
+    "max": "2026-05-19T10:04:07"
   },
   "volume_over_time": [
     {
-      "bucket": "2026-05-06T15:56:00",
-      "count": 6
+      "bucket": "2026-05-19T10:03:50",
+      "count": 26
     },
     {
-      "bucket": "2026-05-06T15:56:10",
-      "count": 34
-    },
-    {
-      "bucket": "2026-05-06T15:56:20",
-      "count": 11
+      "bucket": "2026-05-19T10:04:00",
+      "count": 25
     }
   ],
   "top_domains": [
     {
-      "domain": "dkgljteakbkq.nonexistent-dkgljteakbkq.net",
+      "domain": "pzojuqfozkvs.nonexistent-pzojuqfozkvs.xyz",
       "count": 1
     },
     {
-      "domain": "ibnrpunohdqc.nonexistent-ibnrpunohdqc.net",
+      "domain": "ctbpagxecehy.nonexistent-ctbpagxecehy.com",
       "count": 1
     },
     {
-      "domain": "sxmvvsgzqoan.nonexistent-sxmvvsgzqoan.xyz",
+      "domain": "ityrbobetcvb.nonexistent-ityrbobetcvb.net",
       "count": 1
     },
     {
-      "domain": "fyykehsylxzs.nonexistent-fyykehsylxzs.org",
+      "domain": "buvhlmtgeilc.nonexistent-buvhlmtgeilc.org",
       "count": 1
     },
     {
-      "domain": "cupkicsfcgfl.nonexistent-cupkicsfcgfl.com",
+      "domain": "kxyovebxqzls.nonexistent-kxyovebxqzls.xyz",
       "count": 1
     },
     {
-      "domain": "tkprvjcenxvk.nonexistent-tkprvjcenxvk.org",
+      "domain": "xyxeftvdtabo.nonexistent-xyxeftvdtabo.net",
       "count": 1
     },
     {
-      "domain": "bkqewjbpbvmn.nonexistent-bkqewjbpbvmn.net",
+      "domain": "fjmroqdgayvg.nonexistent-fjmroqdgayvg.net",
       "count": 1
     },
     {
-      "domain": "nagerpojpnkd.nonexistent-nagerpojpnkd.net",
+      "domain": "ppvwlhrxkgee.nonexistent-ppvwlhrxkgee.com",
       "count": 1
     },
     {
-      "domain": "tqdzpjgwolju.nonexistent-tqdzpjgwolju.org",
+      "domain": "jrldocrmvhsz.nonexistent-jrldocrmvhsz.net",
       "count": 1
     },
     {
-      "domain": "ypsipyloetml.nonexistent-ypsipyloetml.com",
+      "domain": "xaltxgezstmn.nonexistent-xaltxgezstmn.com",
       "count": 1
     },
     {
-      "domain": "chzvnfvkapam.nonexistent-chzvnfvkapam.net",
+      "domain": "kjdkxtqtijcv.nonexistent-kjdkxtqtijcv.com",
       "count": 1
     },
     {
-      "domain": "zhygcuvgbood.nonexistent-zhygcuvgbood.com",
+      "domain": "yfioxzhnulrp.nonexistent-yfioxzhnulrp.xyz",
       "count": 1
     },
     {
-      "domain": "lyvzdiiezoua.nonexistent-lyvzdiiezoua.org",
+      "domain": "bjpiuzpzlsnl.nonexistent-bjpiuzpzlsnl.org",
       "count": 1
     },
     {
-      "domain": "nepabgdlvdvr.nonexistent-nepabgdlvdvr.com",
+      "domain": "cnuedvphzfhg.nonexistent-cnuedvphzfhg.xyz",
       "count": 1
     },
     {
-      "domain": "nncitksntzzt.nonexistent-nncitksntzzt.net",
+      "domain": "mznemifpvvdb.nonexistent-mznemifpvvdb.org",
       "count": 1
     },
     {
-      "domain": "auwwgflnsmjw.nonexistent-auwwgflnsmjw.com",
+      "domain": "eftpiiwdkeiv.nonexistent-eftpiiwdkeiv.net",
       "count": 1
     },
     {
-      "domain": "uomijkucymzl.nonexistent-uomijkucymzl.org",
+      "domain": "ectqlewkltrg.nonexistent-ectqlewkltrg.com",
       "count": 1
     },
     {
-      "domain": "mmagtjvxgeeg.nonexistent-mmagtjvxgeeg.xyz",
+      "domain": "pzgjdeywqidh.nonexistent-pzgjdeywqidh.com",
       "count": 1
     },
     {
-      "domain": "qohuuufdlnkl.nonexistent-qohuuufdlnkl.com",
+      "domain": "nutnpqftwuns.nonexistent-nutnpqftwuns.xyz",
       "count": 1
     },
     {
-      "domain": "owrotpswzpfz.nonexistent-owrotpswzpfz.net",
+      "domain": "lbdsqhdwzvbm.nonexistent-lbdsqhdwzvbm.org",
       "count": 1
     },
     {
-      "domain": "xteczkkzrdvd.nonexistent-xteczkkzrdvd.net",
+      "domain": "prbgujaetdxk.nonexistent-prbgujaetdxk.com",
       "count": 1
     },
     {
-      "domain": "piorjnyirair.nonexistent-piorjnyirair.xyz",
+      "domain": "cobreokcjrzv.nonexistent-cobreokcjrzv.net",
       "count": 1
     },
     {
-      "domain": "ijqksnasguym.nonexistent-ijqksnasguym.net",
+      "domain": "fatiowtaxqvh.nonexistent-fatiowtaxqvh.org",
       "count": 1
     },
     {
-      "domain": "pwqfiwkrjhog.nonexistent-pwqfiwkrjhog.net",
+      "domain": "ryvfkajzxbca.nonexistent-ryvfkajzxbca.com",
       "count": 1
     },
     {
-      "domain": "rltlsbubecjy.nonexistent-rltlsbubecjy.org",
+      "domain": "vhjlljvrqtjs.nonexistent-vhjlljvrqtjs.xyz",
       "count": 1
     },
     {
-      "domain": "pqyzhitkmcer.nonexistent-pqyzhitkmcer.com",
+      "domain": "wvfdnyrkfbwa.nonexistent-wvfdnyrkfbwa.net",
       "count": 1
     },
     {
-      "domain": "dovvmfoegocx.nonexistent-dovvmfoegocx.org",
+      "domain": "xusampkaukel.nonexistent-xusampkaukel.org",
       "count": 1
     },
     {
-      "domain": "iviydjgmlpof.nonexistent-iviydjgmlpof.org",
+      "domain": "qiqxpsjhcosr.nonexistent-qiqxpsjhcosr.org",
       "count": 1
     },
     {
-      "domain": "uojubthrsxqz.nonexistent-uojubthrsxqz.com",
-      "count": 1
-    },
-    {
-      "domain": "cnvulqfjrtwu.nonexistent-cnvulqfjrtwu.net",
-      "count": 1
-    },
-    {
-      "domain": "xajgcktlwxfw.nonexistent-xajgcktlwxfw.com",
-      "count": 1
-    },
-    {
-      "domain": "ceswwpazxgkk.nonexistent-ceswwpazxgkk.net",
-      "count": 1
-    },
-    {
-      "domain": "eyxpiuifophg.nonexistent-eyxpiuifophg.net",
-      "count": 1
-    },
-    {
-      "domain": "klsinlsbqsuk.nonexistent-klsinlsbqsuk.xyz",
-      "count": 1
-    },
-    {
-      "domain": "ozenbvjnzsbg.nonexistent-ozenbvjnzsbg.xyz",
-      "count": 1
-    },
-    {
-      "domain": "lpdrysnrukvq.nonexistent-lpdrysnrukvq.com",
-      "count": 1
-    },
-    {
-      "domain": "rcrvakptnlda.nonexistent-rcrvakptnlda.xyz",
-      "count": 1
-    },
-    {
-      "domain": "bhinbtbwdmmb.nonexistent-bhinbtbwdmmb.org",
-      "count": 1
-    },
-    {
-      "domain": "prmsvqpvhbqw.nonexistent-prmsvqpvhbqw.xyz",
+      "domain": "isxwiqwdvkpu.nonexistent-isxwiqwdvkpu.org",
       "count": 1
     },
     {
@@ -181,43 +137,83 @@
       "count": 1
     },
     {
-      "domain": "ispgtqhcdxup.nonexistent-ispgtqhcdxup.xyz",
+      "domain": "vbwivfukauva.nonexistent-vbwivfukauva.com",
       "count": 1
     },
     {
-      "domain": "bcwkcqulkivi.nonexistent-bcwkcqulkivi.xyz",
+      "domain": "jjzsoowqhodx.nonexistent-jjzsoowqhodx.net",
       "count": 1
     },
     {
-      "domain": "jtdbmtcdifxl.nonexistent-jtdbmtcdifxl.xyz",
+      "domain": "bgqntejslqci.nonexistent-bgqntejslqci.org",
       "count": 1
     },
     {
-      "domain": "wdlfjiussfom.nonexistent-wdlfjiussfom.org",
+      "domain": "knkpffrogzta.nonexistent-knkpffrogzta.xyz",
       "count": 1
     },
     {
-      "domain": "sdloeybhpwxd.nonexistent-sdloeybhpwxd.com",
+      "domain": "ttkakrdzcrcv.nonexistent-ttkakrdzcrcv.org",
       "count": 1
     },
     {
-      "domain": "gilsdexjqghi.nonexistent-gilsdexjqghi.com",
+      "domain": "kljyskaqdxcb.nonexistent-kljyskaqdxcb.net",
       "count": 1
     },
     {
-      "domain": "frwnvryzfnxj.nonexistent-frwnvryzfnxj.xyz",
+      "domain": "mjyqvbluzknd.nonexistent-mjyqvbluzknd.net",
       "count": 1
     },
     {
-      "domain": "mcluppmixqmw.nonexistent-mcluppmixqmw.com",
+      "domain": "tuparmcjqexb.nonexistent-tuparmcjqexb.org",
       "count": 1
     },
     {
-      "domain": "gobtorgjsvhx.nonexistent-gobtorgjsvhx.xyz",
+      "domain": "serstegvjmyo.nonexistent-serstegvjmyo.com",
       "count": 1
     },
     {
-      "domain": "xnjvfdywnicx.nonexistent-xnjvfdywnicx.net",
+      "domain": "onofmyygxmih.nonexistent-onofmyygxmih.xyz",
+      "count": 1
+    },
+    {
+      "domain": "plftdcezgsgq.nonexistent-plftdcezgsgq.com",
+      "count": 1
+    },
+    {
+      "domain": "wiafruuaijuv.nonexistent-wiafruuaijuv.net",
+      "count": 1
+    },
+    {
+      "domain": "eqvndmjmymnw.nonexistent-eqvndmjmymnw.org",
+      "count": 1
+    },
+    {
+      "domain": "gsyhfkyrpzne.nonexistent-gsyhfkyrpzne.org",
+      "count": 1
+    },
+    {
+      "domain": "hkawxzanirbg.nonexistent-hkawxzanirbg.org",
+      "count": 1
+    },
+    {
+      "domain": "yxscwvoisxls.nonexistent-yxscwvoisxls.net",
+      "count": 1
+    },
+    {
+      "domain": "kaqqpycoygdg.nonexistent-kaqqpycoygdg.net",
+      "count": 1
+    },
+    {
+      "domain": "qcvtrqrmljjt.nonexistent-qcvtrqrmljjt.xyz",
+      "count": 1
+    },
+    {
+      "domain": "xwnroqiglyjx.nonexistent-xwnroqiglyjx.net",
+      "count": 1
+    },
+    {
+      "domain": "pztubhpudqgd.nonexistent-pztubhpudqgd.com",
       "count": 1
     }
   ],
@@ -227,16 +223,16 @@
       "count": 14
     },
     {
-      "tld": "com",
+      "tld": "org",
       "count": 14
     },
     {
-      "tld": "xyz",
-      "count": 12
+      "tld": "com",
+      "count": 13
     },
     {
-      "tld": "org",
-      "count": 10
+      "tld": "xyz",
+      "count": 9
     },
     {
       "tld": "hole",
@@ -271,7 +267,7 @@
   ],
   "response_code_distribution": [
     {
-      "response_code": "UNKNOWN",
+      "response_code": "NXDOMAIN",
       "count": 50
     },
     {

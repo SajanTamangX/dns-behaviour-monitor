@@ -1,63 +1,55 @@
 {
-  "total_queries": 81,
-  "unique_domains": 21,
+  "total_queries": 85,
+  "unique_domains": 25,
   "time_range": {
-    "min": "2026-05-06T15:55:20",
-    "max": "2026-05-06T15:56:00"
+    "min": "2026-05-19T10:03:04",
+    "max": "2026-05-19T10:03:44"
   },
   "volume_over_time": [
     {
-      "bucket": "2026-05-06T15:55:20",
-      "count": 18
+      "bucket": "2026-05-19T10:03:00",
+      "count": 15
     },
     {
-      "bucket": "2026-05-06T15:55:30",
+      "bucket": "2026-05-19T10:03:10",
+      "count": 19
+    },
+    {
+      "bucket": "2026-05-19T10:03:20",
       "count": 20
     },
     {
-      "bucket": "2026-05-06T15:55:40",
+      "bucket": "2026-05-19T10:03:30",
       "count": 21
     },
     {
-      "bucket": "2026-05-06T15:55:50",
-      "count": 20
-    },
-    {
-      "bucket": "2026-05-06T15:56:00",
-      "count": 2
+      "bucket": "2026-05-19T10:03:40",
+      "count": 10
     }
   ],
   "top_domains": [
     {
-      "domain": "amazon.com",
-      "count": 11
-    },
-    {
-      "domain": "slack.com",
+      "domain": "github.com",
       "count": 9
     },
     {
-      "domain": "zoom.us",
+      "domain": "medium.com",
       "count": 8
     },
     {
-      "domain": "spotify.com",
-      "count": 6
-    },
-    {
-      "domain": "cnn.com",
-      "count": 6
+      "domain": "stackoverflow.com",
+      "count": 7
     },
     {
       "domain": "netflix.com",
-      "count": 4
+      "count": 6
     },
     {
-      "domain": "google.com",
-      "count": 4
+      "domain": "twitter.com",
+      "count": 5
     },
     {
-      "domain": "bbc.co.uk",
+      "domain": "dropbox.com",
       "count": 4
     },
     {
@@ -65,15 +57,15 @@
       "count": 4
     },
     {
-      "domain": "medium.com",
+      "domain": "apple.com",
       "count": 4
     },
     {
-      "domain": "cloudflare.com",
-      "count": 3
+      "domain": "linkedin.com",
+      "count": 4
     },
     {
-      "domain": "youtube.com",
+      "domain": "wikipedia.org",
       "count": 3
     },
     {
@@ -81,31 +73,55 @@
       "count": 3
     },
     {
-      "domain": "stackoverflow.com",
+      "domain": "google.com",
+      "count": 3
+    },
+    {
+      "domain": "bbc.co.uk",
+      "count": 3
+    },
+    {
+      "domain": "youtube.com",
+      "count": 3
+    },
+    {
+      "domain": "amazon.com",
+      "count": 3
+    },
+    {
+      "domain": "cnn.com",
+      "count": 3
+    },
+    {
+      "domain": "zoom.us",
+      "count": 3
+    },
+    {
+      "domain": "spotify.com",
       "count": 2
     },
     {
-      "domain": "dropbox.com",
+      "domain": "cloudflare.com",
       "count": 2
     },
     {
-      "domain": "linkedin.com",
-      "count": 2
-    },
-    {
-      "domain": "apple.com",
-      "count": 2
-    },
-    {
-      "domain": "wikipedia.org",
+      "domain": "1.1.1.1.in-addr.arpa",
       "count": 1
     },
     {
-      "domain": "github.com",
+      "domain": "8.8.8.8.in-addr.arpa",
       "count": 1
     },
     {
-      "domain": "twitter.com",
+      "domain": "1.0.0.127.in-addr.arpa",
+      "count": 1
+    },
+    {
+      "domain": "1.0.19.172.in-addr.arpa",
+      "count": 1
+    },
+    {
+      "domain": "slack.com",
       "count": 1
     },
     {
@@ -116,19 +132,23 @@
   "tld_distribution": [
     {
       "tld": "com",
-      "count": 67
+      "count": 71
     },
     {
-      "tld": "us",
-      "count": 8
-    },
-    {
-      "tld": "uk",
+      "tld": "arpa",
       "count": 4
     },
     {
+      "tld": "us",
+      "count": 3
+    },
+    {
+      "tld": "uk",
+      "count": 3
+    },
+    {
       "tld": "org",
-      "count": 1
+      "count": 3
     },
     {
       "tld": "hole",
@@ -138,44 +158,60 @@
   "domain_length_distribution": [
     {
       "domain_length": 7,
-      "count": 15
+      "count": 7
     },
     {
       "domain_length": 9,
-      "count": 15
+      "count": 8
     },
     {
       "domain_length": 10,
-      "count": 24
+      "count": 27
     },
     {
       "domain_length": 11,
-      "count": 16
+      "count": 20
     },
     {
       "domain_length": 12,
-      "count": 2
-    },
-    {
-      "domain_length": 13,
       "count": 4
     },
     {
+      "domain_length": 13,
+      "count": 6
+    },
+    {
       "domain_length": 14,
-      "count": 3
+      "count": 2
     },
     {
       "domain_length": 17,
+      "count": 7
+    },
+    {
+      "domain_length": 20,
       "count": 2
+    },
+    {
+      "domain_length": 22,
+      "count": 1
+    },
+    {
+      "domain_length": 23,
+      "count": 1
     }
   ],
   "label_count_distribution": [
     {
       "label_count": 2,
-      "count": 77
+      "count": 78
     },
     {
       "label_count": 3,
+      "count": 3
+    },
+    {
+      "label_count": 6,
       "count": 4
     }
   ],
@@ -183,16 +219,20 @@
     {
       "query_type": "A",
       "count": 81
+    },
+    {
+      "query_type": "PTR",
+      "count": 4
     }
   ],
   "response_code_distribution": [
     {
-      "response_code": "UNKNOWN",
-      "count": 80
+      "response_code": "NOERROR",
+      "count": 81
     },
     {
-      "response_code": "NOERROR",
-      "count": 1
+      "response_code": "UNKNOWN",
+      "count": 4
     }
   ]
 }

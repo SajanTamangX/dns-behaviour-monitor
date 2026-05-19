@@ -1,23 +1,31 @@
 {
   "total_queries": 100,
-  "unique_domains": 20,
+  "unique_domains": 19,
   "time_range": {
-    "min": "2026-05-06T15:56:03",
-    "max": "2026-05-06T15:56:05"
+    "min": "2026-05-19T10:03:47",
+    "max": "2026-05-19T10:03:49"
   },
   "volume_over_time": [
     {
-      "bucket": "2026-05-06T15:56:00",
+      "bucket": "2026-05-19T10:03:40",
       "count": 100
     }
   ],
   "top_domains": [
     {
-      "domain": "microsoft.com",
+      "domain": "github.com",
       "count": 8
     },
     {
-      "domain": "reddit.com",
+      "domain": "wikipedia.org",
+      "count": 8
+    },
+    {
+      "domain": "amazon.com",
+      "count": 7
+    },
+    {
+      "domain": "bbc.co.uk",
       "count": 7
     },
     {
@@ -25,47 +33,39 @@
       "count": 7
     },
     {
-      "domain": "slack.com",
+      "domain": "dropbox.com",
       "count": 7
     },
     {
-      "domain": "twitter.com",
+      "domain": "cloudflare.com",
+      "count": 7
+    },
+    {
+      "domain": "slack.com",
       "count": 6
-    },
-    {
-      "domain": "amazon.com",
-      "count": 6
-    },
-    {
-      "domain": "spotify.com",
-      "count": 5
-    },
-    {
-      "domain": "netflix.com",
-      "count": 5
-    },
-    {
-      "domain": "github.com",
-      "count": 5
-    },
-    {
-      "domain": "medium.com",
-      "count": 5
-    },
-    {
-      "domain": "dropbox.com",
-      "count": 5
-    },
-    {
-      "domain": "bbc.co.uk",
-      "count": 5
     },
     {
       "domain": "google.com",
+      "count": 6
+    },
+    {
+      "domain": "reddit.com",
       "count": 5
     },
     {
       "domain": "cnn.com",
+      "count": 5
+    },
+    {
+      "domain": "youtube.com",
+      "count": 5
+    },
+    {
+      "domain": "microsoft.com",
+      "count": 4
+    },
+    {
+      "domain": "spotify.com",
       "count": 4
     },
     {
@@ -73,15 +73,7 @@
       "count": 4
     },
     {
-      "domain": "youtube.com",
-      "count": 4
-    },
-    {
-      "domain": "wikipedia.org",
-      "count": 3
-    },
-    {
-      "domain": "linkedin.com",
+      "domain": "netflix.com",
       "count": 3
     },
     {
@@ -89,22 +81,26 @@
       "count": 3
     },
     {
-      "domain": "cloudflare.com",
-      "count": 3
+      "domain": "medium.com",
+      "count": 2
+    },
+    {
+      "domain": "twitter.com",
+      "count": 2
     }
   ],
   "tld_distribution": [
     {
       "tld": "com",
-      "count": 89
-    },
-    {
-      "tld": "uk",
-      "count": 5
+      "count": 82
     },
     {
       "tld": "org",
-      "count": 3
+      "count": 8
+    },
+    {
+      "tld": "uk",
+      "count": 7
     },
     {
       "tld": "us",
@@ -114,11 +110,11 @@
   "domain_length_distribution": [
     {
       "domain_length": 7,
-      "count": 7
+      "count": 8
     },
     {
       "domain_length": 9,
-      "count": 16
+      "count": 17
     },
     {
       "domain_length": 10,
@@ -126,19 +122,15 @@
     },
     {
       "domain_length": 11,
-      "count": 25
-    },
-    {
-      "domain_length": 12,
-      "count": 3
+      "count": 21
     },
     {
       "domain_length": 13,
-      "count": 11
+      "count": 12
     },
     {
       "domain_length": 14,
-      "count": 3
+      "count": 7
     },
     {
       "domain_length": 17,
@@ -148,11 +140,11 @@
   "label_count_distribution": [
     {
       "label_count": 2,
-      "count": 95
+      "count": 93
     },
     {
       "label_count": 3,
-      "count": 5
+      "count": 7
     }
   ],
   "query_type_distribution": [
@@ -163,7 +155,7 @@
   ],
   "response_code_distribution": [
     {
-      "response_code": "UNKNOWN",
+      "response_code": "NOERROR",
       "count": 100
     }
   ]

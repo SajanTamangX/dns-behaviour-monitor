@@ -2,161 +2,171 @@
   {
     "type": "long_domain",
     "evidence": {
-      "domain": "xllvmwzfibrksgxelqzo.hkykzgqbkurppkebwmpy.vfoadygntdtssxohrdpt.yedtfidlogezejesdgrj.smwaphlqgqkelkehufur.com",
-      "length": 108
-    },
-    "why_flagged": "Domain length 108 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "hvklhwflaebyakdmgtki.jwkpydstbwhicmanmqfr.yosdsabvgahqyydjljvm.lotwmoelojqyxrkoftxh.msdhvyqruovjggmnvjmy.yoncsaayzecnfhwdovrd.tlsphlgvhrzozkdxlwex.com",
-      "length": 150
-    },
-    "why_flagged": "Domain length 150 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "bdlcwxyvovhfzcsltlvz.rwbxqkfoowssbkqwsikt.gwqgjtgumemnxewwcebo.axpnyronuqwdrziyfrja.com",
-      "length": 87
-    },
-    "why_flagged": "Domain length 87 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "lmbabshehbphttcsjdve.gvldutfzzsluqhqtnyjo.txjphscvzrpoqktzhdnt.gzcufteyuwrzjqwpsffs.com",
-      "length": 87
-    },
-    "why_flagged": "Domain length 87 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "aftcasoksctufmnmrcte.ezulhedrdacaxpglmysk.gqsnzkikrtqcfajrgibn.esikxsprpyyeaydffzne.sxulesksgisjrlswrvmt.com",
-      "length": 108
-    },
-    "why_flagged": "Domain length 108 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "gysacqmgxxsnpszymjnu.obdmfkollbqszvwytahn.gmaqswaxplgspvsljvtb.xsjstvkwmkmdqqlaizjq.rjxrpheuzboznpkpkgti.com",
-      "length": 108
-    },
-    "why_flagged": "Domain length 108 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "puxembzfwgaqqlwmsrfc.svqwhpbdsuagjuxlvfoy.kojifawstaqgvcvilnyx.borgosgeitggqglhnzox.nrfzhlakyzdwemdmqycy.com",
-      "length": 108
-    },
-    "why_flagged": "Domain length 108 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "fgwcluiuvsgbtqfoidjq.fphzmterevevzmixdpmi.gqwotlqpzljgvhximbhm.ipxamsklxbuabluygcye.wnufzctuqsoqkmtabohv.kywmynddfnlpkzmdixhz.ygkocaufrzpptizuloan.com",
-      "length": 150
-    },
-    "why_flagged": "Domain length 150 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "rhuyjwcsaibnflaffsqp.yyqddkiumotcqubozehd.znshzoqiggaqynwbtgdw.wtvebyetrrdhzptkrfwa.bzarromoaronqgyaeorv.tqzfzzvbokvfxwvqkofl.com",
+      "domain": "qkpbuuzptkybuczwwhtj.ozathicjidzmhcsaleus.tpgebytmmhurdmndlymf.pzxdlzolywcxxatpwavj.pzljstodgtxhfspaoifj.lqzjyvqggketovpwkfee.com",
       "length": 129
     },
-    "why_flagged": "Domain length 129 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
+    "why_flagged": "Domain length 129 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
   },
   {
     "type": "long_domain",
     "evidence": {
-      "domain": "ysltzodhgyczunkafvec.skzbdhaalrivhzziekgf.qccukjevnauiaaqqbtof.bnzohyvgibtfmyilqrmp.sqihwcdbcdalxulynseh.zgjenrtsjrubuxjdfhbh.prygiksntxdtgwhspmgr.com",
-      "length": 150
-    },
-    "why_flagged": "Domain length 150 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "heskjnjsyphbqhisafcw.ddhphgrgdqcgzvjmwdld.tzhhyikpulafjcitfrsx.dgpxocjazigvhxbzlvot.yubpughlxolqwncqgxbv.com",
-      "length": 108
-    },
-    "why_flagged": "Domain length 108 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "xtridpqjamhwfofuckvq.jiisdhxstyhzdjbmceka.sztccjkufbxncfctwefe.syvawsknieblmizbbbpp.sxsqllshxnswhlmzohcl.etnonrrfzxxlrngmqbcf.com",
+      "domain": "tbdugtgrdmycgiufgjrp.ahjckyslagqxrhlnxzfq.scluowcmgfixcakoefao.hbeaawgmogxjnnauxzit.hxlxycbzeoukfohiiayd.auqkwcjknvugshguypkx.com",
       "length": 129
     },
-    "why_flagged": "Domain length 129 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
+    "why_flagged": "Domain length 129 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
   },
   {
     "type": "long_domain",
     "evidence": {
-      "domain": "zyglstoumawkoewgrvrx.olqcajyvbfdbwiugrvgv.fkvlemezroughyjyhwpp.kzbogjvojtxzeijejrhy.dqbmoxajqcnnnmabyttv.com",
-      "length": 108
-    },
-    "why_flagged": "Domain length 108 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "kdodrgvhcikhdrqmhpif.ybcpscrafjsgxavafilg.ykzvwcwwdjchkerflnrd.hkuogdkdghghcxumxokr.com",
+      "domain": "iluvlbtttyopdjpmwvwi.oertrqtbvxznzdelyadc.nqnvchqytluwpbjrlzbw.jggnwmsbkoibzavtclhz.com",
       "length": 87
     },
-    "why_flagged": "Domain length 87 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
+    "why_flagged": "Domain length 87 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
   },
   {
     "type": "long_domain",
     "evidence": {
-      "domain": "vojrfebobnhnznqrtqpe.uruwsyjbfgnhpoeqaoon.vjlhaxyyigyeuoljdpba.qmdrlklmwgqezlfsbzmg.msernbdaljnbnopfylxt.com",
+      "domain": "npkmmzmdisebqfbdgrfh.pfejqtkqejmuuluygxjz.xlwlbekacgonkxifqtsu.evaapvzaymvqtjkqyzqw.hywxjncgxszkycakvdok.hotmkrdodnbqjbhrrcjt.com",
+      "length": 129
+    },
+    "why_flagged": "Domain length 129 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "owjynwemveyueggfuxdm.lotcrxzrkkvizivorxua.lxkxfzehhkxeijykqrhw.zkdhrldcswptbjlnhyez.xovfdeeirjvzvgnpndtk.com",
       "length": 108
     },
-    "why_flagged": "Domain length 108 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
+    "why_flagged": "Domain length 108 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
   },
   {
     "type": "long_domain",
     "evidence": {
-      "domain": "xkbdydpnmjhvlkyapwmi.ccwliegvjrpkawcenqih.kvdssqcbronsqttxzvvy.lxpnayvnshoicahzygbn.mneekxaztxifrhfobigb.nqcgdbvwcufvyxaxgdmn.zxvvggcrkpathexunhjv.com",
-      "length": 150
-    },
-    "why_flagged": "Domain length 150 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "azlxvhkvgohkxigdqwln.ffbajcbqyzsjrixknlao.jdrsbmyffdtsuzbinirm.lupszgahcipsltnkizjn.ssydwgnzxtbvcwqujofy.zgvoimjfqpcccjdjmgjp.mfjqjshrviizlwppaiiw.com",
-      "length": 150
-    },
-    "why_flagged": "Domain length 150 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
-  },
-  {
-    "type": "long_domain",
-    "evidence": {
-      "domain": "nstwnytwumqheicghjyi.qiymwvuosavktbifnrqf.awjhldbtulrkuhncfmkt.naxjgtooqhcsbiqxiiyb.hjqqywkywhaoqhkbrvym.com",
+      "domain": "sxmhvylgvekkxilqryxk.akcdutfnohzzbfwlpncw.ngekfbybirxwooojsmff.uomsomgajoaqwgftmsjf.clxfycjmoauinsaiaavi.com",
       "length": 108
     },
-    "why_flagged": "Domain length 108 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
+    "why_flagged": "Domain length 108 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
   },
   {
     "type": "long_domain",
     "evidence": {
-      "domain": "lyeettsixmpvfnoxowpz.sbmslqgvjmxcqwezilct.fzvzwiwereissdxrezli.atfzxlrraflhgoopsrmh.sdjutsjbyndakafxkfem.zighruhpmvtahpjnmiug.cnleuhurwtfncajppujj.com",
-      "length": 150
+      "domain": "prihouwbgndmhnlbuisp.khjmcqsghfjnedmkqpyw.ffjzmyzwgfksgouozfja.gsourlyutpqmnumvyazx.fhnbeeikrnkrwsabwyrn.com",
+      "length": 108
     },
-    "why_flagged": "Domain length 150 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
+    "why_flagged": "Domain length 108 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
   },
   {
     "type": "long_domain",
     "evidence": {
-      "domain": "nspdymdjdrfxputavxwo.kjegrqtqrjkohjvrkoni.wkjmzbzjmuqljjwoocnr.zduphnkmteztxtglpkef.fwznbogwicbcglrvxuos.nnbcvowdpwkvzyxvdyon.ultufjfsyjbwwdjjmxgq.com",
+      "domain": "ehbddcrsznnmayzwgsvb.larvwatosgrutjhzkqml.hfogcjiutegvoptlwyfw.nznwiiuryzfjtlobxmzq.swmuutisdmklppataafb.bzyhafjnfqiijjpxhxfp.gouclnmigoosxykdagsg.com",
       "length": 150
     },
-    "why_flagged": "Domain length 150 exceeds threshold 17 (baseline-driven or hard limit). Unusual behaviour."
+    "why_flagged": "Domain length 150 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "baczpofxloerwhzsadzq.puoootwtmtpvgwwyembq.omnbiyiolnddgksskpco.ikafohlkfmbdouffiiyg.zpgyjjcxqpducyqlbwyn.com",
+      "length": 108
+    },
+    "why_flagged": "Domain length 108 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "cqudpmmbexaoacsfmujl.shdtcinxwpmrazxszrpi.echnfkcrborblwuqnjcw.lyfnptxjouvegmnhuubf.com",
+      "length": 87
+    },
+    "why_flagged": "Domain length 87 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "tisghpgzvayyeboxczsu.xvwnnapyupqrmbynwjhv.uczhlfjgfbxyyybxebsx.sxynqhmpfdmsfjlczkcn.com",
+      "length": 87
+    },
+    "why_flagged": "Domain length 87 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "eqxrjqyzusmsnlufugfa.dcjjxozcolpdltgiwqly.pacfpukyxxqxdkstjbcc.qitebtxpqfyqfptrhmvj.ecdgucpojblepokfnotv.sidirohpeenouztlogtu.bugbfjjyakzmnegdzsvo.com",
+      "length": 150
+    },
+    "why_flagged": "Domain length 150 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "lxbzxvkhtubwgrlwskhv.laluwzdrlqidirqqcqdi.ekczubikrvqsksjrmuju.fmnrhntnvtcrohfuvxco.cmvvhwapiwgepengmdty.egqdlkicsngmhvytpqmq.com",
+      "length": 129
+    },
+    "why_flagged": "Domain length 129 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "ryqsrzddreermhenychc.cywqdvoftsfzxtvxrcud.awbrzxpiiiskhdsaodzk.xttlkhlilqtagaouzyvt.wmdywqvzwsqjkmmrzqbb.qlagyvdrsqwlebwnfcxw.tkkrbprbdkpiunkrsvil.com",
+      "length": 150
+    },
+    "why_flagged": "Domain length 150 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "jhgkttiijggsnkuoypqp.ntlyltelrrdtnfzalpbj.mipvyhjbreiyzatmlzka.ifwpucecwgjyltofhtiw.fxwifymzfseggvamthpj.jxktlgebdkhrhkghmzke.zwuhuwyrcgqqtlbpichv.com",
+      "length": 150
+    },
+    "why_flagged": "Domain length 150 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "hhukokpkjxivykqbyhnu.xnyfxwyweyuxdhfrkrjq.hyadkxnhzrtfttemawcq.gppagpbjcxsmabuuewzm.wdzutnujypicusgpvubx.ldifzteruomvpdrcvcwy.com",
+      "length": 129
+    },
+    "why_flagged": "Domain length 129 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "kqkwnrvzmfdxlyxwcrzp.fsdkamkispztyxxnwfnu.uyrskvuyssygpveycwcy.wmywcscftmnphwvuyztf.jnefqmerppzqrnqnllfc.qtetwpzsvwaovzmudxjx.com",
+      "length": 129
+    },
+    "why_flagged": "Domain length 129 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "ogboggtnumgqisehsetz.vhgrkghxcybnmvnlngda.pipkraweusqbntscttfs.zqftriqonakrvgutfzhr.kjijebilomyeejykqhez.swppxjoijacgkwgiyvfr.ezofibmvvqsjfgahnhfr.com",
+      "length": 150
+    },
+    "why_flagged": "Domain length 150 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "lxvygskfjqntwvhdgaqy.qknsbsycqqbingtimtxh.zuuyazlotypfonyoqqky.uuphwwmyhbgvutjkgmni.wetjmzchgmxzmgpdcpiz.ieqkhbxbuteacqnnkxvs.rzfdoudyuotzcifldsys.com",
+      "length": 150
+    },
+    "why_flagged": "Domain length 150 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "long_domain",
+    "evidence": {
+      "domain": "zphvnisfurjpgpbagrir.ksfrnzxamsqqerklvogt.yuwwwtgslyjjfnhcxsrb.jusitxmumplawayjftis.uyczanvjmdxiggkfneyi.rmryjnbcfacvvdmkzhib.qtqvpgrynvdpsnggwjlq.com",
+      "length": 150
+    },
+    "why_flagged": "Domain length 150 exceeds threshold 23 (baseline-driven or hard limit). Unusual behaviour."
+  },
+  {
+    "type": "nxdomain_excess",
+    "evidence": {
+      "nxdomain_count": 39,
+      "total_queries": 40,
+      "nxdomain_ratio": 0.975,
+      "baseline_ratio": 0.0
+    },
+    "why_flagged": "NXDOMAIN responses are 97.5% of queries (baseline 0.0%). Unusual behaviour often associated with repeated failed lookups."
   }
 ]

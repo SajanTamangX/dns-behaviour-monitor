@@ -1,2 +1,3 @@
 response_code,count
-UNKNOWN,40
+NXDOMAIN,39
+UNKNOWN,1

@@ -2,182 +2,182 @@
   "total_queries": 40,
   "unique_domains": 40,
   "time_range": {
-    "min": "2026-05-06T15:56:25",
-    "max": "2026-05-06T15:56:41"
+    "min": "2026-05-19T10:04:09",
+    "max": "2026-05-19T10:04:25"
   },
   "volume_over_time": [
     {
-      "bucket": "2026-05-06T15:56:20",
-      "count": 11
+      "bucket": "2026-05-19T10:04:00",
+      "count": 1
     },
     {
-      "bucket": "2026-05-06T15:56:30",
+      "bucket": "2026-05-19T10:04:10",
       "count": 25
     },
     {
-      "bucket": "2026-05-06T15:56:40",
-      "count": 4
+      "bucket": "2026-05-19T10:04:20",
+      "count": 14
     }
   ],
   "top_domains": [
     {
-      "domain": "xllvmwzfibrksgxelqzo.hkykzgqbkurppkebwmpy.vfoadygntdtssxohrdpt.yedtfidlogezejesdgrj.smwaphlqgqkelkehufur.com",
+      "domain": "qkpbuuzptkybuczwwhtj.ozathicjidzmhcsaleus.tpgebytmmhurdmndlymf.pzxdlzolywcxxatpwavj.pzljstodgtxhfspaoifj.lqzjyvqggketovpwkfee.com",
       "count": 1
     },
     {
-      "domain": "hvklhwflaebyakdmgtki.jwkpydstbwhicmanmqfr.yosdsabvgahqyydjljvm.lotwmoelojqyxrkoftxh.msdhvyqruovjggmnvjmy.yoncsaayzecnfhwdovrd.tlsphlgvhrzozkdxlwex.com",
+      "domain": "tbdugtgrdmycgiufgjrp.ahjckyslagqxrhlnxzfq.scluowcmgfixcakoefao.hbeaawgmogxjnnauxzit.hxlxycbzeoukfohiiayd.auqkwcjknvugshguypkx.com",
       "count": 1
     },
     {
-      "domain": "bdlcwxyvovhfzcsltlvz.rwbxqkfoowssbkqwsikt.gwqgjtgumemnxewwcebo.axpnyronuqwdrziyfrja.com",
+      "domain": "iluvlbtttyopdjpmwvwi.oertrqtbvxznzdelyadc.nqnvchqytluwpbjrlzbw.jggnwmsbkoibzavtclhz.com",
       "count": 1
     },
     {
-      "domain": "lmbabshehbphttcsjdve.gvldutfzzsluqhqtnyjo.txjphscvzrpoqktzhdnt.gzcufteyuwrzjqwpsffs.com",
+      "domain": "npkmmzmdisebqfbdgrfh.pfejqtkqejmuuluygxjz.xlwlbekacgonkxifqtsu.evaapvzaymvqtjkqyzqw.hywxjncgxszkycakvdok.hotmkrdodnbqjbhrrcjt.com",
       "count": 1
     },
     {
-      "domain": "aftcasoksctufmnmrcte.ezulhedrdacaxpglmysk.gqsnzkikrtqcfajrgibn.esikxsprpyyeaydffzne.sxulesksgisjrlswrvmt.com",
+      "domain": "owjynwemveyueggfuxdm.lotcrxzrkkvizivorxua.lxkxfzehhkxeijykqrhw.zkdhrldcswptbjlnhyez.xovfdeeirjvzvgnpndtk.com",
       "count": 1
     },
     {
-      "domain": "gysacqmgxxsnpszymjnu.obdmfkollbqszvwytahn.gmaqswaxplgspvsljvtb.xsjstvkwmkmdqqlaizjq.rjxrpheuzboznpkpkgti.com",
+      "domain": "sxmhvylgvekkxilqryxk.akcdutfnohzzbfwlpncw.ngekfbybirxwooojsmff.uomsomgajoaqwgftmsjf.clxfycjmoauinsaiaavi.com",
       "count": 1
     },
     {
-      "domain": "puxembzfwgaqqlwmsrfc.svqwhpbdsuagjuxlvfoy.kojifawstaqgvcvilnyx.borgosgeitggqglhnzox.nrfzhlakyzdwemdmqycy.com",
+      "domain": "prihouwbgndmhnlbuisp.khjmcqsghfjnedmkqpyw.ffjzmyzwgfksgouozfja.gsourlyutpqmnumvyazx.fhnbeeikrnkrwsabwyrn.com",
       "count": 1
     },
     {
-      "domain": "fgwcluiuvsgbtqfoidjq.fphzmterevevzmixdpmi.gqwotlqpzljgvhximbhm.ipxamsklxbuabluygcye.wnufzctuqsoqkmtabohv.kywmynddfnlpkzmdixhz.ygkocaufrzpptizuloan.com",
+      "domain": "ehbddcrsznnmayzwgsvb.larvwatosgrutjhzkqml.hfogcjiutegvoptlwyfw.nznwiiuryzfjtlobxmzq.swmuutisdmklppataafb.bzyhafjnfqiijjpxhxfp.gouclnmigoosxykdagsg.com",
       "count": 1
     },
     {
-      "domain": "rhuyjwcsaibnflaffsqp.yyqddkiumotcqubozehd.znshzoqiggaqynwbtgdw.wtvebyetrrdhzptkrfwa.bzarromoaronqgyaeorv.tqzfzzvbokvfxwvqkofl.com",
+      "domain": "baczpofxloerwhzsadzq.puoootwtmtpvgwwyembq.omnbiyiolnddgksskpco.ikafohlkfmbdouffiiyg.zpgyjjcxqpducyqlbwyn.com",
       "count": 1
     },
     {
-      "domain": "ysltzodhgyczunkafvec.skzbdhaalrivhzziekgf.qccukjevnauiaaqqbtof.bnzohyvgibtfmyilqrmp.sqihwcdbcdalxulynseh.zgjenrtsjrubuxjdfhbh.prygiksntxdtgwhspmgr.com",
+      "domain": "cqudpmmbexaoacsfmujl.shdtcinxwpmrazxszrpi.echnfkcrborblwuqnjcw.lyfnptxjouvegmnhuubf.com",
       "count": 1
     },
     {
-      "domain": "heskjnjsyphbqhisafcw.ddhphgrgdqcgzvjmwdld.tzhhyikpulafjcitfrsx.dgpxocjazigvhxbzlvot.yubpughlxolqwncqgxbv.com",
+      "domain": "tisghpgzvayyeboxczsu.xvwnnapyupqrmbynwjhv.uczhlfjgfbxyyybxebsx.sxynqhmpfdmsfjlczkcn.com",
       "count": 1
     },
     {
-      "domain": "xtridpqjamhwfofuckvq.jiisdhxstyhzdjbmceka.sztccjkufbxncfctwefe.syvawsknieblmizbbbpp.sxsqllshxnswhlmzohcl.etnonrrfzxxlrngmqbcf.com",
+      "domain": "eqxrjqyzusmsnlufugfa.dcjjxozcolpdltgiwqly.pacfpukyxxqxdkstjbcc.qitebtxpqfyqfptrhmvj.ecdgucpojblepokfnotv.sidirohpeenouztlogtu.bugbfjjyakzmnegdzsvo.com",
       "count": 1
     },
     {
-      "domain": "zyglstoumawkoewgrvrx.olqcajyvbfdbwiugrvgv.fkvlemezroughyjyhwpp.kzbogjvojtxzeijejrhy.dqbmoxajqcnnnmabyttv.com",
+      "domain": "lxbzxvkhtubwgrlwskhv.laluwzdrlqidirqqcqdi.ekczubikrvqsksjrmuju.fmnrhntnvtcrohfuvxco.cmvvhwapiwgepengmdty.egqdlkicsngmhvytpqmq.com",
       "count": 1
     },
     {
-      "domain": "kdodrgvhcikhdrqmhpif.ybcpscrafjsgxavafilg.ykzvwcwwdjchkerflnrd.hkuogdkdghghcxumxokr.com",
+      "domain": "ryqsrzddreermhenychc.cywqdvoftsfzxtvxrcud.awbrzxpiiiskhdsaodzk.xttlkhlilqtagaouzyvt.wmdywqvzwsqjkmmrzqbb.qlagyvdrsqwlebwnfcxw.tkkrbprbdkpiunkrsvil.com",
       "count": 1
     },
     {
-      "domain": "vojrfebobnhnznqrtqpe.uruwsyjbfgnhpoeqaoon.vjlhaxyyigyeuoljdpba.qmdrlklmwgqezlfsbzmg.msernbdaljnbnopfylxt.com",
+      "domain": "jhgkttiijggsnkuoypqp.ntlyltelrrdtnfzalpbj.mipvyhjbreiyzatmlzka.ifwpucecwgjyltofhtiw.fxwifymzfseggvamthpj.jxktlgebdkhrhkghmzke.zwuhuwyrcgqqtlbpichv.com",
       "count": 1
     },
     {
-      "domain": "xkbdydpnmjhvlkyapwmi.ccwliegvjrpkawcenqih.kvdssqcbronsqttxzvvy.lxpnayvnshoicahzygbn.mneekxaztxifrhfobigb.nqcgdbvwcufvyxaxgdmn.zxvvggcrkpathexunhjv.com",
+      "domain": "hhukokpkjxivykqbyhnu.xnyfxwyweyuxdhfrkrjq.hyadkxnhzrtfttemawcq.gppagpbjcxsmabuuewzm.wdzutnujypicusgpvubx.ldifzteruomvpdrcvcwy.com",
       "count": 1
     },
     {
-      "domain": "azlxvhkvgohkxigdqwln.ffbajcbqyzsjrixknlao.jdrsbmyffdtsuzbinirm.lupszgahcipsltnkizjn.ssydwgnzxtbvcwqujofy.zgvoimjfqpcccjdjmgjp.mfjqjshrviizlwppaiiw.com",
+      "domain": "kqkwnrvzmfdxlyxwcrzp.fsdkamkispztyxxnwfnu.uyrskvuyssygpveycwcy.wmywcscftmnphwvuyztf.jnefqmerppzqrnqnllfc.qtetwpzsvwaovzmudxjx.com",
       "count": 1
     },
     {
-      "domain": "nstwnytwumqheicghjyi.qiymwvuosavktbifnrqf.awjhldbtulrkuhncfmkt.naxjgtooqhcsbiqxiiyb.hjqqywkywhaoqhkbrvym.com",
+      "domain": "ogboggtnumgqisehsetz.vhgrkghxcybnmvnlngda.pipkraweusqbntscttfs.zqftriqonakrvgutfzhr.kjijebilomyeejykqhez.swppxjoijacgkwgiyvfr.ezofibmvvqsjfgahnhfr.com",
       "count": 1
     },
     {
-      "domain": "lyeettsixmpvfnoxowpz.sbmslqgvjmxcqwezilct.fzvzwiwereissdxrezli.atfzxlrraflhgoopsrmh.sdjutsjbyndakafxkfem.zighruhpmvtahpjnmiug.cnleuhurwtfncajppujj.com",
+      "domain": "lxvygskfjqntwvhdgaqy.qknsbsycqqbingtimtxh.zuuyazlotypfonyoqqky.uuphwwmyhbgvutjkgmni.wetjmzchgmxzmgpdcpiz.ieqkhbxbuteacqnnkxvs.rzfdoudyuotzcifldsys.com",
       "count": 1
     },
     {
-      "domain": "nspdymdjdrfxputavxwo.kjegrqtqrjkohjvrkoni.wkjmzbzjmuqljjwoocnr.zduphnkmteztxtglpkef.fwznbogwicbcglrvxuos.nnbcvowdpwkvzyxvdyon.ultufjfsyjbwwdjjmxgq.com",
+      "domain": "zphvnisfurjpgpbagrir.ksfrnzxamsqqerklvogt.yuwwwtgslyjjfnhcxsrb.jusitxmumplawayjftis.uyczanvjmdxiggkfneyi.rmryjnbcfacvvdmkzhib.qtqvpgrynvdpsnggwjlq.com",
       "count": 1
     },
     {
-      "domain": "wugtaysyrcuengjdgxod.vmrcvuzjtghzwbczzgxa.jjxegwjvummhxpwzslzj.glmpqgdroqosesjuhizp.com",
+      "domain": "iuhkspdzofuwkdcaikou.gvqzjrumwdlcvvkjmquf.prtehafmjcuaxcmskmvk.lnlqikfjzsbxpsfxjbch.aayttaqjefptqpsikpdh.com",
       "count": 1
     },
     {
-      "domain": "gnyubrwloqavtvlzqqwr.ycykbwfahbmzjlssgbah.gwmrwgqqvsixitwubjym.rioavfzbxwiuorhgztzm.dyejcoqvsouoxzsedhjt.oawrthvnfdhupmzecrrn.com",
+      "domain": "rtbnbupqutgcbolwipkl.vonduuhjrxfxmdipepob.zuvkixcxuabmldigjeak.nspekckgovrhlrgaxtna.dshysbvkkrhjnqdsjfjy.avgauzngzdzrjwqbdbda.com",
       "count": 1
     },
     {
-      "domain": "pdkrqswxijtiruwmalpc.kjzqawesiasaheyrlfbw.mycnwlwoiyqevexdtvyo.gppwghlegawtrjoetxbz.knbomceghfinyusuyini.gjmvibrgnjlxtnwjfnhb.com",
+      "domain": "whveozpsarchmaljkhti.grgwrkxloepieeajmfph.nbzqfzyprusxivuxyxdg.ctyzljksmgzkzpohqrtj.zjpjdvduypfmogmwlpsz.jxaqkoydzalxqnrynhsy.gldjngcelujywkxihrhp.com",
       "count": 1
     },
     {
-      "domain": "rgccraqzguoxfiwamjmg.eykmkypgzlzvbuiovbwf.oabefxsgxlycdusarcjm.pwhtxatctalhcasecogr.clondkfteyfjjghqaqsv.com",
+      "domain": "vlzvykyakmwqtghlfwan.puepffusqxxecpzojfuk.mdtcfakidqgxsgfyqswl.pgyqfpnhjyjspxzevbtc.com",
       "count": 1
     },
     {
-      "domain": "vpdesqpkvpygoqrukmha.lynmfrcklbhuobaqwqnq.nfvxqznoldnmaatjhqng.ttytmssescfvtndmvmmj.mgwqimdbizsngevkzxrv.yecparkfhcxsgmqlrkuq.mjuiupgtwuubntvodvdf.com",
+      "domain": "dcucaqdvgpftxhfhydjn.vhizfwzmqgbyrhmlloeu.ievukrkozqqcbaqqazro.zujuvsfevavfikrzliqn.erahnebdtvsuznyxdbtr.iykndseebdalgyuytxhw.com",
       "count": 1
     },
     {
-      "domain": "kysavlgxjivbohhwqoly.exwgqbomkqzmmzymgocq.fqkwnhsaqabzkipbbnga.gyceyknlgvmglbphxwxg.com",
+      "domain": "rikggpebndetbzatqmkm.qxaklnyjnefuxvewisqm.pkcwipluwwwhwzjrvbgx.wlgncbhaudtlndqxaaxa.fcocczkbuqtwxwzkmice.com",
       "count": 1
     },
     {
-      "domain": "awdtxdjtlcehbqkfpwsr.ssjyegpmoekkwabyxdsi.naopadfkqrbgraxnvfsy.rtckbncttzywgyzakwoi.knaeokpuvgbfziurbuis.com",
+      "domain": "tbinfmehcvwdqxucpkqb.kjnikhidvccqkktucgkm.bydyqizupxvtuqnrxsne.odwmbneblfpxqiiaipse.ctyrcvnvkratsoqeqtlr.xmcyitvwzulhxvqakbpd.com",
       "count": 1
     },
     {
-      "domain": "grfmnmlpqoqwnwegtnzy.vbkjvvhnppdzlvehuuez.njltkadwlidrrwahhdqr.hfrohxdjmehpmwelhkvt.vzgyzgvpuxlxddfuayci.com",
+      "domain": "cbxriyraupgegdhfmghl.igjkjqmdstjofncuoxee.vcwgfuuvmqphwfxvkuye.rsmhkfkakrfpvqflvspe.yzijdkubzpfriffignhq.com",
       "count": 1
     },
     {
-      "domain": "wgpxfycuwzcmugibgfmw.viygcmrnrrzuzqbsoeaa.vcsdybmsvdfcpztibkgb.xcjpjblpceunexgsspfg.vzyxccpiqrraroiswgxr.skfszhigqliyrvidusoa.com",
+      "domain": "nsxtkfeblxtkxiymqtwh.twezqvmnlpscxetkdzhk.blaxjoieehhdvrsmoaya.phvhojgbgmuunognvdwb.awfhfgxkknjzaeabbbdb.wkudhhawuklevfowvnvi.twgdejcorftxtvkwzuiu.com",
       "count": 1
     },
     {
-      "domain": "mgsxighomjhiwxabefza.kxdwgldupythvgsfgrht.btggvgmqxfidmttyzpxx.yoevniuvkptuanvwldpt.wvmxzapygsddsecpeltn.com",
+      "domain": "vfpbpfsjhlyuiayldjxw.gmssthxjvyamzkbhhefg.kfhfenaizsjjybuklnsp.fppjyolnsnovqttynhlg.hehngbikmmifgkgemaja.ozxxzmclsrcvffvmgnbo.pvntedrtspawmkbbvovm.com",
       "count": 1
     },
     {
-      "domain": "iqxvtlbukfplrhqoaxye.ygnftfelurzalnlawptv.dymevoeznxggkoiaivov.ikhyuzicnujeixmxfoux.lqqcmkyoefwhobpovvrz.fpxavawdfelypklufodw.mvujgkaycxjnqveozsew.com",
+      "domain": "dzgvdlmeqvwarrwdwikv.tjxesuorqncatzxuqqjw.vhzkejcoxleijwhtdmmu.rfsvljnnjwntregmrfck.qdxluzvwgcqzfntbthlr.com",
       "count": 1
     },
     {
-      "domain": "clzticjtlrwyunwrtgec.aqxqjtbwxhxujirfnfzi.omyrtbkknpwjtjcrmkem.gquyzzrikjwfkeruwfex.kigdblnjqvyhhumvwqsk.zopnotowjibpxeslwzqx.lxalsalffvmagpgoavan.com",
+      "domain": "kbzsaymzffslytmzrmqm.gczstvecmyjkucxndqae.aucqzfxxvqncaottrbkh.apdotcjcckmcybmpzghz.com",
       "count": 1
     },
     {
-      "domain": "fvarjbctrzhszpxpbtax.puwsexusbojjaiytwxqa.axscvjdmuzvpuabqvneg.vcttaiubyhvgkxhzgzpq.com",
+      "domain": "fachyhydyzinanplwsjg.mejrkzqlsltoevlaneyl.ehynoahdkdzfptfmgqbz.jqlbriiiysfqcrmhkoiv.com",
       "count": 1
     },
     {
-      "domain": "csbwengxmpvwbthjfwbp.ykutgvjjnpafkosxnrrc.yzvzjicmaojvujkuzwtf.duajhbaqjupxxzzqtgpp.wthtxedfxzynwuzjhcwx.obwdtdkhpcnxortrubug.wolpykocgrgytdlenzhb.com",
+      "domain": "rodjoduukgujzmqicwvt.vgigxcqrirrmsxxqgqev.dbdezmtywuyuchzbrtcb.nkmekdjaqcbdrrngykmx.com",
       "count": 1
     },
     {
-      "domain": "coibixctgkktuaqmlixs.duqxwiuzrvfpllwgheuq.zyfnjdhlmdqidvwgucbr.wosuxgnnypemzkbfhqjt.cxxmdxfyfpdthbrvslne.xhflauqopfobvhzdhxoj.com",
+      "domain": "jpnujnrilqpoojgzbjni.dmywddvjqtilucwjgxof.bywujffixzunhziwxkfv.jlnhgfsnyhdhatxsgckt.radrvkumvxpphxyfmysm.ooyppfrmgnvkrahgffuv.com",
       "count": 1
     },
     {
-      "domain": "pgwbgbjlfxgfhtdufyvd.ksmamogkpeibodslwmcx.yznutcgykmzzbrkxfikm.gnwmrsybvztqphvrnguc.xfvxwewfobxbwzvrcrqz.cjwaxvyfkehehihyijij.grwajquonbjabeczdyuf.com",
+      "domain": "vrzotbmhtwgpyxrculvf.elzkfjzmxxedwffkiakn.djldarydmcthrzcdvgxi.sxfdhlfbkktqhkmrytee.com",
       "count": 1
     },
     {
-      "domain": "hlvemwpltqhcykdmgkez.alvcszxoviwqzjmsiogf.qgcmcgtaapduqvjuzrrb.fvukedgaaislhiahkvaj.fkqwjzevrdvcytqslwje.euqdccccwqhsblhbiyim.com",
+      "domain": "jqhompsojelqxkvjkjkm.tpsrvplelxurucppluca.fdxtkfnffnxuxdfxypub.soznwnfbxmjvtmfoosfh.com",
       "count": 1
     },
     {
-      "domain": "mtfrjjnqkdomvzvmnepx.yinloghggunulcsdvszo.vvbyqtiogqqqygvrkpcy.rnqlscnwoysbiqojafjd.tytwvqncqulnfducgewp.xvratrlxxgdsrebnoxlx.itimtewotncadwnujmpf.com",
+      "domain": "tmyrytvjdjhyprwkiqgq.qstlazshvbjvpzvxmhkf.bopzmhszxdeisanexouu.mefnkzdgubipjbtnmoik.lwwxqojbynhovykidxzf.jzyztrmytstemnuictpd.vivrucnsosrjqvhmmowe.com",
       "count": 1
     },
     {
-      "domain": "xtluajnhxvgsbtynbesy.zrcqjmnhwkzixnmctevc.jzecyoeveeypktqxypkm.hvtldpiaqwjokcjudkyo.kothazwhzzkgjwaxtiyr.wndaqlmpkjgcztankxug.com",
+      "domain": "joxwwrnpwwaqaltknwey.yyxxrzzyscimiakrxmjw.grqcneuxzjfufeoeseas.oryrkdtkkrprimefmwxq.wpofyhnrkyimkhfnxadv.eutydmmyaqypfxlekwiw.com",
       "count": 1
     },
     {
-      "domain": "fyzgtomwsygrhyarwbtm.pgvonefeietwpohojyyb.qzwjdfedvfijrqqhosxd.gffvbhygqwsqvhcdnqnr.texyqejkxehmcwkwxgdy.com",
+      "domain": "ncrmxfnlarckluhuotbn.vsohyvnndkbzcmscccep.tvsudesarjvzxhyjjjcq.oeglivzowihwrfumoqac.yshspvqzmazcuzkfgddc.vzzehzfomcfrhovaatmq.evvvftyuhbruiyezemcf.com",
       "count": 1
     }
   ],
@@ -190,37 +190,37 @@
   "domain_length_distribution": [
     {
       "domain_length": 87,
-      "count": 6
+      "count": 9
     },
     {
       "domain_length": 108,
-      "count": 13
-    },
-    {
-      "domain_length": 129,
       "count": 8
     },
     {
+      "domain_length": 129,
+      "count": 11
+    },
+    {
       "domain_length": 150,
-      "count": 13
+      "count": 12
     }
   ],
   "label_count_distribution": [
     {
       "label_count": 5,
-      "count": 6
+      "count": 9
     },
     {
       "label_count": 6,
-      "count": 13
-    },
-    {
-      "label_count": 7,
       "count": 8
     },
     {
+      "label_count": 7,
+      "count": 11
+    },
+    {
       "label_count": 8,
-      "count": 13
+      "count": 12
     }
   ],
   "query_type_distribution": [
@@ -231,8 +231,12 @@
   ],
   "response_code_distribution": [
     {
+      "response_code": "NXDOMAIN",
+      "count": 39
+    },
+    {
       "response_code": "UNKNOWN",
-      "count": 40
+      "count": 1
     }
   ]
 }
